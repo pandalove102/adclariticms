@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_PLG_YPL_TITLE">Manage CMS Youtube Player Plugin</phrase>
+  <phrase data="_PLG_YPL_TITLE1">プレーヤー追加</phrase>
+  <phrase data="_PLG_YPL_TITLE2">Edプレーヤー編集</phrase>
+  <phrase data="_PLG_YPL_SUB1">ここでYouTubeプレーヤーのプラグインを設定することができます。</phrase>
+  <phrase data="_PLG_YPL_SUB2">新しいプレーヤー追加</phrase>
+  <phrase data="_PLG_YPL_SUB3">Playlist</phrase>
+  <phrase data="_PLG_YPL_SUB4">番組</phrase>
+  <phrase data="_PLG_YPL_SUB5">ユーザー</phrase>
+  <phrase data="_PLG_YPL_SUB6">ビデオ</phrase>
+  <phrase data="_PLG_YPL_SUB6_I">Multiple id's separated by coma</phrase>
+  <phrase data="_PLG_YPL_SUB7">Pagination</phrase>
+  <phrase data="_PLG_YPL_SUB8">最大結果</phrase>
+  <phrase data="_PLG_YPL_SUB9">次へ</phrase>
+  <phrase data="_PLG_YPL_SUB10">プレイリスト表示</phrase>
+  <phrase data="_PLG_YPL_SUB11">プレイリストレイアウト</phrase>
+  <phrase data="_PLG_YPL_SUB12">プレイリスト内で番組表示</phrase>
+  <phrase data="_PLG_YPL_SUB13">タイトル内で番組表示</phrase>
+  <phrase data="_PLG_YPL_SUB16">自動実行</phrase>
+  <phrase data="_PLG_YPL_SUB17">アイコン共有</phrase>
+  <phrase data="_PLG_YPL_SUB18">HDの強制</phrase>
+  <phrase data="_PLG_YPL_SUB19">プレーヤーカラー</phrase>
+  <phrase data="_PLG_YPL_SUB20">プレーヤーモード</phrase>
+  <phrase data="_PLG_YPL_SUB21">ビデオID</phrase>
+  <phrase data="_PLG_YPL_SUB14">今スタート</phrase>
+  <phrase data="_PLG_YPL_SUB15">もっとロード</phrase>
+  <phrase data="_PLG_YPL_NEW">新しいプレーヤー</phrase>
+  <phrase data="_PLG_YPL_NOPLAY">まだプレーヤーを入れていない。..</phrase>
+  <phrase data="_PLG_YPL_UPDATE_OK">「NAME」のプレーヤーが更新された。!</phrase>
+  <phrase data="_PLG_YPL_ADDED_OK">「NAME」のプレーヤーが追加された。!</phrase>
+  <phrase data="_PLG_YPL_DEL_OK">「NAME」のプレーヤーが削除された。!</phrase>
+</language>

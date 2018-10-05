@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_PLG_DP_TITLE">Manage CMS Donation Plugin</phrase>
+  <phrase data="_PLG_DP_TITLE1">Donate Configuration</phrase>
+  <phrase data="_PLG_DP_SUB">New Donation Campaign</phrase>
+  <phrase data="_PLG_DP_SUB1">Tên chiến dịch </phrase>
+  <phrase data="_PLG_DP_SUB2">Lựa chọn thanh toán </phrase>
+  <phrase data="_PLG_DP_SUB3">Chuyển trang thành công </phrase>
+  <phrase data="_PLG_DP_SUB4">Cập nhật chiến dịch cho tặng 	</phrase>
+  <phrase data="_PLG_DP_INFO">Tại đây bạn có thể quản lý đăng nhập cho tặng .</phrase>
+  <phrase data="_PLG_DP_NEW">Cho tặng mới </phrase>
+  <phrase data="_PLG_DP_TARGET">Target Amount</phrase>
+  <phrase data="_PLG_DP_DONATE">Donate</phrase>
+  <phrase data="_PLG_DP_NODON">Bạn chưa có bất kỳ tên đăng nhập cho tặng nào ...</phrase>
+  <phrase data="_PLG_DP_UPDATE_OK">Tên chiến dịch đã cập nhật thành công !</phrase>
+  <phrase data="_PLG_DP_ADDED_OK">Tên chiến dịch đã thêm thành công !</phrase>
+</language>

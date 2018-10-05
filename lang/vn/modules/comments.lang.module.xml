@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_MOD_CM_AA">Tự động duyệt </phrase>
+  <phrase data="_MOD_CM_CAPTCHA">Đưa Captcha	</phrase>
+  <phrase data="_MOD_CM_CHAR">Character Limit</phrase>
+  <phrase data="_MOD_CM_CUPDATED">Bình luận đã cập nhật thành công 	!</phrase>
+  <phrase data="_MOD_CM_DATE">Định dạng ngày tháng</phrase>
+  <phrase data="_MOD_CM_DEL_OK">Tên lời bình đã xóa thành công !</phrase>
+  <phrase data="_MOD_CM_E_NOT_V">	Địa chỉ email của bạn sẽ không được công bố.</phrase>
+  <phrase data="_MOD_CM_MSGOK1">Cảm ơn bạn. Bình luận của bạn đã gửi .</phrase>
+  <phrase data="_MOD_CM_MSGOK2">Cảm ơn bạn. Bình luận của bạn đã gửi và đang chờ xác minh .</phrase>
+  <phrase data="_MOD_CM_NOTIFY">Thông báo </phrase>
+  <phrase data="_MOD_CM_PERPAGE">Bình luận mỗi trang</phrase>
+  <phrase data="_MOD_CM_RATING">Cho phép sắp xếp 	</phrase>
+  <phrase data="_MOD_CM_REG_ONLY">Truy cập công khai </phrase>
+  <phrase data="_MOD_CM_REPLAY">Trả lời</phrase>
+  <phrase data="_MOD_CM_SORTING">Sắp xếp bình luận</phrase>
+  <phrase data="_MOD_CM_SORTING_B">--- Lần gần đây nhất/ Dưới ---</phrase>
+  <phrase data="_MOD_CM_SORTING_T">--- Lần gần đây nhất/ Trên  ---</phrase>
+  <phrase data="_MOD_CM_SUB">Chưa có bình luận...</phrase>
+  <phrase data="_MOD_CM_SUB1">Xin lỗi, bạn đã đăng ký và đăng nhập bằng tài khoản thì mới có thể đăng bình luận. Vui lòng đăng nhập hoặc đăng ký 	Xin lỗi, chỉ có người dùng đã đăng ký hoặc đăng nhập mới có thể đăng bình luận. Vui lòng đăng nhập hoặc đăng ký.</phrase>
+  <phrase data="_MOD_CM_SUB2">Bạn đã rời khỏi bình luận	Để lại bình luận</phrase>
+  <phrase data="_MOD_CM_SUB3">Chưa gửi bình luận	...</phrase>
+  <phrase data="_MOD_CM_SUB4">Duyệt</phrase>
+  <phrase data="_MOD_CM_TITLE1">Comments Configuration</phrase>
+  <phrase data="_MOD_CM_TITLE2">Pending Comments</phrase>
+  <phrase data="_MOD_CM_TSINCE">Use Time Since</phrase>
+  <phrase data="_MOD_CM_UNAME_R">Tên yêu cầu</phrase>
+  <phrase data="_MOD_CM_WORDS">Danh sách từ khóa đen</phrase>
+</language>

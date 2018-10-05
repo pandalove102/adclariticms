@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_PLG_RSS_TITLE">CMS RSS Parserプラグインの管理</phrase>
+  <phrase data="_PLG_RSS_TITLE1">Rss追加</phrase>
+  <phrase data="_PLG_RSS_TITLE2">Rss編集</phrase>
+  <phrase data="_PLG_RSS_SUB1">ここにRssプラグインを設定できることがあります。</phrase>
+  <phrase data="_PLG_RSS_SUB2">新しいRSSフィードを追加</phrase>
+  <phrase data="_PLG_RSS_NEW">新しいRss</phrase>
+  <phrase data="_PLG_RSS_NORSS">Rssプラグインを入力していませんか？...</phrase>
+  <phrase data="_PLG_RSS_URL">パースするURL</phrase>
+  <phrase data="_PLG_RSS_SHOW_DESC">説明表示</phrase>
+  <phrase data="_PLG_RSS_BODYTRIM">トリム説明長さ</phrase>
+  <phrase data="_PLG_RSS_POST_DATE">ポスト</phrase>
+  <phrase data="_PLG_RSS_SHOW_DATE">時間表示</phrase>
+  <phrase data="_PLG_RSS_ITEMS">合計各項目</phrase>
+  <phrase data="_PLG_RSS_UPDATE_OK">「NAME」のRssが更新された。!</phrase>
+  <phrase data="_PLG_RSS_ADDED_OK">「NAME」のRssが追加された。!</phrase>
+  <phrase data="_PLG_RSS_DEL_OK">「NAME」のRssが削除された。!</phrase>
+  <phrase data="_PLG_RSS_HELP">Rssヘルプ</phrase>
+</language>

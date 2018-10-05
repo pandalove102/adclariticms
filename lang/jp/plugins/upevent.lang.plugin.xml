@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_PLG_UE_TITLE1">今後のイベントの管理</phrase>
+  <phrase data="_PLG_UE_SELECT">イベント選択</phrase>
+  <phrase data="_PLG_UE_NOEVENT">--- 少なくとも1つのイベントを作成してください ---</phrase>
+  <phrase data="_PLG_UE_ERR">少なくとも1つのイベントを選択してください</phrase>
+  <phrase data="_PLG_UE_UPDATED">イベントの設定が更新された！!</phrase>
+</language>

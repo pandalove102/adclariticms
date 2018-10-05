@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+
+  <phrase data="_PLG_TW_TITLE">Manage CMS Latest Twitts Plugin</phrase>
+  <phrase data="_PLG_TW_KEY">クライアントキー</phrase>
+  <phrase data="_PLG_TW_SECRET">クライアント秘密</phrase>
+  <phrase data="_PLG_TW_TOKEN">アクセストークン</phrase>
+  <phrase data="_PLG_TW_TSECRET">アクセストークン秘密</phrase>
+  <phrase data="_PLG_TW_USER">お名前</phrase>
+  <phrase data="_PLG_TW_SHOW_IMG">アバター表示</phrase>
+  <phrase data="_PLG_TW_COUNT">表示項目</phrase>
+  <phrase data="_PLG_TW_TRANS">遷移スピード</phrase>
+  <phrase data="_PLG_TW_TRANS_T">移行タイムアウト</phrase>
+  <phrase data="_PLG_TW_UPDATED">Twitterの設定が更新された!</phrase>
+</language>

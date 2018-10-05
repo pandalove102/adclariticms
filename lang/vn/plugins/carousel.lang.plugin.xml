@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_PLG_CRL_TITLE">Dây chuyền quản lý người dùng truy cập</phrase>
+  <phrase data="_PLG_CRL_TITLE1">Thêm người chơi</phrase>
+  <phrase data="_PLG_CRL_TITLE2">Sửa người chơi </phrase>
+  <phrase data="_PLG_CRL_SUB1">Bạn có thể cấu hình dây chuyền người chơi đăng nhập .</phrase>
+  <phrase data="_PLG_CRL_SUB2">Thêm người chơi mới </phrase>
+  <phrase data="_PLG_CRL_SUB7">Tự động chơi </phrase>
+  <phrase data="_PLG_CRL_SUB8">Thư mục Margin </phrase>
+  <phrase data="_PLG_CRL_SUB9">Trọng tâm </phrase>
+  <phrase data="_PLG_CRL_SUB10">Dừng bay lượn </phrase>
+  <phrase data="_PLG_CRL_SUB11">Đưa dấu chấm </phrase>
+  <phrase data="_PLG_CRL_SUB12">Đưa mũi tên</phrase>
+  <phrase data="_PLG_CRL_SUB13">Vòng lập vô hạn</phrase>
+  <phrase data="_PLG_CRL_SUB14">Đáp ứng thư mục </phrase>
+  <phrase data="_PLG_CRL_NEW">Người chơi mới</phrase>
+  <phrase data="_PLG_CRL_NOPLAY">Bạn không có bất kỳ người chơi nào đăng nhập ...</phrase>
+  <phrase data="_PLG_CRL_UPDATE_OK">Đã cập nhật tên người chơi thành công !</phrase>
+  <phrase data="_PLG_CRL_ADDED_OK">Đã thêm tên người chơi thành công !</phrase>
+  <phrase data="_PLG_CRL_DEL_OK">Đã xóa tên người chơi thành công !</phrase>
+</language>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_PLG_NSL_TITLE">Quản lý người đăng ký bản tin</phrase>
+  <phrase data="_PLG_NSL_INFO">Bạn có tổng cộng [TỔNG CỘNG] người đăng ký bản tin.</phrase>
+  <phrase data="_PLG_NSL_SUB">Người đăng ký</phrase>
+  <phrase data="_PLG_NSL_SUB1">Hủy đăng ký</phrase>
+  <phrase data="_PLG_NSL_SUBOK">Bạn đã đăng ký thành công .</phrase>
+  <phrase data="_PLG_NSL_UNSUBOK">Bạn chưa đăng ký thành công .</phrase>
+</language>

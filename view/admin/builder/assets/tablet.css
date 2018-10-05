@@ -1,0 +1,201 @@
+.tabletview .wojo-grid {
+  padding: 0 1.75rem;
+}
+.tabletview .tablet-10 {
+  -webkit-flex: 0 0 10%;
+  -ms-flex: 0 0 10%;
+  flex: 0 0 10%;
+  max-width: 10%;
+}
+.tabletview .tablet-offset-0 {
+  margin-left: 0%;
+}
+.tabletview .tablet-20 {
+  -webkit-flex: 0 0 20%;
+  -ms-flex: 0 0 20%;
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+.tabletview .tablet-25 {
+  -webkit-flex: 0 0 25%;
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+.tabletview .tablet-offset-10 {
+  margin-left: 10%;
+}
+.tabletview .tablet-30 {
+  -webkit-flex: 0 0 30%;
+  -ms-flex: 0 0 30%;
+  flex: 0 0 30%;
+  max-width: 30%;
+}
+.tabletview .tablet-offset-20 {
+  margin-left: 20%;
+}
+.tabletview .tablet-40 {
+  -webkit-flex: 0 0 40%;
+  -ms-flex: 0 0 40%;
+  flex: 0 0 40%;
+  max-width: 40%;
+}
+.tabletview .tablet-offset-30 {
+  margin-left: 30%;
+}
+.tabletview .tablet-50 {
+  -webkit-flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.tabletview .tablet-offset-40 {
+  margin-left: 40%;
+}
+.tabletview .tablet-60 {
+  -webkit-flex: 0 0 60%;
+  -ms-flex: 0 0 60%;
+  flex: 0 0 60%;
+  max-width: 60%;
+}
+.tabletview .tablet-offset-50 {
+  margin-left: 50%;
+}
+.tabletview .tablet-70 {
+  -webkit-flex: 0 0 70%;
+  -ms-flex: 0 0 70%;
+  flex: 0 0 70%;
+  max-width: 70%;
+}
+.tabletview .tablet-75 {
+  -webkit-flex: 0 0 75%;
+  -ms-flex: 0 0 75%;
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+.tabletview .tablet-offset-60 {
+  margin-left: 60%;
+}
+.tabletview .tablet-80 {
+  -webkit-flex: 0 0 80%;
+  -ms-flex: 0 0 80%;
+  flex: 0 0 80%;
+  max-width: 80%;
+}
+.tabletview .tablet-offset-70 {
+  margin-left: 70%;
+}
+.tabletview .tablet-90 {
+  -webkit-flex: 0 0 90%;
+  -ms-flex: 0 0 90%;
+  flex: 0 0 90%;
+  max-width: 90%;
+}
+.tabletview .tablet-offset-80 {
+  margin-left: 80%;
+}
+.tabletview .tablet-100 {
+  -webkit-flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.tabletview .tablet-offset-9 {
+  margin-left: 90%;
+}
+.tabletview .tablet-block-1,
+.tabletview .tablet-block-2,
+.tabletview .tablet-block-3,
+.tabletview .tablet-block-4,
+.tabletview .tablet-block-5,
+.tabletview .tablet-block-6,
+.tabletview .tablet-block-7,
+.tabletview .tablet-block-8 {
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.tabletview .tablet-block-1 > .column {
+  -webkit-flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.tabletview .tablet-block-2 > .column {
+  -webkit-flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.tabletview .tablet-block-3 > .column {
+  -webkit-flex: 0 0 33.33333%;
+  -ms-flex: 0 0 33.33333%;
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%;
+}
+.tabletview .tablet-block-4 > .column {
+  -webkit-flex: 0 0 25%;
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+.tabletview .tablet-block-5 > .column {
+  -webkit-flex: 0 0 20%;
+  -ms-flex: 0 0 20%;
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+.tabletview .tablet-block-6 > .column {
+  -webkit-flex: 0 0 16.66667%;
+  -ms-flex: 0 0 16.66667%;
+  flex: 0 0 16.66667%;
+  max-width: 16.66667%;
+}
+.tabletview .tablet-block-7 > .column {
+  -webkit-flex: 0 0 14.28571%;
+  -ms-flex: 0 0 14.28571%;
+  flex: 0 0 14.28571%;
+  max-width: 14.28571%;
+}
+.tabletview .tablet-block-8 > .column {
+  -webkit-flex: 0 0 12.5%;
+  -ms-flex: 0 0 12.5%;
+  flex: 0 0 12.5%;
+  max-width: 12.5%;
+}
+.tabletview .tablet-order-1 {
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+}
+.tabletview .tablet-order-2 {
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
+}
+.tabletview .tablet-order-3 {
+  -webkit-order: 3;
+  -ms-flex-order: 3;
+  order: 3;
+}
+.tabletview .tablet-order-4 {
+  -webkit-order: 4;
+  -ms-flex-order: 4;
+  order: 4;
+}
+.tabletview .tablet-order-5 {
+  -webkit-order: 5;
+  -ms-flex-order: 5;
+  order: 5;
+}
+.tabletview .tablet-order-6 {
+  -webkit-order: 6;
+  -ms-flex-order: 6;
+  order: 6;
+}
+.tabletview .tablet-right-divider {
+  box-shadow: inset -1px 0 0 0 #DDDDDD;
+}
+.tabletview .tablet-left-divider {
+  box-shadow: inset 1px 0 0 0 #DDDDDD;
+}

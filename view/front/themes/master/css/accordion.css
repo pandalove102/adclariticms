@@ -1,0 +1,153 @@
+/* == Accordion == */
+.wojo.accordion,
+.wojo.accordion .accordion {
+  max-width: 100%;
+}
+.wojo.accordion .accordion {
+  margin: 1em 0em 0em;
+  padding: 0em;
+}
+/* Title */
+.wojo.accordion .title,
+.wojo.accordion .accordion .title {
+  cursor: pointer;
+}
+.wojo.accordion .title:not(.wojo) {
+  padding: 0.5em 0em;
+  font-size: 1em;
+  color: rgba(0, 0, 0, 0.87);
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.wojo.accordion .title p,
+.wojo.accordion .title .dropdown.icon {
+  -webkit-flex: 1 1 0px;
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0px;
+  min-width: 0;
+}
+.wojo.accordion .title ~ .content,
+.wojo.accordion .accordion .title ~ .content {
+  display: none;
+}
+.wojo.accordion:not(.styled) .title ~ .content:not(.wojo),
+.wojo.accordion:not(.styled) .accordion .title ~ .content:not(.wojo) {
+  margin: '';
+  padding: 0.5em 0em 1em;
+}
+.wojo.accordion:not(.styled) .title ~ .content:not(.wojo):last-child {
+  padding-bottom: 0em;
+}
+/* Arrow */
+.wojo.accordion .title .dropdown.icon,
+.wojo.accordion .accordion .title .dropdown.icon {
+  font-family: 'WojoIcons';
+  opacity: 1;
+  font-size: 1em;
+  margin-right: .75em;
+  -webkit-transition: opacity 0.1s ease, -webkit-transform 0.1s ease;
+  transition: opacity 0.1s ease, -webkit-transform 0.1s ease;
+  transition: transform 0.1s ease, opacity 0.1s ease;
+  transition: transform 0.1s ease, opacity 0.1s ease, -webkit-transform 0.1s ease;
+  -webkit-transform: none;
+  transform: none;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  max-width: 100%;
+}
+.wojo.accordion .title .dropdown.icon:before,
+.wojo.accordion .accordion .title .dropdown.icon:before {
+  content: '\e053';
+}
+.wojo.accordion.menu .item .title {
+  display: block;
+  padding: 0em;
+}
+.wojo.accordion.menu .item .title > .dropdown.icon {
+  margin: 0.25em 0em 0em 1em;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.wojo.accordion .wojo.header .dropdown.icon {
+  font-size: 1em;
+  margin: 0em 0.25rem 0em 0rem;
+}
+/* == States == */
+.wojo.accordion .active.title .dropdown.icon:before,
+.wojo.accordion .accordion .active.title .dropdown.icon:before {
+  content: '\e051';
+}
+.wojo.accordion.menu .item .active.title > .dropdown.icon:before {
+  content: '\e051';
+}
+/* == Types == */
+.wojo.styled.accordion,
+.wojo.styled.accordion .accordion {
+  border-radius: 0.250rem;
+  background: #FFFFFF;
+}
+.wojo.styled.accordion .title,
+.wojo.styled.accordion .accordion .title {
+  margin: 0em;
+  padding: 0.75em 1em;
+  color: #7F929C;
+  font-family: 'wSansDemi';
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
+  -webkit-transition: background 0.1s ease, color 0.1s ease;
+  transition: background 0.1s ease, color 0.1s ease;
+}
+.wojo.styled.accordion > .title:first-child,
+.wojo.styled.accordion .accordion .title:first-child {
+  border-top: none;
+}
+.wojo.styled.accordion .content,
+.wojo.styled.accordion .accordion .content {
+  margin: 0em;
+  padding: 0.5em 1em 1.5em;
+}
+.wojo.styled.accordion .accordion .content {
+  padding: 0em;
+  padding: 0.5em 1em 1.5em;
+}
+.wojo.styled.accordion .title:hover,
+.wojo.styled.accordion .active.title,
+.wojo.styled.accordion .accordion .title:hover,
+.wojo.styled.accordion .accordion .active.title {
+  background: transparent;
+  color: rgba(0, 0, 0, 0.87);
+}
+.wojo.styled.accordion .accordion .title:hover,
+.wojo.styled.accordion .accordion .active.title {
+  background: transparent;
+  color: rgba(0, 0, 0, 0.87);
+}
+.wojo.styled.accordion .active.title {
+  background: transparent;
+  color: rgba(0, 0, 0, 0.95);
+}
+.wojo.styled.accordion .accordion .active.title {
+  background: transparent;
+  color: rgba(0, 0, 0, 0.95);
+}
+.wojo.accordion .active.content,
+.wojo.accordion .accordion .active.content {
+  display: block;
+}
+/* == Variations == */
+.wojo.fluid.accordion,
+.wojo.fluid.accordion .accordion {
+  width: 100%;
+}
+.wojo.inverted.accordion .title:not(.wojo) {
+  color: rgba(255, 255, 255, 0.9);
+}

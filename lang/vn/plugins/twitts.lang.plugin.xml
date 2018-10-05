@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+
+  <phrase data="_PLG_TW_TITLE">Quản lý CMS đi vào Twitts mới nhất </phrase>
+  <phrase data="_PLG_TW_KEY">Chìa khóa người tiêu dùng </phrase>
+  <phrase data="_PLG_TW_SECRET">Bí mật người dùng </phrase>
+  <phrase data="_PLG_TW_TOKEN">Dấu hiệu truy cập </phrase>
+  <phrase data="_PLG_TW_TSECRET">Bí mật dấu hiệu truy cập </phrase>
+  <phrase data="_PLG_TW_USER">Tên người dùng của bạn</phrase>
+  <phrase data="_PLG_TW_SHOW_IMG">Đưa Avatar</phrase>
+  <phrase data="_PLG_TW_COUNT">Mặt hàng để đưa </phrase>
+  <phrase data="_PLG_TW_TRANS">Tốc độ sự hoán đổi </phrase>
+  <phrase data="_PLG_TW_TRANS_T">Sự hoán đổi giờ nghỉ </phrase>
+  <phrase data="_PLG_TW_UPDATED">Twitter đang cài đặt đã cập nhật thành công !</phrase>
+</language>

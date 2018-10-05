@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_MOD_PF_TITLE">CMSポートフォリオモジュールの管理</phrase>
+  <phrase data="_MOD_PF_SUB">管理項目</phrase>
+  <phrase data="_MOD_PF_SUB1">クライアント</phrase>
+  <phrase data="_MOD_PF_ADD">項目追加</phrase>
+  <phrase data="_MOD_PF_SUB2">項目編集</phrase>
+  <phrase data="_MOD_PF_SUB3">ポートフォリオカテゴリ</phrase>
+  <phrase data="_MOD_PF_SUB4">カテゴリー編集</phrase>
+  <phrase data="_MOD_PF_SUB4">ポートフォリオ設定</phrase>
+  <phrase data="_MOD_PF_SUB5">カテゴリページごとのアイテム</phrase>
+  <phrase data="_MOD_PF_SUB6">ホームページごとの項目</phrase>
+  <phrase data="_MOD_PF_SUB7">レイアウト項目</phrase>
+  <phrase data="_MOD_PF_SUB8">ナビゲーションカテゴリー表示</phrase>
+  <phrase data="_MOD_PF_SUB9">ソートオプション表示</phrase>
+  <phrase data="_MOD_PF_SUB10">目立つのみを表示</phrase>
+  <phrase data="_MOD_PF_SUB11">目立つ項目</phrase>
+  <phrase data="_MOD_PF_NOPROJ">項目を入力していませんか？ご追加ください。...</phrase>
+  <phrase data="_MOD_PF_DEL_OK">[NAME] の項目が削除された。!</phrase>
+  <phrase data="_MOD_PF_CUPDATED">ポートフォリオ設定が更新された。!</phrase>
+  <phrase data="_MOD_PF_CAT_UPDATE_OK">[NAME] のカテゴリーが更新された。!</phrase>
+  <phrase data="_MOD_PF_CAT_ADDED_OK">[NAME] のカテゴリーが追加された。!</phrase>
+  <phrase data="_MOD_PF_ITM_UPDATE_OK">「NAME」の項目が更新された。!</phrase>
+  <phrase data="_MOD_PF_ITM_ADDED_OK">「NAME」の項目が追加された。!</phrase>
+  <phrase data="_MOD_PF_CAT_DEL_OK">[NAME] のカテゴリーが追加された。!</phrase>
+  <phrase data="_MOD_PF_UPDATECAT">カテゴリー更新</phrase>
+  <phrase data="_MOD_PF_UPDATEITM">項目更新</phrase>
+  <phrase data="_MOD_PF_NEWITM">新項目</phrase>
+  <phrase data="_MOD_PF_NEWCAT">新カテゴリー</phrase>
+</language>

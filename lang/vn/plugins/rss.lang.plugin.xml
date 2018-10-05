@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_PLG_RSS_TITLE">Quản lý CMS RSS Parser Plugin</phrase>
+  <phrase data="_PLG_RSS_TITLE1">Thêm Rss</phrase>
+  <phrase data="_PLG_RSS_TITLE2">Chỉnh sửa Rss </phrase>
+  <phrase data="_PLG_RSS_SUB1">Tại đây bạn có thể cấu hình để vào Rss của bạn .</phrase>
+  <phrase data="_PLG_RSS_SUB2">Thêm mới Rss</phrase>
+  <phrase data="_PLG_RSS_NEW">Rss mới</phrase>
+  <phrase data="_PLG_RSS_NORSS">Bạn không có đăng nhập Rss nào ...</phrase>
+  <phrase data="_PLG_RSS_URL">Url To Parse</phrase>
+  <phrase data="_PLG_RSS_SHOW_DESC">Đưa mô tả </phrase>
+  <phrase data="_PLG_RSS_BODYTRIM">Độ dài mô tả Trim</phrase>
+  <phrase data="_PLG_RSS_POST_DATE">Đã đăng lên </phrase>
+  <phrase data="_PLG_RSS_SHOW_DATE">Đưa ngày </phrase>
+  <phrase data="_PLG_RSS_ITEMS">Tổng mặt hàng</phrase>
+  <phrase data="_PLG_RSS_UPDATE_OK">Tên Rss đã cập nhật thành công 	!</phrase>
+  <phrase data="_PLG_RSS_ADDED_OK">Tên Rss đã thêm thành công!</phrase>
+  <phrase data="_PLG_RSS_DEL_OK">Tên Rss đã xóa thành công!</phrase>
+  <phrase data="_PLG_RSS_HELP">Trợ giúp Rss</phrase>
+</language>

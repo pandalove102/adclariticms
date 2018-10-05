@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?>
+<?xml-stylesheet type="text/css" media="screen" href="http://feeds.systutorials.com/~d/styles/itemcontent.css"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<channel>
+  <title>Eric's Posts</title>
+  <generator>RSSMix</generator>
+  <link>http://www.rssmix.com/</link>
+  <description>Eric's new posts.</description>
+  <language>en-gb</language>
+  
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.systutorials.com/ericfeed"/><feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="ericfeed"/><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/"/><feedburner:emailServiceId xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">ericfeed</feedburner:emailServiceId><feedburner:feedburnerHostname xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">https://feedburner.google.com</feedburner:feedburnerHostname><item>
+<guid>http://www.systutorials.com/?p=239880</guid>
+<title><![CDATA[How to Change Systemd Boot Target on Linux]]></title>
+<link>http://www.systutorials.com/239880/change-systemd-boot-target-linux/</link>
+<description><![CDATA[Many Linux distros, such as RHEL/CentOS 7, Fedora, Ubuntu 16, are now using systemd instead of init as the init system. It is common for Linux users to set Linux to boot to &ldquo;GUI&rdquo; or &ldquo;Text&rdquo; mode. The old way of changing &lsquo;/etc/inittab&rsquo; for choosing Linux runlevels is not working for sytemd. This post will [&hellip;]<div>
+<h3>Related posts:</h3><ol><li><a href="http://www.systutorials.com/3841/changing-systemd-runlevel-on-fedora-linux/" rel="bookmark" title="Changing Systemd Runlevel on Fedora Linux &ndash; The Manual Way">Changing Systemd Runlevel on Fedora Linux &ndash; The Manual Way </a></li>
+<li><a href="http://www.systutorials.com/239794/change-linux-account-password-ssh-beginers-tutorials/" rel="bookmark" title="How to Change Linux Account Password Through SSH: A Beginners&rsquo; Tutorial">How to Change Linux Account Password Through SSH: A Beginners&rsquo; Tutorial </a></li>
+<li><a href="http://www.systutorials.com/137102/how-to-set-the-static-ip-address-using-cli-in-fedoracentos-linux/" rel="bookmark" title="How to Set the Static IP Address Using CLI in Fedora/CentOS Linux">How to Set the Static IP Address Using CLI in Fedora/CentOS Linux </a></li>
+<li><a href="http://www.systutorials.com/4054/setting-mate-as-default-desktop-environment-for-startx-on-fedora/" rel="bookmark" title="Setting MATE as Default Desktop Environment for startx on Fedora">Setting MATE as Default Desktop Environment for startx on Fedora </a></li>
+</ol></div>]]></description>
+<author>Eric Zhiqiang Ma</author>
+<pubDate>Sat, 17 Sep 2016 03:15:12 +0100</pubDate>
+</item>
+
+<item>
+<guid>http://www.systutorials.com/?p=239794</guid>
+<title><![CDATA[How to Change Linux Account Password Through SSH: A Beginners’ Tutorial]]></title>
+<link>http://www.systutorials.com/239794/change-linux-account-password-ssh-beginers-tutorials/</link>
+<description><![CDATA[People are sometimes given access to Linux/Unix and asked to change their initial passwords. But for beginners, changing a Linux/Unix password is not an easy task, especially when there is only SSH log on allowed to the Linux/Unix server. This post introduces how to change password of user USER on host HOST remotely using SSH. [&hellip;]<div>
+<h3>Related posts:</h3><ol><li><a href="http://www.systutorials.com/39549/changing-linux-users-password-in-one-command-line/" rel="bookmark" title="Changing Linux User&rsquo;s Password in One Command Line">Changing Linux User&rsquo;s Password in One Command Line </a></li>
+<li><a href="http://www.systutorials.com/1500/enabling-password-less-ssh-login/" rel="bookmark" title="How to Set Up Password-less SSH Login on Linux">How to Set Up Password-less SSH Login on Linux </a></li>
+<li><a href="http://www.systutorials.com/3557/howto-ssh-to-linux-hosts-for-beginners/" rel="bookmark" title="How to SSH to Linux Hosts for Beginners">How to SSH to Linux Hosts for Beginners </a></li>
+<li><a href="http://www.systutorials.com/136731/how-to-keep-linux-ssh-session-alive-from-disconnecting/" rel="bookmark" title="How to Keep Linux SSH Session Alive from Disconnecting &ndash; Server and Client Side Fixes">How to Keep Linux SSH Session Alive from Disconnecting &ndash; Server and Client Side Fixes </a></li>
+</ol></div>]]></description>
+<author>Eric Zhiqiang Ma</author>
+<pubDate>Sun, 07 Aug 2016 03:00:53 +0100</pubDate>
+</item>
+
+<item>
+<guid>http://www.systutorials.com/?p=239761</guid>
+<title><![CDATA[How to Force Linux to Unmount a Filesystem Reporting “device is busy”]]></title>
+<link>http://www.systutorials.com/239761/force-linux-unmount-filesystem-reporting-device-busy/</link>
+<description><![CDATA[Linux may report &ldquo;device is busy&rdquo; when we try to umount a filesystem. This behavior is reasonable as it can help us avoid data loss by disallowing unmouting a filesystem when it is being used. But for situations when we are sure there is something wrong happened or we care not data lost such as [&hellip;]<div>
+<h3>Related posts:</h3><ol><li><a href="http://www.systutorials.com/136297/control-filesystem-mounting-on-linux-by-playing-with-etcfstab/" rel="bookmark" title="Controlling Filesystem Mounting on Linux by Playing with /etc/fstab">Controlling Filesystem Mounting on Linux by Playing with /etc/fstab </a></li>
+<li><a href="http://www.systutorials.com/260/create-iso-image-on-linux/" rel="bookmark" title="How to Create ISO Image from DVD Disk on Linux">How to Create ISO Image from DVD Disk on Linux </a></li>
+<li><a href="http://www.systutorials.com/124416/shrinking-a-ext4-file-system-on-lvm-in-linux/" rel="bookmark" title="Shrinking an Ext4 File System on LVM in Linux">Shrinking an Ext4 File System on LVM in Linux </a></li>
+<li><a href="http://www.systutorials.com/136585/how-to-get-available-filesystem-space-on-linux-a-c-function-and-a-cpp-example/" rel="bookmark" title="How to Get Available Filesystem Space on Linux: a C Function with a C++ Example">How to Get Available Filesystem Space on Linux: a C Function with a C++ Example </a></li>
+</ol></div>]]></description>
+<author>Eric Zhiqiang Ma</author>
+<pubDate>Sat, 21 May 2016 03:54:30 +0100</pubDate>
+</item>
+
+<item>
+<guid>http://www.systutorials.com/?p=137109</guid>
+<title><![CDATA[How to Disable and Enable Laptop Keyboard in Linux]]></title>
+<link>http://www.systutorials.com/137109/how-to-disable-and-enable-laptop-keyboard-in-linux/</link>
+<description><![CDATA[Attaching a USB keyboard to a laptop is common when using a laptop because a normal keyboard may provide a more convenient typing experience. The laptop keyboard is not used in these situations. However, the laptop keyboard may still be touched by accident. In this post, we will discuss how to disable and enable the [&hellip;]<div>
+<h3>Related posts:</h3><ol><li><a href="http://www.systutorials.com/4683/automatic-keyboard-presser-on-linux/" rel="bookmark" title="Automatic Keyboard Presser on Linux">Automatic Keyboard Presser on Linux </a></li>
+<li><a href="http://www.systutorials.com/5520/git-submodule-cheat-sheet/" rel="bookmark" title="Git Submodule Cheat Sheet">Git Submodule Cheat Sheet </a></li>
+<li><a href="http://www.systutorials.com/5466/git-through-ssh-tunnel-as-proxy/" rel="bookmark" title="Git through SSH Tunnel as Proxy">Git through SSH Tunnel as Proxy </a></li>
+<li><a href="http://www.systutorials.com/3232/disable-ipv6-on-linux/" rel="bookmark" title="Disable IPv6 on Linux">Disable IPv6 on Linux </a></li>
+</ol></div>]]></description>
+<author>Eric Zhiqiang Ma</author>
+<pubDate>Sat, 14 May 2016 03:45:52 +0100</pubDate>
+</item>
+
+<item>
+<guid>http://www.systutorials.com/?p=239703</guid>
+<title><![CDATA[How to Automatically Move Junk Emails to The Junk Folder in Thunderbird]]></title>
+<link>http://www.systutorials.com/239703/automatically-move-spam-emails-junk-folder-thunderbird/</link>
+<description><![CDATA[Junk Emails, or Email spams, are annoying and they cost time to deal with. While they are something we need to cope with, we can use tools to help us. Thunderbird has an adaptive junk filter that can learn from user&rsquo;s actions to identify junk messages. I find that Thunderbird default settings are not fully [&hellip;]<div>
+<h3>Related posts:</h3><ol><li><a href="http://www.systutorials.com/5515/making-thunderbird-not-wrap-lines-automatically/" rel="bookmark" title="How to Make Thunderbird Not Wrap Long Lines Automatically">How to Make Thunderbird Not Wrap Long Lines Automatically </a></li>
+<li><a href="http://www.systutorials.com/310/default-descending-sort-order-and-inline-quote-when-reply-in-thunderbird/" rel="bookmark" title="Thunderbird Tips: Default Descending Email Sort Order and Inline Quote When Reply">Thunderbird Tips: Default Descending Email Sort Order and Inline Quote When Reply </a></li>
+<li><a href="http://www.systutorials.com/3165/outlook-style-email-reply-header-thunderbird/" rel="bookmark" title="Outlook-style Email Reply Header in Thunderbird">Outlook-style Email Reply Header in Thunderbird </a></li>
+<li><a href="http://www.systutorials.com/579/minimizes-thunderbird-windows-into-the-system-tray/" rel="bookmark" title="Minimizes Thunderbird Windows into the System Tray">Minimizes Thunderbird Windows into the System Tray </a></li>
+</ol></div>]]></description>
+<author>Eric Zhiqiang Ma</author>
+<pubDate>Sat, 07 May 2016 06:49:50 +0100</pubDate>
+</item>
+
+<item>
+<guid>http://www.systutorials.com/?p=137113</guid>
+<title><![CDATA[How to Get Bash Script’s Own Path]]></title>
+<link>http://www.systutorials.com/137113/how-to-get-bash-scripts-own-path/</link>
+<description><![CDATA[Bash script may need to get its own path. In normal Bash script, $0 is the path to the script. However, when a script is sourced, such as . a.sh, a.sh&lsquo;s $0 does not give a.sh while the caller&rsquo;s name. How to reliably get a bash script&rsquo;s own path no matter whether the Bash script [&hellip;]<div>
+<h3>Related posts:</h3><ol><li><a href="http://www.systutorials.com/3068/floating-point-in-bash-shell/" rel="bookmark" title="Floating Point in Bash Shell">Floating Point in Bash Shell </a></li>
+<li><a href="http://www.systutorials.com/3108/php-photo-gallery-scripts-requiring-no-database/" rel="bookmark" title="PHP Photo Gallery Scripts Requiring No Database">PHP Photo Gallery Scripts Requiring No Database </a></li>
+<li><a href="http://www.systutorials.com/3826/setting-default-entry-in-grub2-and-grub/" rel="bookmark" title="Setting Default Entry in Grub2 and Grub">Setting Default Entry in Grub2 and Grub </a></li>
+<li><a href="http://www.systutorials.com/5484/running-a-command-upon-files-or-directories-changes-on-linux/" rel="bookmark" title="Running a Command Upon Files or Directories Changes on Linux">Running a Command Upon Files or Directories Changes on Linux </a></li>
+</ol></div>]]></description>
+<author>Eric Zhiqiang Ma</author>
+<pubDate>Sat, 13 Feb 2016 17:49:58 +0000</pubDate>
+</item>
+
+<item>
+<guid>http://www.systutorials.com/?p=137102</guid>
+<title><![CDATA[How to Set the Static IP Address Using CLI in Fedora/CentOS Linux]]></title>
+<link>http://www.systutorials.com/137102/how-to-set-the-static-ip-address-using-cli-in-fedoracentos-linux/</link>
+<description><![CDATA[How to set the static IP address for CentOS 7/Fedora 22+ is introduced in this post. Here, we assume the Linux is using NetworkManager to manage the network. All steps are done as root. Find the interface you want to set the address Command ifconfig -a lists all interfaces. Find the interface name to set, [&hellip;]<div>
+<h3>Related posts:</h3><ol><li><a href="http://www.systutorials.com/5602/installing-xen-on-fedora-20-as-domain-0/" rel="bookmark" title="Installing Xen on Fedora 20 as Domain-0">Installing Xen on Fedora 20 as Domain-0 </a></li>
+<li><a href="http://www.systutorials.com/3806/installing-xen-domain-0-on-fedora-17/" rel="bookmark" title="Installing Xen on Fedora as Domain-0 (Fedora 17)">Installing Xen on Fedora as Domain-0 (Fedora 17) </a></li>
+<li><a href="http://www.systutorials.com/3583/changing-hostname-of-fedora-linux/" rel="bookmark" title="Changing Hostname of Fedora Linux">Changing Hostname of Fedora Linux </a></li>
+<li><a href="http://www.systutorials.com/5609/creating-fedora-20-domain-u-on-fedora-20-domain-0/" rel="bookmark" title="Creating Fedora 20 Domain-U on Fedora 20 Domain-0">Creating Fedora 20 Domain-U on Fedora 20 Domain-0 </a></li>
+</ol></div>]]></description>
+<author>Eric Zhiqiang Ma</author>
+<pubDate>Sat, 30 Jan 2016 03:14:33 +0000</pubDate>
+</item>
+
+<item>
+<guid>http://www.systutorials.com/?p=136968</guid>
+<title><![CDATA[Three Methods of Executing Commands on Many Nodes in Parallel via SSH on Linux]]></title>
+<link>http://www.systutorials.com/136968/three-methods-execute-commands-many-nodes-parallel-ssh-linux/</link>
+<description><![CDATA[It is common to execute commands on many nodes/hosts via SSH for managing a cluster of Linux servers. On Linux, there are many choices for this task. Generally, to run commands on many nodes, there are two modes: serial mode and parallel mode. In serial mode, the command is executed on the node one by [&hellip;]<div>
+<h3>Related posts:</h3><ol><li><a href="http://www.systutorials.com/5466/git-through-ssh-tunnel-as-proxy/" rel="bookmark" title="Git through SSH Tunnel as Proxy">Git through SSH Tunnel as Proxy </a></li>
+<li><a href="http://www.systutorials.com/136849/notes-software-development-linux-beginners/" rel="bookmark" title="Notes for Beginners of Software Development on Linux">Notes for Beginners of Software Development on Linux </a></li>
+<li><a href="http://www.systutorials.com/239794/change-linux-account-password-ssh-beginers-tutorials/" rel="bookmark" title="How to Change Linux Account Password Through SSH: A Beginners&rsquo; Tutorial">How to Change Linux Account Password Through SSH: A Beginners&rsquo; Tutorial </a></li>
+<li><a href="http://www.systutorials.com/366/set-up-git-server-through-ssh-connection/" rel="bookmark" title="Howto: Git Server over SSH">Howto: Git Server over SSH </a></li>
+</ol></div>]]></description>
+<author>Eric Zhiqiang Ma</author>
+<pubDate>Sun, 03 Jan 2016 08:36:52 +0000</pubDate>
+</item>
+
+<item>
+<guid>http://www.systutorials.com/?p=136954</guid>
+<title><![CDATA[How to Add Google to Firefox in Linux Mint as Default Search Engine]]></title>
+<link>http://www.systutorials.com/136954/how-to-add-google-to-firefox-in-linux-mint-as-default-search-engine/</link>
+<description><![CDATA[In Firefox on Linux Mint, Google is not in the default list of search engines. Linux Mint has its criteria for adding search engines while Google seems not in those suggested by Linux Mint because &ldquo;Amongst commercial search engines, only the ones which share with Linux Mint the revenue Linux Mint users generate for them [&hellip;]<div>
+<h3>Related posts:</h3><ol><li><a href="http://www.systutorials.com/777/use-noindex-meta-tag-in-wordpress-to-prevent-search-engine-indexing-categories-tags-and-archives/" rel="bookmark" title="Use noindex Meta Tag in WordPress to Prevent Search Engine Indexing Categories, Tags and Archives">Use noindex Meta Tag in WordPress to Prevent Search Engine Indexing Categories, Tags and Archives </a></li>
+<li><a href="http://www.systutorials.com/4690/search-engine-friendly-url-for-mediawiki/" rel="bookmark" title="Search Engine Friendly URL for MediaWiki">Search Engine Friendly URL for MediaWiki </a></li>
+<li><a href="http://www.systutorials.com/186/firefox-add-ons-for-easier-and-happier-web-life/" rel="bookmark" title="Essential Firefox Add-ons to Make Firefox Better">Essential Firefox Add-ons to Make Firefox Better </a></li>
+<li><a href="http://www.systutorials.com/3092/installing-and-configuring-32bit-firefox-on-64bit-linux-fedora/" rel="bookmark" title="Installing and Configuring 32-bit Firefox on 64-bit Linux (Fedora)">Installing and Configuring 32-bit Firefox on 64-bit Linux (Fedora) </a></li>
+</ol></div>]]></description>
+<author>Eric Zhiqiang Ma</author>
+<pubDate>Sat, 12 Dec 2015 08:13:12 +0000</pubDate>
+</item>
+
+<item>
+<guid>http://www.systutorials.com/?p=136849</guid>
+<title><![CDATA[Notes for Beginners of Software Development on Linux]]></title>
+<link>http://www.systutorials.com/136849/notes-software-development-linux-beginners/</link>
+<description><![CDATA[Linux is a great platform for software development targeting servers or backends. In general, working on Linux is very productive. The problem that beginners on Linux face is the the learning curve is steep at the beginning. But believe me, after you get through the initial green steep learning step as in the figure below [&hellip;]<div>
+<h3>Related posts:</h3><ol><li><a href="http://www.systutorials.com/136968/three-methods-execute-commands-many-nodes-parallel-ssh-linux/" rel="bookmark" title="Three Methods of Executing Commands on Many Nodes in Parallel via SSH on Linux">Three Methods of Executing Commands on Many Nodes in Parallel via SSH on Linux </a></li>
+<li><a href="http://www.systutorials.com/5484/running-a-command-upon-files-or-directories-changes-on-linux/" rel="bookmark" title="Running a Command Upon Files or Directories Changes on Linux">Running a Command Upon Files or Directories Changes on Linux </a></li>
+<li><a href="http://www.systutorials.com/5466/git-through-ssh-tunnel-as-proxy/" rel="bookmark" title="Git through SSH Tunnel as Proxy">Git through SSH Tunnel as Proxy </a></li>
+<li><a href="http://www.systutorials.com/3557/howto-ssh-to-linux-hosts-for-beginners/" rel="bookmark" title="How to SSH to Linux Hosts for Beginners">How to SSH to Linux Hosts for Beginners </a></li>
+</ol></div>]]></description>
+<author>Eric Zhiqiang Ma</author>
+<pubDate>Sun, 29 Nov 2015 02:20:05 +0000</pubDate>
+</item>
+
+<item>
+<guid>http://www.highlyscalablesystems.com/?p=239665</guid>
+<title><![CDATA[Uploading Large Files to Amazon S3 with AWS CLI]]></title>
+<link>http://www.systutorials.com/239665/uploading-large-files-amazon-s3-aws-cli/</link>
+<description><![CDATA[Amazon S3 is a widely used public cloud storage system. S3 allows an object/file to be up to 5TB which is enough for most applications. The AWS Management Console provides a Web-based interface for users to upload and manage files in S3 buckets. However, uploading a large files that is 100s of GB is not [&hellip;]<div>
+<h3>Related posts:</h3><ol><li><a href="http://www.systutorials.com/3551/data-consistency-models-of-public-cloud-storage-services-amazon-s3-google-cloud-storage-and-windows-azure-storage/" rel="bookmark" title="Data Consistency Models of Public Cloud Storage Services: Amazon S3, Google Cloud Storage and Windows Azure Storage">Data Consistency Models of Public Cloud Storage Services: Amazon S3, Google Cloud Storage and Windows Azure Storage </a></li>
+<li><a href="http://www.systutorials.com/137102/how-to-set-the-static-ip-address-using-cli-in-fedoracentos-linux/" rel="bookmark" title="How to Set the Static IP Address Using CLI in Fedora/CentOS Linux">How to Set the Static IP Address Using CLI in Fedora/CentOS Linux </a></li>
+<li><a href="http://www.systutorials.com/5484/running-a-command-upon-files-or-directories-changes-on-linux/" rel="bookmark" title="Running a Command Upon Files or Directories Changes on Linux">Running a Command Upon Files or Directories Changes on Linux </a></li>
+<li><a href="http://www.systutorials.com/3227/large-scale-data-storage-and-processing-system-in-datacenters/" rel="bookmark" title="Large-scale Data Storage and Processing System in Datacenters">Large-scale Data Storage and Processing System in Datacenters </a></li>
+</ol></div>]]></description>
+<author>Eric Zhiqiang Ma</author>
+<pubDate>Sun, 29 Nov 2015 01:01:40 +0000</pubDate>
+</item>
+
+<item>
+<guid>http://www.systutorials.com/?p=136851</guid>
+<title><![CDATA[Tutorial Video for “PHP Function for Fetching RSS Feed and Outputting Feed Items as HTML”]]></title>
+<link>http://www.systutorials.com/136851/tutorial-video-for-php-function-for-fetching-rss-feed-and-outputting-feed-items-as-html/</link>
+<description><![CDATA[After the post A PHP Function for Fetching RSS Feed and Outputing Feed Items as HTML was originally published, there are some updates such as adding a simple RSS feed caching mechanism and supporting scanning content parts of the feed items for images. Recently, Webucator makes a great tutorial video on introducing the RSS to [&hellip;]<div>
+<h3>Related posts:</h3><ol><li><a href="http://www.systutorials.com/136102/a-php-function-for-fetching-rss-feed-and-outputing-feed-items-as-html/" rel="bookmark" title="A PHP Function for Fetching RSS Feed and Outputing Feed Items as HTML">A PHP Function for Fetching RSS Feed and Outputing Feed Items as HTML </a></li>
+<li><a href="http://www.systutorials.com/3108/php-photo-gallery-scripts-requiring-no-database/" rel="bookmark" title="PHP Photo Gallery Scripts Requiring No Database">PHP Photo Gallery Scripts Requiring No Database </a></li>
+<li><a href="http://www.systutorials.com/136585/how-to-get-available-filesystem-space-on-linux-a-c-function-and-a-cpp-example/" rel="bookmark" title="How to Get Available Filesystem Space on Linux: a C Function with a C++ Example">How to Get Available Filesystem Space on Linux: a C Function with a C++ Example </a></li>
+<li><a href="http://www.systutorials.com/1210/how-to-redirect-wordpress-feed-to-feedburner-using-htaccess/" rel="bookmark" title="How to Redirect WordPress Feed to Feedburner Using .htaccess">How to Redirect WordPress Feed to Feedburner Using .htaccess </a></li>
+</ol></div>]]></description>
+<author>Eric Zhiqiang Ma</author>
+<pubDate>Fri, 13 Nov 2015 14:07:32 +0000</pubDate>
+</item>
+
+<item>
+<guid>http://www.systutorials.com/?p=136834</guid>
+<title><![CDATA[How to Change the DPI of Images Exported from Slides in PowerPoint]]></title>
+<link>http://www.systutorials.com/136834/how-to-change-dpi-exported-images-slides-powerpoint/</link>
+<description><![CDATA[PowerPoint uses 96 dots per inch (dpi) by default when you export a slide. The DPI of the images like .tif ones exported from PowerPoint are always 96. In the options of PowerPoint, there is a setting for choosing DPIs. However, it have no effect. For some needs like images for printing posters, larger DPIs [&hellip;]<div>
+<h3>Related posts:</h3><ol><li><a href="http://www.systutorials.com/136449/how-to-print-powerpoint-poster-by-hp-designjet-500-plotter/" rel="bookmark" title="How to Print PowerPoint Poster by HP Designjet 500 Plotter">How to Print PowerPoint Poster by HP Designjet 500 Plotter </a></li>
+<li><a href="http://www.systutorials.com/3719/installing-ms-office-2007-on-linux-using-wine/" rel="bookmark" title="Installing MS Office 2007 on Linux using Wine">Installing MS Office 2007 on Linux using Wine </a></li>
+<li><a href="http://www.systutorials.com/3549/converting-jpg-images-to-eps/" rel="bookmark" title="How to Convert JPG Images to EPS">How to Convert JPG Images to EPS </a></li>
+<li><a href="http://www.systutorials.com/3118/windows-7-mak-activation/" rel="bookmark" title="Windows 7 MAK Activation">Windows 7 MAK Activation </a></li>
+</ol></div>]]></description>
+<author>Eric Zhiqiang Ma</author>
+<pubDate>Tue, 03 Nov 2015 14:31:48 +0000</pubDate>
+</item>
+
+<item>
+<guid>http://www.systutorials.com/?p=136793</guid>
+<title><![CDATA[How to Configure the Latest Version of Flash on Firefox for Linux: by the Fresh Player Plugin]]></title>
+<link>http://www.systutorials.com/136793/using-the-latest-version-of-flash-on-firefox-for-fedora-linux-by-the-fresh-player-plugin/</link>
+<description><![CDATA[As you may know, Adobe stopped supporting the NPAPI version of Flash on Linux and the latest NPAPI version of Flash player at version 11.2 released back in 2012 will only receive security fixes. Even the security fixes to the 11.2 version of the Flash Plugin your Firefox is using will end on May 4, [&hellip;]<div>
+<h3>Related posts:</h3><ol><li><a href="http://www.systutorials.com/3185/installing-the-flash-plugin-for-64-bit-firefox-in-linux-x86-64/" rel="bookmark" title="Installing the Flash Plugin for 64-bit Firefox in Linux x86-64">Installing the Flash Plugin for 64-bit Firefox in Linux x86-64 </a></li>
+<li><a href="http://www.systutorials.com/3092/installing-and-configuring-32bit-firefox-on-64bit-linux-fedora/" rel="bookmark" title="Installing and Configuring 32-bit Firefox on 64-bit Linux (Fedora)">Installing and Configuring 32-bit Firefox on 64-bit Linux (Fedora) </a></li>
+<li><a href="http://www.systutorials.com/3376/install-ns-2-and-ns-3-on-fedora-linux/" rel="bookmark" title="Installing ns-2 and ns-3 on Fedora Linux">Installing ns-2 and ns-3 on Fedora Linux </a></li>
+<li><a href="http://www.systutorials.com/186/firefox-add-ons-for-easier-and-happier-web-life/" rel="bookmark" title="Essential Firefox Add-ons to Make Firefox Better">Essential Firefox Add-ons to Make Firefox Better </a></li>
+</ol></div>]]></description>
+<author>Eric Zhiqiang Ma</author>
+<pubDate>Sun, 18 Oct 2015 11:50:34 +0100</pubDate>
+</item>
+
+<item>
+<guid>http://www.systutorials.com/?p=136731</guid>
+<title><![CDATA[How to Keep Linux SSH Session Alive from Disconnecting – Server and Client Side Fixes]]></title>
+<link>http://www.systutorials.com/136731/how-to-keep-linux-ssh-session-alive-from-disconnecting/</link>
+<description><![CDATA[SSH is a very common tool for Linux/Unix platforms. One annoying problem when using SSH is that the connection may get disconnected if the SSH connection is idle for some time under common configurations. Users may run an infinite loop like while true; do uptime; sleep 30; done when there is no work to be [&hellip;]<div>
+<h3>Related posts:</h3><ol><li><a href="http://www.systutorials.com/5466/git-through-ssh-tunnel-as-proxy/" rel="bookmark" title="Git through SSH Tunnel as Proxy">Git through SSH Tunnel as Proxy </a></li>
+<li><a href="http://www.systutorials.com/638/how-to-remote-control-linux-server-using-vnc-through-ssh-tunnel/" rel="bookmark" title="How to Remote Control Linux Server Using VNC through SSH Tunnel">How to Remote Control Linux Server Using VNC through SSH Tunnel </a></li>
+<li><a href="http://www.systutorials.com/39648/port-forwarding-using-ssh-tunnel/" rel="bookmark" title="SSH Port Forwarding on Linux">SSH Port Forwarding on Linux </a></li>
+<li><a href="http://www.systutorials.com/239794/change-linux-account-password-ssh-beginers-tutorials/" rel="bookmark" title="How to Change Linux Account Password Through SSH: A Beginners&rsquo; Tutorial">How to Change Linux Account Password Through SSH: A Beginners&rsquo; Tutorial </a></li>
+</ol></div>]]></description>
+<author>Eric Zhiqiang Ma</author>
+<pubDate>Sun, 13 Sep 2015 04:44:41 +0100</pubDate>
+</item>
+
+<item>
+<guid>http://www.systutorials.com/?p=136737</guid>
+<title><![CDATA[Which Checksum Tool on Linux is Faster?]]></title>
+<link>http://www.systutorials.com/136737/which-checksum-tool-on-linux-is-faster/</link>
+<description><![CDATA[It is common practice to calculate the checksums for files to check its integrity. For large files, the checksum computation is slow. Now I am wondering why it is so slow and whether choosing another tool will be better. In this post, I try three common tools md5sum, sha1sum and crc32 to compute checksums on [&hellip;]<div>
+<h3>Related posts:</h3><ol><li><a href="http://www.systutorials.com/136128/ssd-enabled-for-dreamhost-shared-hosting-performance-measurement/" rel="bookmark" title="SSD Enabled For DreamHost Shared Hosting: Simple Performance Measurement">SSD Enabled For DreamHost Shared Hosting: Simple Performance Measurement </a></li>
+<li><a href="http://www.systutorials.com/136152/what-is-the-name-of-the-linux-based-os-a-survey/" rel="bookmark" title="What Is the Name of the Linux-based OS: A Survey">What Is the Name of the Linux-based OS: A Survey </a></li>
+<li><a href="http://www.systutorials.com/46294/making-gpt-partition-table-and-creating-partitions-with-parted-on-linux/" rel="bookmark" title="Making GPT Partition Table and Creating Partitions with parted on Linux">Making GPT Partition Table and Creating Partitions with parted on Linux </a></li>
+<li><a href="http://www.systutorials.com/3698/linux-flushing-file-system-caches/" rel="bookmark" title="Linux Flushing File System Caches">Linux Flushing File System Caches </a></li>
+</ol></div>]]></description>
+<author>Eric Zhiqiang Ma</author>
+<pubDate>Sat, 05 Sep 2015 07:07:02 +0100</pubDate>
+</item>
+
+<item>
+<guid>http://www.fclose.com/?p=5484</guid>
+<title><![CDATA[Running a Command Upon Files or Directories Changes on Linux]]></title>
+<link>http://www.systutorials.com/5484/running-a-command-upon-files-or-directories-changes-on-linux/</link>
+<description><![CDATA[Doing actions upon changes of files and directories is very useful. Examples like compiling a project after the source code files are changed, sending emails after important configuration files are modified, building the PDF after a TeX file is modified. On Linux, the inotify-tools provide good support for trigger actions after changes. In this post, [&hellip;]<div>
+<h3>Related posts:</h3><ol><li><a href="http://www.systutorials.com/4371/script-running-commands-on-a-list-of-servers/" rel="bookmark" title="Script: Running Commands on a List of Servers">Script: Running Commands on a List of Servers </a></li>
+<li><a href="http://www.systutorials.com/3588/mplayer-playing-dvd-directories-iso-files-disks/" rel="bookmark" title="MPlayer Playing DVD Directories / ISO Files / Disks">MPlayer Playing DVD Directories / ISO Files / Disks </a></li>
+<li><a href="http://www.systutorials.com/136968/three-methods-execute-commands-many-nodes-parallel-ssh-linux/" rel="bookmark" title="Three Methods of Executing Commands on Many Nodes in Parallel via SSH on Linux">Three Methods of Executing Commands on Many Nodes in Parallel via SSH on Linux </a></li>
+<li><a href="http://www.systutorials.com/39549/changing-linux-users-password-in-one-command-line/" rel="bookmark" title="Changing Linux User&rsquo;s Password in One Command Line">Changing Linux User&rsquo;s Password in One Command Line </a></li>
+</ol></div>]]></description>
+<author>Eric Zhiqiang Ma</author>
+<pubDate>Sun, 30 Aug 2015 05:30:05 +0100</pubDate>
+</item>
+
+<item>
+<guid>http://www.systutorials.com/?p=136720</guid>
+<title><![CDATA[How to Configure Scanner in an HP All-In-One Printer on Linux?]]></title>
+<link>http://www.systutorials.com/136720/how-to-configure-scanner-in-a-hp-all-in-one-printer-on-linux/</link>
+<description><![CDATA[The hplip packages contains all the tools you need to set up the HP scanner. For scanning, you may use the sane and xsane tools. The tricky part to enable the scanner is carefully choose which driver to use from the hplip package. If you choose a non-suitable driver, only the printer will work and [&hellip;]<div>
+<h3>Related posts:</h3><ol><li><a href="http://www.systutorials.com/193/configure-smobilenet-of-hkust-on-linux/" rel="bookmark" title="Configure sMobileNet of HKUST on Linux">Configure sMobileNet of HKUST on Linux </a></li>
+<li><a href="http://www.systutorials.com/4876/how-to-configure-ios-for-iphone-and-ipad-to-use-socks-proxy-created-by-ssh/" rel="bookmark" title="How to Configure iOS to Use Socks Proxy over SSH with a Linux/Unix Host">How to Configure iOS to Use Socks Proxy over SSH with a Linux/Unix Host </a></li>
+<li><a href="http://www.systutorials.com/5466/git-through-ssh-tunnel-as-proxy/" rel="bookmark" title="Git through SSH Tunnel as Proxy">Git through SSH Tunnel as Proxy </a></li>
+<li><a href="http://www.systutorials.com/5609/creating-fedora-20-domain-u-on-fedora-20-domain-0/" rel="bookmark" title="Creating Fedora 20 Domain-U on Fedora 20 Domain-0">Creating Fedora 20 Domain-U on Fedora 20 Domain-0 </a></li>
+</ol></div>]]></description>
+<author>Eric Zhiqiang Ma</author>
+<pubDate>Sat, 22 Aug 2015 14:27:34 +0100</pubDate>
+</item>
+
+<item>
+<guid>http://www.systutorials.com/?p=136711</guid>
+<title><![CDATA[How to Clean RAID Signatures on Linux]]></title>
+<link>http://www.systutorials.com/136711/how-to-clean-raid-signatures-on-linux/</link>
+<description><![CDATA[RAID systems such as MegaRAID add signatures to disks to maintain the infomration on these didks. When we simply remove these disks and install them to another server, Linux on the new server may detect these RAID signature infomration and refuses to continue write to the disk. Here is one example that mkfs reports &ldquo;apparently [&hellip;]<div>
+<h3>Related posts:</h3><ol><li><a href="http://www.systutorials.com/5175/how-to-find-out-failed-disks-sata-ports-in-linux/" rel="bookmark" title="How to Find Out Failed Disks&rsquo; SATA Ports in Linux">How to Find Out Failed Disks&rsquo; SATA Ports in Linux </a></li>
+<li><a href="http://www.systutorials.com/46294/making-gpt-partition-table-and-creating-partitions-with-parted-on-linux/" rel="bookmark" title="Making GPT Partition Table and Creating Partitions with parted on Linux">Making GPT Partition Table and Creating Partitions with parted on Linux </a></li>
+<li><a href="http://www.systutorials.com/124416/shrinking-a-ext4-file-system-on-lvm-in-linux/" rel="bookmark" title="Shrinking an Ext4 File System on LVM in Linux">Shrinking an Ext4 File System on LVM in Linux </a></li>
+<li><a href="http://www.systutorials.com/5621/extending-a-mounted-ext4-file-system-on-lvm-in-linux/" rel="bookmark" title="Extending a Mounted Ext4 File System on LVM in Linux">Extending a Mounted Ext4 File System on LVM in Linux </a></li>
+</ol></div>]]></description>
+<author>Eric Zhiqiang Ma</author>
+<pubDate>Sat, 15 Aug 2015 14:00:49 +0100</pubDate>
+</item>
+
+<item>
+<guid>http://www.systutorials.com/?p=136638</guid>
+<title><![CDATA[How to Regenerate Grub2 Config Files on Linux]]></title>
+<link>http://www.systutorials.com/136638/how-to-regenerate-grub2-config-file-on-linux/</link>
+<description><![CDATA[Grub2 config file may need to be re-generated after changing Grub2 configurations such as configuration changes and setting default boot entries. The Grub2&rsquo;s config file may be at different locations depending on your Linux distro and whether your Linux is booted in BIOS or UEFI mode. This makes regenerating Grub2 config file not easy for [&hellip;]<div>
+<h3>Related posts:</h3><ol><li><a href="http://www.systutorials.com/3826/setting-default-entry-in-grub2-and-grub/" rel="bookmark" title="Setting Default Entry in Grub2 and Grub">Setting Default Entry in Grub2 and Grub </a></li>
+<li><a href="http://www.systutorials.com/5484/running-a-command-upon-files-or-directories-changes-on-linux/" rel="bookmark" title="Running a Command Upon Files or Directories Changes on Linux">Running a Command Upon Files or Directories Changes on Linux </a></li>
+<li><a href="http://www.systutorials.com/3429/upgrading-fedora-to-newer-version-with-yum/" rel="bookmark" title="Upgrading Fedora to Newer Version with Yum">Upgrading Fedora to Newer Version with Yum </a></li>
+<li><a href="http://www.systutorials.com/50204/making-chrome-accept-self-signed-certificates-on-linux/" rel="bookmark" title="Making Chrome Accept Self-Signed Certificates on Linux">Making Chrome Accept Self-Signed Certificates on Linux </a></li>
+</ol></div>]]></description>
+<author>Eric Zhiqiang Ma</author>
+<pubDate>Wed, 29 Apr 2015 02:20:16 +0100</pubDate>
+</item>
+
+<item>
+<guid>http://www.ericzma.com/blog/?p=4614</guid>
+<title><![CDATA[Random Photos 2015]]></title>
+<link>http://www.ericzma.com/blog/4614/random-photos-2015/</link>
+<description><![CDATA[<p>My random photos in 2015.</p>
+<p>Read the post <a rel="nofollow" href="http://www.ericzma.com/blog/4614/random-photos-2015/">Random Photos 2015</a> on <a rel="nofollow" href="http://www.ericzma.com/blog">Eric's Blog</a>.</p>]]></description>
+<author>Eric Zhiqiang Ma</author>
+<pubDate>Mon, 09 Mar 2015 06:43:52 +0000</pubDate>
+</item>
+
+<item>
+<guid>http://www.ericzma.com/blog/?p=4600</guid>
+<title><![CDATA[My Little Girl 2015]]></title>
+<link>http://www.ericzma.com/blog/4600/my-little-girl-2015/</link>
+<description><![CDATA[<p>Photos of my daughter in 2015.</p>
+<p>Read the post <a rel="nofollow" href="http://www.ericzma.com/blog/4600/my-little-girl-2015/">My Little Girl 2015</a> on <a rel="nofollow" href="http://www.ericzma.com/blog">Eric's Blog</a>.</p>]]></description>
+<author>Eric Zhiqiang Ma</author>
+<pubDate>Sat, 07 Mar 2015 01:01:19 +0000</pubDate>
+</item>
+
+<item>
+<guid>http://www.ericzma.com/blog/?p=4582</guid>
+<title><![CDATA[New Shoots in Shandong During Chinese New Year 2015]]></title>
+<link>http://www.ericzma.com/blog/4582/new-shoots-in-shandong-during-chinese-new-year-2015/</link>
+<description><![CDATA[<p>This year, I finally made it to go back to Shandong for the Chinese New Year after 5-year absence. It is warmer this year than it was usually be and new shoots are pushed out. Here are several photos I took with my iPhone in the yard. New shoots are herald of a bright new [&hellip;]</p>
+<p>Read the post <a rel="nofollow" href="http://www.ericzma.com/blog/4582/new-shoots-in-shandong-during-chinese-new-year-2015/">New Shoots in Shandong During Chinese New Year 2015</a> on <a rel="nofollow" href="http://www.ericzma.com/blog">Eric's Blog</a>.</p>]]></description>
+<author>Eric Zhiqiang Ma</author>
+<pubDate>Sat, 28 Feb 2015 02:02:59 +0000</pubDate>
+</item>
+
+<item>
+<guid>http://www.ericzma.com/blog/?p=4557</guid>
+<title><![CDATA[Updated Data Thinker Website and Poster]]></title>
+<link>http://www.ericzma.com/blog/4557/updated-data-thinker-website-and-poster/</link>
+<description><![CDATA[<p>Recently I graduated from HKUST with a PhD degree and started my career as a software engineer at Hututa Technologies which is a HK-based startup. I am working on the Data Thinker (D-thinker) technology and we just updated the website and added a poster (in Chinese) on D-thinker. For those who are interested, visit our [&hellip;]</p>
+<p>Read the post <a rel="nofollow" href="http://www.ericzma.com/blog/4557/updated-data-thinker-website-and-poster/">Updated Data Thinker Website and Poster</a> on <a rel="nofollow" href="http://www.ericzma.com/blog">Eric's Blog</a>.</p>]]></description>
+<author>Eric Zhiqiang Ma</author>
+<pubDate>Tue, 14 Oct 2014 09:42:37 +0100</pubDate>
+</item>
+
+<item>
+<guid>http://www.ericzma.com/blog/?p=4496</guid>
+<title><![CDATA[Hiking: from Tsuen Kam Au to Sham Tseng along Maclehose Trail Section 9 and Yuen Tsuen Ancient Trail]]></title>
+<link>http://www.ericzma.com/blog/4496/hiking-from-tsuen-kam-au-to-sham-tseng-along-maclehose-trail-section-9-and-yuen-tsuen-ancient-trail/</link>
+<description><![CDATA[<p>We hided most sections of the Maclehose Trail in the last several year and have only Section 9 of Maclehose Trail left. This section is relatively short and there is no bus out from Tin Fu Tsai: Maclehose Trail Section 9 Starting Point: Route Twisk Finishing Point: Tin Fu Tsai Length: 6.3 kilometres Time: 2.5 [&hellip;]</p>
+<p>Read the post <a rel="nofollow" href="http://www.ericzma.com/blog/4496/hiking-from-tsuen-kam-au-to-sham-tseng-along-maclehose-trail-section-9-and-yuen-tsuen-ancient-trail/">Hiking: from Tsuen Kam Au to Sham Tseng along Maclehose Trail Section 9 and Yuen Tsuen Ancient Trail</a> on <a rel="nofollow" href="http://www.ericzma.com/blog">Eric's Blog</a>.</p>]]></description>
+<author>Eric Zhiqiang Ma</author>
+<pubDate>Sun, 11 May 2014 07:43:13 +0100</pubDate>
+</item>
+
+<item>
+<guid>http://www.ericzma.com/blog/?p=4457</guid>
+<title><![CDATA[Xinyan With Grandma and Grandpa]]></title>
+<link>http://www.ericzma.com/blog/4457/xinyan-with-grandma-and-grandpa/</link>
+<description><![CDATA[<p>Xinyan is with Grandma and Grandpa in Mar. 2014. Some more photos are here.</p>
+<p>Read the post <a rel="nofollow" href="http://www.ericzma.com/blog/4457/xinyan-with-grandma-and-grandpa/">Xinyan With Grandma and Grandpa</a> on <a rel="nofollow" href="http://www.ericzma.com/blog">Eric's Blog</a>.</p>]]></description>
+<author>Eric Zhiqiang Ma</author>
+<pubDate>Tue, 18 Mar 2014 06:14:06 +0000</pubDate>
+</item>
+
+<item>
+<guid>http://www.zhiqiangma.com/blog/?p=4445</guid>
+<title><![CDATA[My Little Girl 2014]]></title>
+<link>http://www.ericzma.com/blog/4445/my-little-girl-2014/</link>
+<description><![CDATA[<p>Photos of my daughter in 2014.</p>
+<p>Read the post <a rel="nofollow" href="http://www.ericzma.com/blog/4445/my-little-girl-2014/">My Little Girl 2014</a> on <a rel="nofollow" href="http://www.ericzma.com/blog">Eric's Blog</a>.</p>]]></description>
+<author>Eric Zhiqiang Ma</author>
+<pubDate>Wed, 05 Feb 2014 01:54:25 +0000</pubDate>
+</item>
+
+<item>
+<guid>http://www.zhiqiangma.com/blog/?p=4099</guid>
+<title><![CDATA[Photos, 2012.11.4]]></title>
+<link>http://www.ericzma.com/blog/4099/photos-2012-11-4/</link>
+<description><![CDATA[<p>Photos taken on Nov. 4, 2012.</p>
+<p>Read the post <a rel="nofollow" href="http://www.ericzma.com/blog/4099/photos-2012-11-4/">Photos, 2012.11.4</a> on <a rel="nofollow" href="http://www.ericzma.com/blog">Eric's Blog</a>.</p>]]></description>
+<author>Eric Zhiqiang Ma</author>
+<pubDate>Sat, 10 Aug 2013 10:37:57 +0100</pubDate>
+</item>
+
+<item>
+<guid>http://www.zhiqiangma.com/blog/?p=4324</guid>
+<title><![CDATA[My Little Girl 2013]]></title>
+<link>http://www.ericzma.com/blog/4324/my-little-girl/</link>
+<description><![CDATA[<p>Collection of my daughter&rsquo;s photos in 2013.</p>
+<p>Read the post <a rel="nofollow" href="http://www.ericzma.com/blog/4324/my-little-girl/">My Little Girl 2013</a> on <a rel="nofollow" href="http://www.ericzma.com/blog">Eric's Blog</a>.</p>]]></description>
+<author>Eric Zhiqiang Ma</author>
+<pubDate>Thu, 08 Aug 2013 15:14:29 +0100</pubDate>
+</item>
+
+<item>
+<guid>http://www.zhiqiangma.com/blog/?p=4262</guid>
+<title><![CDATA[Random Photos 2013]]></title>
+<link>http://www.ericzma.com/blog/4262/random-photos-2013/</link>
+<description><![CDATA[<p>Some random photos taken in year 2013.</p>
+<p>Read the post <a rel="nofollow" href="http://www.ericzma.com/blog/4262/random-photos-2013/">Random Photos 2013</a> on <a rel="nofollow" href="http://www.ericzma.com/blog">Eric's Blog</a>.</p>]]></description>
+<author>Eric Zhiqiang Ma</author>
+<pubDate>Mon, 20 May 2013 08:15:47 +0100</pubDate>
+</item>
+</channel>
+</rss>

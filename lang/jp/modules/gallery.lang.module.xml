@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_MOD_GA_TITLE">CMSのギャラリーを管理します。</phrase>
+  <phrase data="_MOD_GA_SUB">ここにギャラリーモジュールを設定できます。</phrase>
+  <phrase data="_MOD_GA_TITLE1">ギャラリー編集</phrase>
+  <phrase data="_MOD_GA_NEW">新ギャラリー</phrase>
+  <phrase data="_MOD_GA_PHOTOS">写真</phrase>
+  <phrase data="_MOD_GA_DEL_OK">「NAME」のギャラリーが削除されました。!</phrase>
+  <phrase data="_MOD_GA_NOGAL">ギャラリーまだありません。...</phrase>
+  <phrase data="_MOD_GA_NOPHOTO">写真まだありません。...</phrase>
+  <phrase data="_MOD_GA_SUB2">ギャラリー更新</phrase>
+  <phrase data="_MOD_GA_SUB3">ギャラリー作成</phrase>
+  <phrase data="_MOD_GA_SUB4">写真を管理</phrase>
+  <phrase data="_MOD_GA_SUB5">写真追加</phrase>
+  <phrase data="_MOD_GA_SUB6">ギャラリー選択</phrase>
+  <phrase data="_MOD_GA_SUB7">ギャラリー添付</phrase>
+  <phrase data="_MOD_GA_UPDATE_OK">「NAME]のギャラリーが更新された。</phrase>
+  <phrase data="_MOD_GA_ADDED_OK">「NAME」のギャラリーが追加された。</phrase>
+  <phrase data="_MOD_GA_PHOTO_OK">「NAME」の写真が更新された。</phrase>
+  <phrase data="_MOD_GA_PHOTO_DEL_OK">「NAME」の写真が削除された。</phrase>
+  <phrase data="_MOD_GA_THUMBW">サムネイルの幅</phrase>
+  <phrase data="_MOD_GA_THUMBH">サムネイルの高さ</phrase>
+  <phrase data="_MOD_GA_COLS">カラムサイズ</phrase>
+  <phrase data="_MOD_GA_WMARK">Watermarkを有効にする。</phrase>
+  <phrase data="_MOD_GA_LIKE">ライクを有効にする。</phrase>
+  <phrase data="_MOD_GA_DIR">無効なギャラリーフォルダ</phrase>
+  <phrase data="_MOD_GA_POSTER">ポスター</phrase>
+  <phrase data="_MOD_GA_RESIZE_TH">画像のサムネイルのサイズを変更する。</phrase>
+  <phrase data="_MOD_GA_RESIZE_THE">メソッドのサイズを変更する。</phrase>
+  <phrase data="_MOD_GA_RESIZE_OK">「NUMBER」の画像のサイズが変更された。</phrase>
+  <phrase data="_MOD_GA_INFO">しばらくお待ちください。この操作には時間がかかることがありますから。</phrase>
+</language>

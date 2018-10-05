@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_PLG_NSL_TITLE">ニュースレターの購読者を管理する</phrase>
+  <phrase data="_PLG_NSL_INFO">「TOTAL」の合計のニュースレターの購読者を入力しませんか？</phrase>
+  <phrase data="_PLG_NSL_SUB">購読</phrase>
+  <phrase data="_PLG_NSL_SUB1">購読なし</phrase>
+  <phrase data="_PLG_NSL_SUBOK">正常に購読されました。</phrase>
+  <phrase data="_PLG_NSL_UNSUBOK">購読されていません。</phrase>
+</language>

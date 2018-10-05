@@ -1,0 +1,586 @@
+/* == Header == */
+.wojo.header {
+  border: none;
+  padding: 0em;
+  font-family: 'wSansBold', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  text-transform: none;
+  color: #424343;
+}
+.wojo.header:first-child {
+  margin-top: 0;
+}
+.wojo.header:last-child {
+  margin-bottom: 0em;
+}
+.wojo.header .sub.header {
+  display: block;
+  font-family: 'wSansLight';
+  padding: 0em;
+  padding-bottom: 1em;
+  margin-top: .5em;
+  font-size: 1rem;
+  line-height: 1.25em;
+  position: relative;
+}
+.wojo.header .sub.header:before {
+  background: #C0392B;
+  content: "";
+  height: 2px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: auto;
+  top: 100%;
+  width: 30px;
+  z-index: 1;
+}
+.wojo.header .sub.header:after {
+  background: rgba(0,0,0,0.2);
+  content: "";
+  height: 2px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: auto;
+  top: 100%;
+  width: 80px;
+}
+.wojo.header .sub.header.center:before,
+.wojo.header.center.aligned .sub.header:before {
+  right: 0;
+}
+.wojo.header .sub.header.center:after,
+.wojo.header.center.aligned .sub.header:after {
+  right: 0;
+}
+.wojo.header.right.aligned .sub.header:before,
+.wojo.header.right.aligned .sub.header:after {
+  left:auto;
+  right:0
+}
+.wojo.header > .icon {
+  display: table-cell;
+  opacity: 1;
+  font-size: 1.5em;
+  padding-top: 0.133em;
+  vertical-align: middle;
+}
+.wojo.header .icon:only-child {
+  display: inline-block;
+  padding: 0em;
+  margin-right: 0.75rem;
+}
+.wojo.header > .image,
+.wojo.header > img {
+  display: inline-block;
+  margin-top: 0.133em;
+  width: 2.5em;
+  height: auto;
+  vertical-align: middle;
+}
+.wojo.header > .image:only-child,
+.wojo.header > img:only-child {
+  margin-right: 0.75rem;
+}
+.wojo.header .content {
+  display: inline-block;
+  vertical-align: top;
+}
+/* After Image */
+.wojo.header > img + .content,
+.wojo.header > .image + .content {
+  padding-left: 0.75rem;
+  vertical-align: middle;
+}
+.wojo.header > .icon + .content {
+  padding-left: 0.75rem;
+  display: table-cell;
+  vertical-align: middle;
+}
+.wojo.header .wojo.label {
+  font-size: '';
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+.wojo.header + p {
+  margin-top: 0em;
+}
+/* == Types == */
+h1.wojo.header,
+h1 {
+  font-size: 3rem;
+  font-family: 'wSansLight';
+}
+h2.wojo.header,
+h2 {
+  font-size: 2.5rem;
+  font-family: 'wSansDemi';
+}
+h3.wojo.header,
+h3 {
+  font-size: 1.625rem;
+  font-family: 'wSansDemi';
+}
+h4.wojo.header,
+h4 {
+  font-size: 1.25rem;
+}
+h5.wojo.header,
+h5 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+h1.wojo.header .sub.header {
+  font-size: 1.125rem;
+}
+h2.wojo.header .sub.header {
+  font-size: 1rem;
+}
+h3.wojo.header .sub.header {
+  font-size: 1rem;
+}
+h4.wojo.header .sub.header {
+  font-size: 1rem;
+}
+h5.wojo.header .sub.header {
+  font-size: 0.875rem;
+  
+}
+.wojo.huge.header {
+  min-height: 1em;
+  font-size: 2em;
+}
+.wojo.large.header {
+  font-size: 1.714em;
+}
+.wojo.medium.header {
+  font-size: 1.28em;
+}
+.wojo.small.header {
+  font-size: 1.071em;
+}
+.wojo.tiny.header {
+  font-size: 1em;
+}
+.wojo.huge.header .sub.header {
+  font-size: 1.14285714rem;
+}
+.wojo.large.header .sub.header {
+  font-size: 1.14285714rem;
+}
+.wojo.header .sub.header {
+  font-size: 1rem;
+}
+.wojo.small.header .sub.header {
+  font-size: 1rem;
+}
+.wojo.tiny.header .sub.header {
+  font-size: 0.92857143rem;
+}
+.wojo.sub.header {
+  padding: 0em;
+  margin-bottom: 0.14285714rem;
+  font-size: 0.85714286em;
+  text-transform: uppercase;
+  color: '';
+}
+.wojo.small.sub.header {
+  font-size: 0.78571429em;
+}
+.wojo.sub.header {
+  font-size: 0.85714286em;
+}
+.wojo.large.sub.header {
+  font-size: 0.92857143em;
+}
+.wojo.huge.sub.header {
+  font-size: 1em;
+}
+.wojo.icon.header {
+  display: inline-block;
+  text-align: center;
+  margin: 2rem 0em 1rem;
+}
+.wojo.icon.header:after {
+  content: '';
+  display: block;
+  height: 0px;
+  clear: both;
+  visibility: hidden;
+}
+.wojo.icon.header:first-child {
+  margin-top: 0em;
+}
+.wojo.icon.header .icon {
+  display: inline-block;
+  float: none;
+  width: auto;
+  height: auto;
+  line-height: 1;
+  padding: 0em;
+  margin: 0em auto 0.5rem;
+  opacity: 1;
+}
+.wojo.icon.header .content {
+  display: block;
+  padding: 0em;
+}
+.wojo.icon.header .circular.icon {
+  /*font-size: 2em;*/
+}
+.wojo.icon.header .square.icon {
+  /*font-size: 2em;*/
+}
+.wojo.block.icon.header .icon {
+  margin-bottom: 0em;
+}
+.wojo.icon.header.aligned {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.wojo.disabled.header {
+  opacity: 0.45;
+}
+/* == Variations == */
+.wojo.inverted.header {
+  color: #FFFFFF;
+}
+.wojo.inverted.header .sub.header {
+  color: rgba(255, 255, 255, 0.8);
+}
+.wojo.inverted.attached.header {
+  background: #545454 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #545454 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  box-shadow: none;
+  border-color: transparent;
+}
+.wojo.inverted.block.header {
+  background: #545454 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #545454 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  box-shadow: none;
+}
+.wojo.inverted.block.header {
+  border-bottom: none;
+}
+/* == Colors == */
+.wojo.red.header {
+  color: #DB2828 !important;
+}
+a.wojo.red.header:hover {
+  color: #d01919 !important;
+}
+.wojo.red.dividing.header {
+  border-bottom: 2px solid #DB2828;
+}
+/* Inverted */
+.wojo.inverted.red.header {
+  color: #FF695E !important;
+}
+a.wojo.inverted.red.header:hover {
+  color: #ff5144 !important;
+}
+/*--- Orange ---*/
+.wojo.orange.header {
+  color: #F2711C !important;
+}
+a.wojo.orange.header:hover {
+  color: #f26202 !important;
+}
+.wojo.orange.dividing.header {
+  border-bottom: 2px solid #F2711C;
+}
+/* Inverted */
+.wojo.inverted.orange.header {
+  color: #FF851B !important;
+}
+a.wojo.inverted.orange.header:hover {
+  color: #ff7701 !important;
+}
+/*--- Olive ---*/
+.wojo.olive.header {
+  color: #B5CC18 !important;
+}
+a.wojo.olive.header:hover {
+  color: #a7bd0d !important;
+}
+.wojo.olive.dividing.header {
+  border-bottom: 2px solid #B5CC18;
+}
+/* Inverted */
+.wojo.inverted.olive.header {
+  color: #D9E778 !important;
+}
+a.wojo.inverted.olive.header:hover {
+  color: #d8ea5c !important;
+}
+/*--- Yellow ---*/
+.wojo.yellow.header {
+  color: #FBBD08 !important;
+}
+a.wojo.yellow.header:hover {
+  color: #eaae00 !important;
+}
+.wojo.yellow.dividing.header {
+  border-bottom: 2px solid #FBBD08;
+}
+/* Inverted */
+.wojo.inverted.yellow.header {
+  color: #FFE21F !important;
+}
+a.wojo.inverted.yellow.header:hover {
+  color: #ffdf05 !important;
+}
+/*--- Green ---*/
+.wojo.green.header {
+  color: #21BA45 !important;
+}
+a.wojo.green.header:hover {
+  color: #16ab39 !important;
+}
+.wojo.green.dividing.header {
+  border-bottom: 2px solid #21BA45;
+}
+/* Inverted */
+.wojo.inverted.green.header {
+  color: #2ECC40 !important;
+}
+a.wojo.inverted.green.header:hover {
+  color: #22be34 !important;
+}
+/*--- Teal ---*/
+.wojo.teal.header {
+  color: #00B5AD !important;
+}
+a.wojo.teal.header:hover {
+  color: #009c95 !important;
+}
+.wojo.teal.dividing.header {
+  border-bottom: 2px solid #00B5AD;
+}
+/* Inverted */
+.wojo.inverted.teal.header {
+  color: #6DFFFF !important;
+}
+a.wojo.inverted.teal.header:hover {
+  color: #54ffff !important;
+}
+/*--- Blue ---*/
+.wojo.blue.header {
+  color: #2185D0 !important;
+}
+a.wojo.blue.header:hover {
+  color: #1678c2 !important;
+}
+.wojo.blue.dividing.header {
+  border-bottom: 2px solid #2185D0;
+}
+/* Inverted */
+.wojo.inverted.blue.header {
+  color: #54C8FF !important;
+}
+a.wojo.inverted.blue.header:hover {
+  color: #3ac0ff !important;
+}
+/*--- Violet ---*/
+.wojo.violet.header {
+  color: #6435C9 !important;
+}
+a.wojo.violet.header:hover {
+  color: #5829bb !important;
+}
+.wojo.violet.dividing.header {
+  border-bottom: 2px solid #6435C9;
+}
+/* Inverted */
+.wojo.inverted.violet.header {
+  color: #A291FB !important;
+}
+a.wojo.inverted.violet.header:hover {
+  color: #8a73ff !important;
+}
+/*--- Purple ---*/
+.wojo.purple.header {
+  color: #A333C8 !important;
+}
+a.wojo.purple.header:hover {
+  color: #9627ba !important;
+}
+.wojo.purple.dividing.header {
+  border-bottom: 2px solid #A333C8;
+}
+/* Inverted */
+.wojo.inverted.purple.header {
+  color: #DC73FF !important;
+}
+a.wojo.inverted.purple.header:hover {
+  color: #d65aff !important;
+}
+/*--- Pink ---*/
+.wojo.pink.header {
+  color: #E03997 !important;
+}
+a.wojo.pink.header:hover {
+  color: #e61a8d !important;
+}
+.wojo.pink.dividing.header {
+  border-bottom: 2px solid #E03997;
+}
+/* Inverted */
+.wojo.inverted.pink.header {
+  color: #FF8EDF !important;
+}
+a.wojo.inverted.pink.header:hover {
+  color: #ff74d8 !important;
+}
+/*--- Brown ---*/
+.wojo.brown.header {
+  color: #A5673F !important;
+}
+a.wojo.brown.header:hover {
+  color: #975b33 !important;
+}
+.wojo.brown.dividing.header {
+  border-bottom: 2px solid #A5673F;
+}
+/* Inverted */
+.wojo.inverted.brown.header {
+  color: #D67C1C !important;
+}
+a.wojo.inverted.brown.header:hover {
+  color: #c86f11 !important;
+}
+/*--- Grey ---*/
+.wojo.grey.header {
+  color: #767676 !important;
+}
+a.wojo.grey.header:hover {
+  color: #838383 !important;
+}
+.wojo.grey.dividing.header {
+  border-bottom: 2px solid #767676;
+}
+/* Inverted */
+.wojo.inverted.grey.header {
+  color: #DCDDDE !important;
+}
+a.wojo.inverted.grey.header:hover {
+  color: #cfd0d2 !important;
+}
+/* == Aligned == */
+.wojo.left.aligned.header {
+  text-align: left;
+}
+.wojo.right.aligned.header {
+  text-align: right;
+}
+.wojo.centered.header,
+.wojo.center.aligned.header {
+  text-align: center;
+}
+.wojo.justified.header {
+  text-align: justify;
+}
+.wojo.justified.header:after {
+  display: inline-block;
+  content: '';
+  width: 100%;
+}
+/* == Floated == */
+.wojo.floated.header,
+.wojo[class*="left floated"].header {
+  float: left;
+  margin-top: 0em;
+  margin-right: 0.5em;
+}
+.wojo[class*="right floated"].header {
+  float: right;
+  margin-top: 0em;
+  margin-left: 0.5em;
+}
+.wojo.fitted.header {
+  padding: 0em;
+}
+/* == Dividing == */
+.wojo.dividing.header {
+  padding-bottom: 0.21428571rem;
+  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+}
+.wojo.dividing.header .sub.header {
+  padding-bottom: 0.21428571rem;
+}
+.wojo.dividing.header .icon {
+  margin-bottom: 0em;
+}
+.wojo.inverted.dividing.header {
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+/* == Block == */
+.wojo.block.header {
+  background: #F3F4F5;
+  padding: 0.78571429rem 1rem;
+  box-shadow: none;
+  border: 1px solid #D4D4D5;
+  border-radius: 0.28571429rem;
+}
+.wojo.tiny.block.header {
+  font-size: 0.85714286rem;
+}
+.wojo.small.block.header {
+  font-size: 0.92857143rem;
+}
+.wojo.block.header:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+  font-size: 1rem;
+}
+.wojo.large.block.header {
+  font-size: 1.14285714rem;
+}
+.wojo.huge.block.header {
+  font-size: 1.42857143rem;
+}
+/* == Attached == */
+.wojo.attached.header {
+  background: #FFFFFF;
+  padding: 0.78571429rem 1rem;
+  margin-left: -1px;
+  margin-right: -1px;
+  box-shadow: none;
+  border: 1px solid #D4D4D5;
+}
+.wojo.attached.block.header {
+  background: #F3F4F5;
+}
+.wojo.attached:not(.top):not(.bottom).header {
+  margin-top: 0em;
+  margin-bottom: 0em;
+  border-top: none;
+  border-radius: 0em;
+}
+.wojo.top.attached.header {
+  margin-bottom: 0em;
+  border-radius: 0.28571429rem 0.28571429rem 0em 0em;
+}
+.wojo.bottom.attached.header {
+  margin-top: 0em;
+  border-top: none;
+  border-radius: 0em 0em 0.28571429rem 0.28571429rem;
+}
+/* Attached Sizes */
+.wojo.tiny.attached.header {
+  font-size: 0.85714286em;
+}
+.wojo.small.attached.header {
+  font-size: 0.92857143em;
+}
+.wojo.attached.header:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+  font-size: 1em;
+}
+.wojo.large.attached.header {
+  font-size: 1.14285714em;
+}
+.wojo.huge.attached.header {
+  font-size: 1.42857143em;
+}
+.wojo.header:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+  font-size: 1.250em;
+}

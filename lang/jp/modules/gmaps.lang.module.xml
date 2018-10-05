@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_MOD_GM_TITLE">マップのロケーションを管理</phrase>
+  <phrase data="_MOD_GM_TITLE1">マップのロケーションを編集</phrase>
+  <phrase data="_MOD_GM_TITLE2">新マップロケーション</phrase>
+  <phrase data="_MOD_GM_UPDATE">マップ更新</phrase>
+  <phrase data="_MOD_GM_SUB">マップタイプ</phrase>
+  <phrase data="_MOD_GM_SUB1">ズームレベル</phrase>
+  <phrase data="_MOD_GM_SUB1_1">最小/最大ズームレベル</phrase>
+  <phrase data="_MOD_GM_SUB2">タイプコントロール</phrase>
+  <phrase data="_MOD_GM_SUB3">ストリートビュー</phrase>
+  <phrase data="_MOD_GM_SUB4">プリセットスタイル</phrase>
+  <phrase data="_MOD_GM_NEW">新ロケーション</phrase>
+  <phrase data="_MOD_GM_SUB5">アドレス検索</phrase>
+  <phrase data="_MOD_GM_SUB6">ピン</phrase>
+  <phrase data="_MOD_GM_SUB7">新ロケーション</phrase>
+  <phrase data="_MOD_GM_PINS">カスタムピン</phrase>
+  <phrase data="_MOD_GM_LAT">Latitude</phrase>
+  <phrase data="_MOD_GM_LNG">Longitude</phrase>
+  <phrase data="_MOD_GM_NOMAPS">まだロケーションを入力していませんか？ご入力ください。...</phrase>
+  <phrase data="_MOD_GM_DEL_OK">「NAME」のロケーションが削除された。!</phrase>
+  <phrase data="_MOD_GM_UPDATE_OK">「NAME」のロケーションが更新された。!</phrase>
+  <phrase data="_MOD_GM_ADDED_OK">「NAME」のロケーションが追加された。!</phrase>
+</language>

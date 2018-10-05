@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language>
+  <phrase data="_MOD_FAQ_NEW">Câu hỏi mới </phrase>
+  <phrase data="_MOD_FAQ_DEL_OK">Câu hỏi [TÊN] đã xóa thành công !</phrase>
+  <phrase data="_MOD_FAQ_QUESTION">Câu hỏi</phrase>
+  <phrase data="_MOD_FAQ_NOFAQS">Bạn chưa có câu hỏi nào. Vui lòng thêm vào .</phrase>
+  <phrase data="_MOD_FAQ_TITLE">Quản lý F.A.Q 	</phrase>
+  <phrase data="_MOD_FAQ_TITLE1">Sửa câu hỏi </phrase>
+  <phrase data="_MOD_FAQ_TITLE2">Thêm câu hỏi </phrase>
+  <phrase data="_MOD_FAQ_SUB">Yêu cầu câu hỏi thường xuyên</phrase>
+  <phrase data="_MOD_FAQ_INFO">Câu hỏi chung nhất </phrase>
+  <phrase data="_MOD_FAQ_UPDATE">Cập nhật câu hỏi </phrase>
+  <phrase data="_MOD_FAQ_UPDATED">Câu hỏi  [TÊN] đã cập nhật thành công!</phrase>
+  <phrase data="_MOD_FAQ_ADDED">Câu hỏi  [TÊN] đã thêm thành công!</phrase>
+  <phrase data="_MOD_FAQ_NOFAQF">Xin lỗi chúng tôi chưa có câu hỏi nào ...</phrase>
+</language>

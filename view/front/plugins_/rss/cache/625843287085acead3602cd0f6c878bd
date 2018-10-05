@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/yrss.xsl" type="text/xsl" media="screen"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <ttl>10</ttl>
+    <copyright>Copyright (c) 2017 Yahoo!, Inc. All rights reserved.</copyright>
+    <language>en-us</language>
+    <image>
+      <width>126</width>
+      <height>15</height>
+      <link>https://ca.sports.yahoo.com</link>
+      <title>Yahoo Sports</title>
+      <url>http://l.yimg.com/rz/d/yahoo_sports_en-US_s_f_p_182x21_sports.gif</url>
+    </image>
+    <title>Yahoo Canada Sports - NHL News</title>
+    <link>http://ca.sports.yahoo.com/nhl</link>
+    <description>Latest news and information about the NHL.</description>
+    <item>
+      <media:content url="https://s.yimg.com/iu/api/res/1.2/Yunxr97Dhp2E5IWiMLaH3Q--/YXBwaWQ9c2hhcmVkO2NoPTIxOTE7Y3I9MTtjdz0yMTkxO2R4PTExNjtkeT0wO2ZpPXVsY3JvcDtoPTEzMDtxPTEwMDt3PTEzMA--/http://media.zenfs.com/en_us/Sports/ap/201701082056753645012" height="130" width="130" type="image/jpeg"/>
+      <media:credit role="provider">The Associated Press</media:credit>
+      <media:text type="html"><![CDATA[Minnesota Wild team members celebrates after defenseman Matt Dumba&#39;s goal past Anaheim Ducks goalie John Gibson during the second period of an NHL hockey game in Anaheim, Calif., Sunday, Jan. 8, 2017. (AP Photo/Chris Carlson)]]></media:text>
+      <title>Bruce Boudreau wins in Anaheim return as Wild beat Ducks 2-1 (Yahoo Sports)</title>
+      <link>http://ca.rd.yahoo.com/sports/rss/nhl/SIG=13bomv31b/*https%3A//ca.sports.yahoo.com/news/bruce-boudreau-wins-anaheim-return-wild-beat-ducks-035546496--nhl.html</link>
+      <description><![CDATA[<p><a href="http://ca.rd.yahoo.com/sports/rss/nhl/SIG=13bomv31b/*https%3A//ca.sports.yahoo.com/news/bruce-boudreau-wins-anaheim-return-wild-beat-ducks-035546496--nhl.html"><img src="https://s.yimg.com/iu/api/res/1.2/Yunxr97Dhp2E5IWiMLaH3Q--/YXBwaWQ9c2hhcmVkO2NoPTIxOTE7Y3I9MTtjdz0yMTkxO2R4PTExNjtkeT0wO2ZpPXVsY3JvcDtoPTEzMDtxPTEwMDt3PTEzMA--/http://media.zenfs.com/en_us/Sports/ap/201701082056753645012"  width="130" height="130"  alt="Minnesota Wild team members celebrates after defenseman Matt Dumba&#39;s goal past Anaheim Ducks goalie John Gibson during the second period of an NHL hockey game in Anaheim, Calif., Sunday, Jan. 8, 2017. (AP Photo/Chris Carlson)" align="left" border="0"></a></p><p>Bruce Boudreau is a likable guy who loves to hold court, and he spent his pregame hours Sunday entertaining a stream of Orange County friends, former co-workers and general well-wishers in the Minnesota Wild's dressing room.  Matt Dumba and Jared Spurgeon scored early in the second period, and the Wild beat the Ducks 2-1 in Boudreau's triumphant return.</p><br clear="all" />]]></description>
+      <pubDate>Sun, 08 Jan 2017 21:23:05 PST</pubDate>
+      <category>NHL</category>
+      <guid isPermaLink="false">urn:newsml:sports.yahoo,lego:19780928:top,article,92840b56-56d0-33d2-a683-da7ad673c562-l:1</guid>
+    </item>
+    <item>
+      <media:content url="https://s.yimg.com/iu/api/res/1.2/tVw3cOoIP90S5DUbhZxxMg--/YXBwaWQ9c2hhcmVkO2NoPTM5Njtjcj0xO2N3PTM5NjtkeD05OTtkeT0wO2ZpPXVsY3JvcDtoPTEzMDtxPTEwMDt3PTEzMA--/http://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/8e443af158c9a2ea0494be612afeb1e2" height="130" width="130" type="image/jpeg"/>
+      <media:credit role="provider">Puck Daddy</media:credit>
+      <media:text type="html"><![CDATA[NHL Three Stars: Hartman&#39;s hat trick; Senators snap skid]]></media:text>
+      <title>NHL Three Stars: Hartman's hat trick; Senators snap skid (Yahoo Sports)</title>
+      <link>http://ca.rd.yahoo.com/sports/rss/nhl/SIG=139dcg5v1/*https%3A//ca.sports.yahoo.com/news/nhl-three-stars-hartmans-hat-trick-senators-snap-skid-051633755.html</link>
+      <description><![CDATA[<p><a href="http://ca.rd.yahoo.com/sports/rss/nhl/SIG=139dcg5v1/*https%3A//ca.sports.yahoo.com/news/nhl-three-stars-hartmans-hat-trick-senators-snap-skid-051633755.html"><img src="https://s.yimg.com/iu/api/res/1.2/tVw3cOoIP90S5DUbhZxxMg--/YXBwaWQ9c2hhcmVkO2NoPTM5Njtjcj0xO2N3PTM5NjtkeD05OTtkeT0wO2ZpPXVsY3JvcDtoPTEzMDtxPTEwMDt3PTEzMA--/http://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/8e443af158c9a2ea0494be612afeb1e2"  width="130" height="130"  alt="NHL Three Stars: Hartman&#39;s hat trick; Senators snap skid" align="left" border="0"></a></p><p>No. 1 Star: Ryan Hartman, Chicago Blackhawks</p><br clear="all" />]]></description>
+      <pubDate>Sun, 08 Jan 2017 21:16:33 PST</pubDate>
+      <category>nhl</category>
+      <guid isPermaLink="false">urn:newsml:sports.yahoo,lego:19780928:top,article,327aad94-e95b-314d-8d18-85ddd9850551-l:1</guid>
+    </item>
+    <item>
+      <title>Flames star Laine out for game against Jets (Yahoo Sports)</title>
+      <link>http://ca.rd.yahoo.com/sports/rss/nhl/SIG=12smunv13/*https%3A//ca.sports.yahoo.com/news/flames-star-laine-game-against-jets-044411661--nhl.html</link>
+      <description>The Finnish phenom, who leads all rookies in scoring with 37 points and is tied with Toronto's Auston Matthews for the goal-scoring lead with 21, got rocked by an open-ice hit from Buffalo defenseman Jake McCabe in the third period of Saturday afternoon 4-3 loss to the Sabres.  "Patty's got a concussion," said Jets coach Paul Maurice after the Jets practice on Sunday.</description>
+      <pubDate>Sun, 08 Jan 2017 20:44:11 PST</pubDate>
+      <category>NHL</category>
+      <guid isPermaLink="false">urn:newsml:sports.yahoo,lego:19780928:top,article,6a0cb917-3662-30ad-ab50-ecc77a4b27f8-l:1</guid>
+    </item>
+    <item>
+      <media:content url="https://s.yimg.com/iu/api/res/1.2/.GJO3geWaxG_OdqNQPFzFg--/YXBwaWQ9c2hhcmVkO2NoPTIyNzg7Y3I9MTtjdz0yMjc4O2R4PTM2MTtkeT0wO2ZpPXVsY3JvcDtoPTEzMDtxPTEwMDt3PTEzMA--/http://media.zenfs.com/en_us/Sports/ap/201701082025735504950" height="130" width="130" type="image/jpeg"/>
+      <media:credit role="provider">The Associated Press</media:credit>
+      <media:text type="html"><![CDATA[Ottawa Senators left wing Tom Pyatt (10) celebrates his goal against the Edmonton Oilers with teammate defenseman Cody Ceci (5) during the second period of an NHL hockey game in Ottawa on Sunday, Jan. 8, 2017. (Fred Chartrand/The Canadian Press via AP)]]></media:text>
+      <title>Stone, Condon lead Senators to 5-3 win over Oilers (Yahoo Sports)</title>
+      <link>http://ca.rd.yahoo.com/sports/rss/nhl/SIG=130pchubg/*https%3A//ca.sports.yahoo.com/news/stone-condon-lead-senators-5-3-win-over-030511888--nhl.html</link>
+      <description><![CDATA[<p><a href="http://ca.rd.yahoo.com/sports/rss/nhl/SIG=130pchubg/*https%3A//ca.sports.yahoo.com/news/stone-condon-lead-senators-5-3-win-over-030511888--nhl.html"><img src="https://s.yimg.com/iu/api/res/1.2/.GJO3geWaxG_OdqNQPFzFg--/YXBwaWQ9c2hhcmVkO2NoPTIyNzg7Y3I9MTtjdz0yMjc4O2R4PTM2MTtkeT0wO2ZpPXVsY3JvcDtoPTEzMDtxPTEwMDt3PTEzMA--/http://media.zenfs.com/en_us/Sports/ap/201701082025735504950"  width="130" height="130"  alt="Ottawa Senators left wing Tom Pyatt (10) celebrates his goal against the Edmonton Oilers with teammate defenseman Cody Ceci (5) during the second period of an NHL hockey game in Ottawa on Sunday, Jan. 8, 2017. (Fred Chartrand/The Canadian Press via AP)" align="left" border="0"></a></p><p>The Ottawa Senators had their biggest offensive output in their last seven games, and needed nearly every bit of it to snap their four-game losing streak.  Mark Stone had a goal and two assists, Mike Condon stopped 35 shots and the Senators beat the Edmonton Oilers 5-3 Sunday night.  Ottawa scored six times in a win over the New York Islanders on Dec. 18, but had totaled just 12 total goals in six games since before finding its offense against Edmonton.</p><br clear="all" />]]></description>
+      <pubDate>Sun, 08 Jan 2017 20:09:27 PST</pubDate>
+      <category>NHL</category>
+      <guid isPermaLink="false">urn:newsml:sports.yahoo,lego:19780928:top,article,37e63dab-fa0c-352f-a2df-874b8a64eea6-l:1</guid>
+    </item>
+    <item>
+      <media:content url="https://s.yimg.com/iu/api/res/1.2/2SsZeseMZkDV3Ip1qOQk0Q--/YXBwaWQ9c2hhcmVkO2NoPTc0NDtjcj0xO2N3PTc0NDtkeD0wO2R5PTA7Zmk9dWxjcm9wO2g9MTMwO3E9MTAwO3c9MTMw/http://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/cc0ce938ed5aefb0f8b9bdc685c914d4" height="130" width="130" type="image/jpeg"/>
+      <media:credit role="provider">Puck Daddy</media:credit>
+      <media:text type="html"><![CDATA[Jonathan Toews honors WJC bet with Patrick Kane, wears Team USA jersey]]></media:text>
+      <title>Jonathan Toews honors WJC bet with Patrick Kane, wears Team USA jersey (Yahoo Sports)</title>
+      <link>http://ca.rd.yahoo.com/sports/rss/nhl/SIG=13puhfd7o/*https%3A//ca.sports.yahoo.com/news/jonathan-toews-honors-wjc-bet-with-patrick-kane-wears-team-usa-jersey-040034572.html</link>
+      <description><![CDATA[<p><a href="http://ca.rd.yahoo.com/sports/rss/nhl/SIG=13puhfd7o/*https%3A//ca.sports.yahoo.com/news/jonathan-toews-honors-wjc-bet-with-patrick-kane-wears-team-usa-jersey-040034572.html"><img src="https://s.yimg.com/iu/api/res/1.2/2SsZeseMZkDV3Ip1qOQk0Q--/YXBwaWQ9c2hhcmVkO2NoPTc0NDtjcj0xO2N3PTc0NDtkeD0wO2R5PTA7Zmk9dWxjcm9wO2g9MTMwO3E9MTAwO3c9MTMw/http://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/cc0ce938ed5aefb0f8b9bdc685c914d4"  width="130" height="130"  alt="Jonathan Toews honors WJC bet with Patrick Kane, wears Team USA jersey" align="left" border="0"></a></p><p>Chicago Blackhawks captain Jonathan Toews honored a bet with teammate Patrick Kane over the World Junior Championships and wore a Team USA jerseys in a photograph Sunday.  A photo of the two was posted by Kane’s Twitter account after the Blackhawks’ 5-2 win over the Nashville Predators. The tweet by Kane said, “Big win tonight.</p><br clear="all" />]]></description>
+      <pubDate>Sun, 08 Jan 2017 20:00:34 PST</pubDate>
+      <category>nhl</category>
+      <guid isPermaLink="false">urn:newsml:sports.yahoo,lego:19780928:top,article,a8acdf3f-c3db-3f6f-8a9e-30eca80a36ec-l:1</guid>
+    </item>
+    <item>
+      <media:content url="https://s.yimg.com/iu/api/res/1.2/ofG975ot1fW_ttbaRmpgnw--/YXBwaWQ9c2hhcmVkO2NoPTIwMjE7Y3I9MTtjdz0yMDIxO2R4PTcxO2R5PTA7Zmk9dWxjcm9wO2g9MTMwO3E9MTAwO3c9MTMw/http://media.zenfs.com/en_us/Sports/ap/201701082037742494955" height="130" width="130" type="image/jpeg"/>
+      <media:credit role="provider">The Associated Press</media:credit>
+      <media:text type="html"><![CDATA[Nashville Predators goalie Pekka Rinne (35), left wing Kevin Fiala (56) and defenseman Yannick Weber (7) fail to save a shot by Chicago Blackhawks right wing Ryan Hartman during the third period of an NHL hockey game Sunday, Jan. 8, 2017, in Chicago. (AP Photo/Nam Y. Huh)]]></media:text>
+      <title>Hartman leads Blackhawks to 5-2 win against Predators (Yahoo Sports)</title>
+      <link>http://ca.rd.yahoo.com/sports/rss/nhl/SIG=13bktsnpb/*https%3A//ca.sports.yahoo.com/news/hartman-leads-blackhawks-5-2-win-against-predators-024414729--nhl.html</link>
+      <description><![CDATA[<p><a href="http://ca.rd.yahoo.com/sports/rss/nhl/SIG=13bktsnpb/*https%3A//ca.sports.yahoo.com/news/hartman-leads-blackhawks-5-2-win-against-predators-024414729--nhl.html"><img src="https://s.yimg.com/iu/api/res/1.2/ofG975ot1fW_ttbaRmpgnw--/YXBwaWQ9c2hhcmVkO2NoPTIwMjE7Y3I9MTtjdz0yMDIxO2R4PTcxO2R5PTA7Zmk9dWxjcm9wO2g9MTMwO3E9MTAwO3c9MTMw/http://media.zenfs.com/en_us/Sports/ap/201701082037742494955"  width="130" height="130"  alt="Nashville Predators goalie Pekka Rinne (35), left wing Kevin Fiala (56) and defenseman Yannick Weber (7) fail to save a shot by Chicago Blackhawks right wing Ryan Hartman during the third period of an NHL hockey game Sunday, Jan. 8, 2017, in Chicago. (AP Photo/Nam Y. Huh)" align="left" border="0"></a></p><p>Ryan Hartman's first career hat trick was a memorable one, all right.  Hartman scored off a goalmouth scramble in the third period and tacked on two empty-netters, helping the Chicago Blackhawks beat the banged-up Nashville Predators 5-2 on Sunday night.  Artemi Panarin and Niklas Hjalmarsson also scored for the Blackhawks, who have won the first three of a four-game homestand.</p><br clear="all" />]]></description>
+      <pubDate>Sun, 08 Jan 2017 19:47:20 PST</pubDate>
+      <category>NHL</category>
+      <guid isPermaLink="false">urn:newsml:sports.yahoo,lego:19780928:top,article,7a77372a-1819-3107-9cac-697c6cbc031b-l:1</guid>
+    </item>
+    <item>
+      <media:content url="https://s.yimg.com/iu/api/res/1.2/ZHFro0z1XGEiaQWtEAgnvg--/YXBwaWQ9c2hhcmVkO2NoPTEzMDU7Y3I9MTtjdz0xMzA1O2R4PTQzOTtkeT0wO2ZpPXVsY3JvcDtoPTEzMDtxPTEwMDt3PTEzMA--/http://media.zenfs.com/en_us/Sports/ap/201701081850678424645" height="130" width="130" type="image/jpeg"/>
+      <media:credit role="provider">The Associated Press</media:credit>
+      <media:text type="html"><![CDATA[Carolina Hurricanes&#39; Joakim Nordstrom (42), of Sweden, congratulates Sebastian Aho (20), of Finland, following Aho&#39;s game winning goal during overtime in an NHL hockey game against the Boston Bruins in Raleigh, N.C., Sunday, Jan. 8, 2017. Carolina&#39;s Brett Pesce (22), Jeff Skinner (53), and Teuvo Teravaine, right, from Finland, celebrate. Carolina won 4-3. (AP Photo/Gerry Broome)]]></media:text>
+      <title>Aho scores 2, including 0T winner, as Hurricanes beat Bruins (Yahoo Sports)</title>
+      <link>http://ca.rd.yahoo.com/sports/rss/nhl/SIG=1393e0m4q/*https%3A//ca.sports.yahoo.com/news/aho-scores-2-including-0t-winner-hurricanes-beat-005335221--nhl.html</link>
+      <description><![CDATA[<p><a href="http://ca.rd.yahoo.com/sports/rss/nhl/SIG=1393e0m4q/*https%3A//ca.sports.yahoo.com/news/aho-scores-2-including-0t-winner-hurricanes-beat-005335221--nhl.html"><img src="https://s.yimg.com/iu/api/res/1.2/ZHFro0z1XGEiaQWtEAgnvg--/YXBwaWQ9c2hhcmVkO2NoPTEzMDU7Y3I9MTtjdz0xMzA1O2R4PTQzOTtkeT0wO2ZpPXVsY3JvcDtoPTEzMDtxPTEwMDt3PTEzMA--/http://media.zenfs.com/en_us/Sports/ap/201701081850678424645"  width="130" height="130"  alt="Carolina Hurricanes&#39; Joakim Nordstrom (42), of Sweden, congratulates Sebastian Aho (20), of Finland, following Aho&#39;s game winning goal during overtime in an NHL hockey game against the Boston Bruins in Raleigh, N.C., Sunday, Jan. 8, 2017. Carolina&#39;s Brett Pesce (22), Jeff Skinner (53), and Teuvo Teravaine, right, from Finland, celebrate. Carolina won 4-3. (AP Photo/Gerry Broome)" align="left" border="0"></a></p><p>Sebastian Aho seems to be coming along nicely in his rookie season with the Carolina Hurricanes.  The 19-year-old Finnish winger scored his second goal of the game 1:34 into overtime to lift Carolina to a 4-3 victory over the Boston Bruins on Sunday.  It was the second two-goal game of the season for the slender second-round pick from the 2015 draft, who has been a key reason Carolina has been so dominant (12-4-1) at home this season.</p><br clear="all" />]]></description>
+      <pubDate>Sun, 08 Jan 2017 19:44:10 PST</pubDate>
+      <category>NHL</category>
+      <guid isPermaLink="false">urn:newsml:sports.yahoo,lego:19780928:top,article,6a6be47b-231b-30b5-94a7-e4c3f55f2f4f-l:1</guid>
+    </item>
+    <item>
+      <title>Jonathan Toews sports Team USA jersey (Yahoo Sports)</title>
+      <link>http://ca.rd.yahoo.com/sports/rss/nhl/SIG=12qpqci58/*https%3A//ca.sports.yahoo.com/news/jonathan-toews-reluctantly-sports-team-033621378.html</link>
+      <description>It seems as though Jonathan Toews has ended up on the wrong side of a Patrick Kane bet.</description>
+      <pubDate>Sun, 08 Jan 2017 19:36:21 PST</pubDate>
+      <category>NHL</category>
+      <guid isPermaLink="false">urn:newsml:sports.yahoo,lego:19780928:top,article,b546cc92-2538-3943-92d0-fe867f712116-l:1</guid>
+    </item>
+    <item>
+      <media:content url="https://s.yimg.com/iu/api/res/1.2/J5Lx6QusVzEKWR3V1FeHYA--/YXBwaWQ9c2hhcmVkO2NoPTM5Njtjcj0xO2N3PTM5NjtkeD05OTtkeT0wO2ZpPXVsY3JvcDtoPTEzMDtxPTEwMDt3PTEzMA--/http://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/02e137e937fc0c5329a530139169d286" height="130" width="130" type="image/jpeg"/>
+      <media:credit role="provider">Puck Daddy</media:credit>
+      <media:text type="html"><![CDATA[Ryan Hartman&#39;s hat trick includes two empty netters (Video)]]></media:text>
+      <title>Ryan Hartman's hat trick includes two empty netters (Video) (Yahoo Sports)</title>
+      <link>http://ca.rd.yahoo.com/sports/rss/nhl/SIG=13cc2193c/*https%3A//ca.sports.yahoo.com/news/ryan-hartmans-hat-trick-includes-two-empty-netters-video-032128922.html</link>
+      <description><![CDATA[<p><a href="http://ca.rd.yahoo.com/sports/rss/nhl/SIG=13cc2193c/*https%3A//ca.sports.yahoo.com/news/ryan-hartmans-hat-trick-includes-two-empty-netters-video-032128922.html"><img src="https://s.yimg.com/iu/api/res/1.2/J5Lx6QusVzEKWR3V1FeHYA--/YXBwaWQ9c2hhcmVkO2NoPTM5Njtjcj0xO2N3PTM5NjtkeD05OTtkeT0wO2ZpPXVsY3JvcDtoPTEzMDtxPTEwMDt3PTEzMA--/http://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/02e137e937fc0c5329a530139169d286"  width="130" height="130"  alt="Ryan Hartman&#39;s hat trick includes two empty netters (Video)" align="left" border="0"></a></p><p>Ryan Hartman of the Chicago Blackhawks celebrates with teammates after the Blackhawks defeated the Nashville Predators 5-2 with a hat trick in the third period by Hartman at the United Center on January 8, 2017 in Chicago, Illinois.  Chicago Blackhawks forward Ryan Hartman notched an interesting natural hat trick that included two empty-net goals in his Sunday game against the Nashville Predators.</p><br clear="all" />]]></description>
+      <pubDate>Sun, 08 Jan 2017 19:21:28 PST</pubDate>
+      <category>nhl</category>
+      <guid isPermaLink="false">urn:newsml:sports.yahoo,lego:19780928:top,article,62ed4369-57c8-3c8c-ad8e-e37cf20ea916-l:1</guid>
+    </item>
+    <item>
+      <media:content url="https://s.yimg.com/iu/api/res/1.2/ToFur0FORg6Qyc8X2yElkQ--/YXBwaWQ9c2hhcmVkO2NoPTIwOTE7Y3I9MTtjdz0yMDkxO2R4PTk1NztkeT0wO2ZpPXVsY3JvcDtoPTEzMDtxPTEwMDt3PTEzMA--/http://media.zenfs.com/en_us/Sports/ap/201701081956717704860" height="130" width="130" type="image/jpeg"/>
+      <media:credit role="provider">The Associated Press</media:credit>
+      <media:text type="html"><![CDATA[Philadelphia Flyers&#39; Jakub Voracek, left, of the Czech Republic, and Columbus Blue Jackets&#39; Jack Johnson chase the puck during the third period of an NHL hockey game Sunday, Jan. 8, 2017, in Columbus, Ohio. The Blue Jackets beat the Flyers 2-1 in overtime. (AP Photo/Jay LaPrete)]]></media:text>
+      <title>Foligno scores in OT as Blue Jackets beat Flyers 2-1 (Yahoo Sports)</title>
+      <link>http://ca.rd.yahoo.com/sports/rss/nhl/SIG=135akefo0/*https%3A//ca.sports.yahoo.com/news/foligno-scores-ot-blue-jackets-beat-flyers-2-020258603--nhl.html</link>
+      <description><![CDATA[<p><a href="http://ca.rd.yahoo.com/sports/rss/nhl/SIG=135akefo0/*https%3A//ca.sports.yahoo.com/news/foligno-scores-ot-blue-jackets-beat-flyers-2-020258603--nhl.html"><img src="https://s.yimg.com/iu/api/res/1.2/ToFur0FORg6Qyc8X2yElkQ--/YXBwaWQ9c2hhcmVkO2NoPTIwOTE7Y3I9MTtjdz0yMDkxO2R4PTk1NztkeT0wO2ZpPXVsY3JvcDtoPTEzMDtxPTEwMDt3PTEzMA--/http://media.zenfs.com/en_us/Sports/ap/201701081956717704860"  width="130" height="130"  alt="Philadelphia Flyers&#39; Jakub Voracek, left, of the Czech Republic, and Columbus Blue Jackets&#39; Jack Johnson chase the puck during the third period of an NHL hockey game Sunday, Jan. 8, 2017, in Columbus, Ohio. The Blue Jackets beat the Flyers 2-1 in overtime. (AP Photo/Jay LaPrete)" align="left" border="0"></a></p><p>Blue Jackets coach John Tortorella said he could tell his team, playing for the third time in four days, was running out of gas down the stretch, especially when Philadelphia scored with 17 seconds left to tie it.  Nick Foligno scored 2:33 into OT to lift the Blue Jackets to a 2-1 victory over the Flyers on Sunday night, their first since a 16-game winning streak ended with two straight losses.  ''To scratch away and get the two points and get them in the bank is very important,'' Tortorella said.</p><br clear="all" />]]></description>
+      <pubDate>Sun, 08 Jan 2017 19:20:00 PST</pubDate>
+      <category>NHL</category>
+      <guid isPermaLink="false">urn:newsml:sports.yahoo,lego:19780928:top,article,9755d2fd-6a6b-3efd-ae09-c6c5c3e51cb1-l:1</guid>
+    </item>
+    <lastBuildDate>Sun, 08 Jan 2017 21:23:05 PST</lastBuildDate>
+  </channel>
+</rss>
+<!-- fe12.os.sports.bf1.yahoo.com Mon Jan  9 05:46:29 UTC 2017 -->

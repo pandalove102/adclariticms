@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_MOD_EM_TITLE">イベント管理者</phrase>
+  <phrase data="_MOD_EM_TITLE1">イベント変更</phrase>
+  <phrase data="_MOD_EM_TITLE2">新しいイベント</phrase>
+  <phrase data="_MOD_EM_TITLE3">今年のイベント</phrase>
+  <phrase data="_MOD_EM_SUB">イベント追加</phrase>
+  <phrase data="_MOD_EM_SUB1">会場</phrase>
+  <phrase data="_MOD_EM_SUB2">コンタクト</phrase>
+  <phrase data="_MOD_EM_SUB23">エンディング</phrase>
+  <phrase data="_MOD_EM_SUB3">年「年」の最新のイベント</phrase>
+  <phrase data="_MOD_EM_CONTACT">連絡者</phrase>
+  <phrase data="_MOD_EM_VENUE">開催地</phrase>
+  <phrase data="_MOD_EM_PHONE">電話番号</phrase>
+  <phrase data="_MOD_EM_EMAIL">メール</phrase>
+  <phrase data="_MOD_EM_COLOUR">コーラ</phrase>
+  <phrase data="_MOD_EM_UPDATE">イベント更新</phrase>
+  <phrase data="_MOD_EM_DATE_S">開始日時</phrase>
+  <phrase data="_MOD_EM_DATE_SE">終了日時</phrase>
+  <phrase data="_MOD_EM_DATE_ST">開始日付</phrase>
+  <phrase data="_MOD_EM_DATE_E">終了日付</phrase>
+  <phrase data="_MOD_EM_TIME_S">開始時間・終了時間</phrase>
+  <phrase data="_MOD_EM_TIME_ST">開始時間</phrase>
+  <phrase data="_MOD_EM_TIME_ET">終了時間</phrase>
+  <phrase data="_MOD_EM_NOEVENTS">イベントはまだありません。追加してください。...</phrase>
+  <phrase data="_MOD_EM_NOEVENTSF">申し訳ございませんが、イベントはありません。...</phrase>
+  <phrase data="_MOD_EM_DEL_OK">イベント「名前」削除終了!</phrase>
+  <phrase data="_MOD_EM_UPDATE_OK">イベント「名前」更新終了!</phrase>
+  <phrase data="_MOD_EM_ADDED_OK">イベント「名前」追加終了!</phrase>
+</language>

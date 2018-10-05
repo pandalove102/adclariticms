@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_PLG_YPL_TITLE">Quản lý người chơi CMS đi vào Youtube</phrase>
+  <phrase data="_PLG_YPL_TITLE1">Thêm người chơi </phrase>
+  <phrase data="_PLG_YPL_TITLE2">Sửa người chơi </phrase>
+  <phrase data="_PLG_YPL_SUB1">Tại đây bạn có thể cấu hình người chơi đi vào Youtube .</phrase>
+  <phrase data="_PLG_YPL_SUB2">Thêm mới người chơi  </phrase>
+  <phrase data="_PLG_YPL_SUB3">Danh sách </phrase>
+  <phrase data="_PLG_YPL_SUB4">Kênh</phrase>
+  <phrase data="_PLG_YPL_SUB5">Người dùng </phrase>
+  <phrase data="_PLG_YPL_SUB6">Videos </phrase>
+  <phrase data="_PLG_YPL_SUB6_I">Nhiều ID đã tách bởi coma </phrase>
+  <phrase data="_PLG_YPL_SUB7">Đánh số trang</phrase>
+  <phrase data="_PLG_YPL_SUB8">Kết quả tối đa</phrase>
+  <phrase data="_PLG_YPL_SUB9">Chơi tiếp </phrase>
+  <phrase data="_PLG_YPL_SUB10">Đưa danh sách </phrase>
+  <phrase data="_PLG_YPL_SUB11">Bố trí danh sách </phrase>
+  <phrase data="_PLG_YPL_SUB12">Đưa kênh vào danh sách </phrase>
+  <phrase data="_PLG_YPL_SUB13">Đưa kênh vào tiêu đề</phrase>
+  <phrase data="_PLG_YPL_SUB16">Tự động chạy </phrase>
+  <phrase data="_PLG_YPL_SUB17">Chia sẽ Icons</phrase>
+  <phrase data="_PLG_YPL_SUB18">Bắt buộc HD </phrase>
+  <phrase data="_PLG_YPL_SUB19">Màu sắc người chơi </phrase>
+  <phrase data="_PLG_YPL_SUB20">Cách thức người chơi </phrase>
+  <phrase data="_PLG_YPL_SUB21">ID Video </phrase>
+  <phrase data="_PLG_YPL_SUB14">Đang chơi </phrase>
+  <phrase data="_PLG_YPL_SUB15">Tải thêm</phrase>
+  <phrase data="_PLG_YPL_NEW">Người chơi mới </phrase>
+  <phrase data="_PLG_YPL_NOPLAY">Bạn không có bất kỳ người chơi nào đi vào...</phrase>
+  <phrase data="_PLG_YPL_UPDATE_OK">Tên người chơi đã cập nhật thành công !</phrase>
+  <phrase data="_PLG_YPL_ADDED_OK">Tên người chơi đã thêm thành công !</phrase>
+  <phrase data="_PLG_YPL_DEL_OK">Tên người chơi đã xóa thành công !</phrase>
+</language>

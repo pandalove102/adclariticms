@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_PLG_UE_TITLE1">Quản lý sự kiện sắp tới </phrase>
+  <phrase data="_PLG_UE_SELECT">Lựa chọn sự kiện </phrase>
+  <phrase data="_PLG_UE_NOEVENT">--- Vui lòng tạo một sự kiện mới nhất ---</phrase>
+  <phrase data="_PLG_UE_ERR">Vui lòng chọn một sự kiện mới nhất </phrase>
+  <phrase data="_PLG_UE_UPDATED">Cấu hình sự kiện sắp tới đã cập nhật thành công !</phrase>
+</language>

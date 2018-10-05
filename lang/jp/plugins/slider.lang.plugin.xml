@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_PLG_SL_ADDED">「NAME」のスライドが追加されました</phrase>
+  <phrase data="_PLG_SL_SUB">ここに新スライドを追加できます。</phrase>
+  <phrase data="_PLG_SL_SUB1">ここに既存スライドをアップロードできます。</phrase>
+  <phrase data="_PLG_SL_SUB2">ここにユニバーサルスライダープラグインを設定できることがあります。</phrase>
+  <phrase data="_PLG_SL_SUB3">設定共有</phrase>
+  <phrase data="_PLG_SL_SUB4">カラー</phrase>
+  <phrase data="_PLG_SL_SUB5">ボーダー半径</phrase>
+  <phrase data="_PLG_SL_SUB6">幅・高さ</phrase>
+  <phrase data="_PLG_SL_SUB7">新しいスライド</phrase>
+  <phrase data="_PLG_SL_SUB8">「NAME」のスライドが削除されました。</phrase>
+  <phrase data="_PLG_SL_DEL_OK">テキストが編集しています。</phrase>
+  <phrase data="_PLG_SL_SUB9">構成セーブ</phrase>
+  <phrase data="_PLG_SL_SUB10">レイヤーを挿入する。</phrase>
+  <phrase data="_PLG_SL_SUB11">アニメーション</phrase>
+  <phrase data="_PLG_SL_SUB12">メインBg画像</phrase>
+  <phrase data="_PLG_SL_SUB13">写真変更</phrase>
+  <phrase data="_PLG_SL_SUB14">スライドプレビュー</phrase>
+  <phrase data="_PLG_SL_NOSLIDER">スライドまだありません。...</phrase>
+  <phrase data="_PLG_SL_TITLE">CMS ユニバーサルスライダプラグインの管理</phrase>
+  <phrase data="_PLG_SL_TITLE1">スライド追加</phrase>
+  <phrase data="_PLG_SL_TITLE2">スライド編集</phrase>
+  <phrase data="_PLG_SL_UPDATE">スライド更新</phrase>
+  <phrase data="_PLG_SL_UPDATED">「NAME」のスライドが更新されました。</phrase>
+  <phrase data="_PLG_SL_ICON">アイコン</phrase>
+  <phrase data="_PLG_SL_VIDEO">ビデオ</phrase>
+  <phrase data="_PLG_SL_SHAPE">共有</phrase>
+  <phrase data="_PLG_SL_HEAD">ヘッダ</phrase>
+  <phrase data="_PLG_SL_PARA">テキスト</phrase>
+  <phrase data="_PLG_SL_BUTTON">ボタン</phrase>
+  <phrase data="_PLG_SL_AUTOPLAY">自動実行</phrase>
+  <phrase data="_PLG_SL_LOOP">ループビデオ</phrase>
+  <phrase data="_PLG_SL_PBAR">プログレスバー表示</phrase>
+  <phrase data="_PLG_SL_PONHOVER">ホバーで一時停止</phrase>
+  <phrase data="_PLG_SL_ASPEED">自動再生速度</phrase>
+  <phrase data="_PLG_SL_HEIGHT">スライダの開始高さ</phrase>
+  <phrase data="_PLG_SL_WIDTHT">スライダの開始幅</phrase>
+  <phrase data="_PLG_SL_ALANIM">スライドアニメーション</phrase>
+  <phrase data="_PLG_SL_ANSPEED">アニメーションスピード</phrase>
+  <phrase data="_PLG_SL_IMGSCALE">画像スケールモード</phrase>
+  <phrase data="_PLG_SL_LAYOUT"> スライドレイアウト</phrase>
+  <phrase data="_PLG_SL_THUMBS_P">サムネイルの配置</phrase>
+</language>

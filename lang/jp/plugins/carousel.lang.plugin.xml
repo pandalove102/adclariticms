@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_PLG_CRL_TITLE">Manage CMS Carousel Player Plugin</phrase>
+  <phrase data="_PLG_CRL_TITLE1">プレーヤー追加</phrase>
+  <phrase data="_PLG_CRL_TITLE2">プレーヤー変更</phrase>
+  <phrase data="_PLG_CRL_SUB1">こちらでカルーセルプレーヤープラグインを設定できます。</phrase>
+  <phrase data="_PLG_CRL_SUB2">新しいプレーヤー追加</phrase>
+  <phrase data="_PLG_CRL_SUB7">自動再生</phrase>
+  <phrase data="_PLG_CRL_SUB8">詳細マージン</phrase>
+  <phrase data="_PLG_CRL_SUB9">集中</phrase>
+  <phrase data="_PLG_CRL_SUB10">Pause on Hover</phrase>
+  <phrase data="_PLG_CRL_SUB11">Show Dots</phrase>
+  <phrase data="_PLG_CRL_SUB12">矢を表示</phrase>
+  <phrase data="_PLG_CRL_SUB13">Infinite Loop</phrase>
+  <phrase data="_PLG_CRL_SUB14">対応アイテム</phrase>
+  <phrase data="_PLG_CRL_NEW">新しいプレーヤー</phrase>
+  <phrase data="_PLG_CRL_NOPLAY">プレーヤープラグインはまだありません...</phrase>
+  <phrase data="_PLG_CRL_UPDATE_OK">プレーヤー「名前」更新終了!</phrase>
+  <phrase data="_PLG_CRL_ADDED_OK">プレーヤー「名前」追加終了!</phrase>
+  <phrase data="_PLG_CRL_DEL_OK">プレーヤー「名前」削除終了!</phrase>
+</language>

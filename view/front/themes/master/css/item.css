@@ -1,0 +1,348 @@
+/* == Item == */
+.wojo.items > .item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1em 0em;
+  width: 100%;
+  min-height: 0px;
+  background: transparent;
+  padding: 0em;
+  border: none;
+  border-radius: 0rem;
+  box-shadow: none;
+  -webkit-transition: box-shadow 0.1s ease;
+  transition: box-shadow 0.1s ease;
+  z-index: '';
+}
+.wojo.items > .item a {
+  cursor: pointer;
+}
+.wojo.items {
+  margin: 1.5em 0em;
+}
+.wojo.items:first-child {
+  margin-top: 0em !important;
+}
+.wojo.items:last-child {
+  margin-bottom: 0em !important;
+}
+.wojo.items > .item:after {
+  display: block;
+  content: ' ';
+  height: 0px;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+.wojo.items > .item:first-child {
+  margin-top: 0em;
+}
+.wojo.items > .item:last-child {
+  margin-bottom: 0em;
+}
+/* == Images == */
+.wojo.items > .item > .image {
+  position: relative;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: block;
+  float: none;
+  margin: 0em;
+  padding: 0em;
+  max-height: '';
+  -webkit-align-self: top;
+  -ms-flex-item-align: top;
+  align-self: top;
+}
+.wojo.items > .item > .image > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0.125rem;
+  border: none;
+}
+.wojo.items > .item > .image:only-child > img {
+  border-radius: 0rem;
+}
+/* == Content == */
+.wojo.items > .item > .content {
+  display: block;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  background: none;
+  margin: 0em;
+  padding: 0em;
+  box-shadow: none;
+  font-size: 1em;
+  border: none;
+  border-radius: 0em;
+}
+.wojo.items > .item > .content:after {
+  display: block;
+  content: ' ';
+  height: 0px;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+.wojo.items > .item > .image + .content {
+  min-width: 0;
+  width: auto;
+  display: block;
+  margin-left: 0em;
+  -webkit-align-self: top;
+  -ms-flex-item-align: top;
+  align-self: top;
+  padding-left: 1.5em;
+}
+.wojo.items > .item > .content > .header {
+  display: inline-block;
+  margin: -0.21425em 0em 0em;
+  font-family: 'wSansDemi', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 0.85);
+}
+/* Default Header Size */
+.wojo.items > .item > .content > .header:not(.wojo) {
+  font-size: 1.250em;
+}
+.wojo.items > .item [class*="left floated"] {
+  float: left;
+}
+.wojo.items > .item [class*="right floated"] {
+  float: right;
+}
+.wojo.items > .item .content img {
+  -webkit-align-self: middle;
+  -ms-flex-item-align: middle;
+  align-self: middle;
+  width: '';
+}
+.wojo.items > .item img.avatar,
+.wojo.items > .item .avatar img {
+  width: '';
+  height: '';
+  border-radius: 500rem;
+}
+.wojo.items > .item > .content > .description {
+  margin-top: 0.6em;
+  max-width: auto;
+  font-size: 1em;
+  line-height: 1.4285em;
+  color: rgba(0, 0, 0, 0.87);
+}
+.wojo.items > .item > .content p {
+  margin: 0em 0em 0.5em;
+}
+.wojo.items > .item > .content p:last-child {
+  margin-bottom: 0em;
+}
+.wojo.items > .item .meta {
+  margin: 0.5em 0em 0.5em;
+  font-size: 1em;
+  line-height: 1em;
+  color: rgba(0, 0, 0, 0.6);
+}
+.wojo.items > .item .meta * {
+  margin-right: 0.3em;
+}
+.wojo.items > .item .meta :last-child {
+  margin-right: 0em;
+}
+.wojo.items > .item .meta [class*="right floated"] {
+  margin-right: 0em;
+  margin-left: 0.3em;
+}
+/* == Links == */
+.wojo.items > .item > .content a:not(.wojo) {
+  color: '';
+  -webkit-transition: color 0.1s ease;
+  transition: color 0.1s ease;
+}
+.wojo.items > .item > .content a:not(.wojo):hover {
+  color: '';
+}
+/* Header */
+.wojo.items > .item > .content > a.header {
+  color: rgba(0, 0, 0, 0.85);
+}
+.wojo.items > .item > .content > a.header:hover {
+  color: #C0392B;
+}
+/* Meta */
+.wojo.items > .item .meta > a:not(.wojo) {
+  color: rgba(0, 0, 0, 0.4);
+}
+.wojo.items > .item .meta > a:not(.wojo):hover {
+  color: rgba(0, 0, 0, 0.87);
+}
+/* == Labels == */
+.wojo.items > .item > .content .favorite.icon {
+  cursor: pointer;
+  opacity: 0.75;
+  -webkit-transition: color 0.1s ease;
+  transition: color 0.1s ease;
+}
+.wojo.items > .item > .content .favorite.icon:hover {
+  opacity: 1;
+  color: #FFB70A;
+}
+.wojo.items > .item > .content .active.favorite.icon {
+  color: #FFE623;
+}
+.wojo.items > .item > .content .like.icon {
+  cursor: pointer;
+  opacity: 0.75;
+  -webkit-transition: color 0.1s ease;
+  transition: color 0.1s ease;
+}
+.wojo.items > .item > .content .like.icon:hover {
+  opacity: 1;
+  color: #FF2733;
+}
+.wojo.items > .item > .content .active.like.icon {
+  color: #FF2733;
+}
+/* == Extra Content == */
+.wojo.items > .item .extra {
+  display: block;
+  position: relative;
+  background: none;
+  margin: 0.5rem 0em 0em;
+  width: 100%;
+  padding: 0em 0em 0em;
+  top: 0em;
+  left: 0em;
+  color: rgba(0, 0, 0, 0.4);
+  box-shadow: none;
+  -webkit-transition: color 0.1s ease;
+  transition: color 0.1s ease;
+  border-top: none;
+}
+.wojo.items > .item .extra > * {
+  margin: 0.25rem 0.5rem 0.25rem 0em;
+}
+.wojo.items > .item .extra > [class*="right floated"] {
+  margin: 0.25rem 0em 0.25rem 0.5rem;
+}
+.wojo.items > .item .extra:after {
+  display: block;
+  content: ' ';
+  height: 0px;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+.wojo.items > .item > .image:not(.wojo) {
+  width: 175px;
+}
+
+/* Tablet Only */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.wojo.items > .item {
+  margin: 1em 0em;
+}
+.wojo.items > .item > .image:not(.wojo) {
+  width: 150px;
+}
+.wojo.items > .item > .image + .content {
+  display: block;
+  padding: 0em 0em 0em 1em;
+}
+}
+
+/* Mobile Only */
+@media only screen and (max-width: 767px) {
+.wojo.items > .item {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 2em 0em;
+}
+.wojo.items > .item > .image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wojo.items > .item > .image,
+ .wojo.items > .item > .image > img {
+  max-width: 100% !important;
+  width: auto !important;
+  max-height: 250px !important;
+}
+.wojo.items > .item > .image + .content {
+  display: block;
+  padding: 1.5em 0em 0em;
+}
+}
+/* == Variations == */
+.wojo.items > .item > .image + [class*="top aligned"].content {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+.wojo.items > .item > .image + [class*="middle aligned"].content {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+.wojo.items > .item > .image + [class*="bottom aligned"].content {
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+}
+.wojo.relaxed.items > .item {
+  margin: 1.5em 0em;
+}
+.wojo[class*="very relaxed"].items > .item {
+  margin: 2em 0em;
+}
+.wojo.divided.items > .item {
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
+  margin: 0em;
+  padding: 1em 0em;
+}
+.wojo.divided.items > .item:first-child {
+  border-top: none;
+  margin-top: 0em !important;
+  padding-top: 0em !important;
+}
+.wojo.divided.items > .item:last-child {
+  margin-bottom: 0em !important;
+  padding-bottom: 0em !important;
+}
+.wojo.relaxed.divided.items > .item {
+  margin: 0em;
+  padding: 1.5em 0em;
+}
+.wojo[class*="very relaxed"].divided.items > .item {
+  margin: 0em;
+  padding: 2em 0em;
+}
+.wojo.items a.item:hover,
+.wojo.link.items > .item:hover {
+  cursor: pointer;
+}
+.wojo.items a.item:hover .content .header,
+.wojo.link.items > .item:hover .content .header {
+  color: #C0392B;
+}
+.wojo.boxed.items {
+  border:0;
+  box-shadow:none
+}
+.wojo.boxed.items > .item {
+  background-color: #fff;
+  border-radius:.250em;
+}
+/* == Size == */
+.wojo.items > .item {
+  font-size: 1em;
+}

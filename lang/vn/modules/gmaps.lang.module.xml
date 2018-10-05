@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_MOD_GM_TITLE">Quản lý vị trí bản đồ </phrase>
+  <phrase data="_MOD_GM_TITLE1">Sửa vị trí bản đồ </phrase>
+  <phrase data="_MOD_GM_TITLE2">Vị trị mới trên bản đồ 	</phrase>
+  <phrase data="_MOD_GM_UPDATE">Cập nhật bản đồ </phrase>
+  <phrase data="_MOD_GM_SUB">Loại bản đồ </phrase>
+  <phrase data="_MOD_GM_SUB1">Mức độ phóng to </phrase>
+  <phrase data="_MOD_GM_SUB1_1">Mức độ phóng to tổi thiểu/ tối đa </phrase>
+  <phrase data="_MOD_GM_SUB2">Kiểm soát chữ in 	</phrase>
+  <phrase data="_MOD_GM_SUB3">Xem đường 	</phrase>
+  <phrase data="_MOD_GM_SUB4">Kiểu đặt trước </phrase>
+  <phrase data="_MOD_GM_NEW">Vị trí mới 	</phrase>
+  <phrase data="_MOD_GM_SUB5">Tìm địa chỉ </phrase>
+  <phrase data="_MOD_GM_SUB6">Pin </phrase>
+  <phrase data="_MOD_GM_SUB7">Vị trí mới 	</phrase>
+  <phrase data="_MOD_GM_PINS">Chân tùy chỉnh</phrase>
+  <phrase data="_MOD_GM_LAT">Vĩ độ </phrase>
+  <phrase data="_MOD_GM_LNG">Kinh độ </phrase>
+  <phrase data="_MOD_GM_NOMAPS">Bạn chưa có vị trí nào. Vui lòng thêm vào ...</phrase>
+  <phrase data="_MOD_GM_DEL_OK">[TÊN] vị trí đã xóa thành công!</phrase>
+  <phrase data="_MOD_GM_UPDATE_OK">[TÊN] vị trí đã cập nhật thành công!</phrase>
+  <phrase data="_MOD_GM_ADDED_OK">[TÊN] vị trí đã thêm thành công!</phrase>
+</language>

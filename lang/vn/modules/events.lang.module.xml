@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_MOD_EM_TITLE">Quản lý sự kiện </phrase>
+  <phrase data="_MOD_EM_TITLE1">Sửa sự kiện </phrase>
+  <phrase data="_MOD_EM_TITLE2">Sự kiện mới </phrase>
+  <phrase data="_MOD_EM_TITLE3">Sự kiện trong năm </phrase>
+  <phrase data="_MOD_EM_SUB">Thêm sự kiện </phrase>
+  <phrase data="_MOD_EM_SUB1">Địa điểm </phrase>
+  <phrase data="_MOD_EM_SUB2">Liên lạc </phrase>
+  <phrase data="_MOD_EM_SUB23">Kết thúc </phrase>
+  <phrase data="_MOD_EM_SUB3">Sự kiện mới nhất của năm</phrase>
+  <phrase data="_MOD_EM_CONTACT">Người liên hệ </phrase>
+  <phrase data="_MOD_EM_VENUE">Tiêu đề địa điểm </phrase>
+  <phrase data="_MOD_EM_PHONE">Số điện thoại liên hệ </phrase>
+  <phrase data="_MOD_EM_EMAIL">Email liên hệ </phrase>
+  <phrase data="_MOD_EM_COLOUR">Đánh dấu màu sắc </phrase>
+  <phrase data="_MOD_EM_UPDATE">Cập nhật sự kiện </phrase>
+  <phrase data="_MOD_EM_DATE_S">Ngày/ thời gian bắt đầu </phrase>
+  <phrase data="_MOD_EM_DATE_SE">Ngày/ thời gian kết thúc </phrase>
+  <phrase data="_MOD_EM_DATE_ST">Ngày bắt đầu </phrase>
+  <phrase data="_MOD_EM_DATE_E">Ngày kết thúc </phrase>
+  <phrase data="_MOD_EM_TIME_S">Thời gian bắt đầu/ thời gian kết thúc </phrase>
+  <phrase data="_MOD_EM_TIME_ST">Thời gian bắt đầu</phrase>
+  <phrase data="_MOD_EM_TIME_ET">Thời gian kết thúc </phrase>
+  <phrase data="_MOD_EM_NOEVENTS">Bạn chưa có sự kiện nào. Vui lòng thêm vào ...</phrase>
+  <phrase data="_MOD_EM_NOEVENTSF">Xin lỗi chúng tôi chưa có sự kiện nào ...</phrase>
+  <phrase data="_MOD_EM_DEL_OK">Tên sự kiện đã xóa thành công!</phrase>
+  <phrase data="_MOD_EM_UPDATE_OK">Tên sự kiện đã cập nhật thành công!</phrase>
+  <phrase data="_MOD_EM_ADDED_OK">Tên sự kiện đã thêm thành công!</phrase>
+</language>

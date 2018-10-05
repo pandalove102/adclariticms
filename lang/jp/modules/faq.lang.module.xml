@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language>
+  <phrase data="_MOD_FAQ_NEW">新しい質問</phrase>
+  <phrase data="_MOD_FAQ_DEL_OK">質問「名前」削除終了!</phrase>
+  <phrase data="_MOD_FAQ_QUESTION">質問</phrase>
+  <phrase data="_MOD_FAQ_NOFAQS">質問はまだありません。追加してください。</phrase>
+  <phrase data="_MOD_FAQ_TITLE">F.A.Q管理者</phrase>
+  <phrase data="_MOD_FAQ_TITLE1">質問変更</phrase>
+  <phrase data="_MOD_FAQ_TITLE2">質問追加</phrase>
+  <phrase data="_MOD_FAQ_SUB">よくある質問</phrase>
+  <phrase data="_MOD_FAQ_INFO">最もある質問</phrase>
+  <phrase data="_MOD_FAQ_UPDATE">質問更新</phrase>
+  <phrase data="_MOD_FAQ_UPDATED">質問「名前」更新終了!</phrase>
+  <phrase data="_MOD_FAQ_ADDED">質問「名前」追加終了!</phrase>
+  <phrase data="_MOD_FAQ_NOFAQF">申し訳ございませんが、質問はありません。...</phrase>
+</language>

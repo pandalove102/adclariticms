@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_PLG_PL_ACTIVE">Làm hoạt động khảo sát </phrase>
+  <phrase data="_PLG_PL_ADD">Thêm khảo sát	</phrase>
+  <phrase data="_PLG_PL_ADD_Q">Thêm lựa chọn khảo sát 	</phrase>
+  <phrase data="_PLG_PL_ADD1">Thêm mới khảo sát</phrase>
+  <phrase data="_PLG_PL_ADDED">Tên câu hỏi khảo sát đã thêm thành công !</phrase>
+  <phrase data="_PLG_PL_DEL_OK">Tên khảo sát đã xóa thành công.</phrase>
+  <phrase data="_PLG_PL_SUB1">Tại đây bạn có thể cập nhật câu hỏi khảo sát.</phrase>
+  <phrase data="_PLG_PL_SUB2">Tại đây bạn có thể thêm mới khảo sát 	.</phrase>
+  <phrase data="_PLG_PL_SUB3">Tại đây bạn có thể gim phiếu vào cấu hình.</phrase>
+  <phrase data="_PLG_PL_SUB4">khảo sát mới </phrase>
+  <phrase data="_PLG_PL_NOPOLL">Bạn chưa có bất kỳ khảo sát nào. Vui lòng thêm vào.</phrase>
+  <phrase data="_PLG_PL_NOW">khảo sát ngay </phrase>
+  <phrase data="_PLG_PL_OPTIONS">Lựa chọn khảo sát </phrase>
+  <phrase data="_PLG_PL_POLL">khảo sát </phrase>
+  <phrase data="_PLG_PL_QUESTION">Câu hỏi khảo sát </phrase>
+  <phrase data="_PLG_PL_RESULT">Xem kết quả </phrase>
+  <phrase data="_PLG_PL_THANKS">Cảm ơn đã khảo sát	</phrase>
+  <phrase data="_PLG_PL_TITLE1">Sửa câu hỏi khảo sát 	</phrase>
+  <phrase data="_PLG_PL_TITLE2">Thêm mới khảo sát </phrase>
+  <phrase data="_PLG_PL_TITLE3">Quản lý CMS khảo sát</phrase>
+  <phrase data="_PLG_PL_TOTAL"> Tổng số phiếu bỏ :</phrase>
+  <phrase data="_PLG_PL_UPDATE">Cập nhật số phiếu</phrase>
+  <phrase data="_PLG_PL_UPDATED">Tên câu hỏi khảo sát đã cập nhật thành công !</phrase>
+  <phrase data="_PLG_PL_VIEW">Xem trước </phrase>
+  <phrase data="_PLG_PL_VOTE">Đánh giá</phrase>
+  <phrase data="_PLG_PL_VOTES">Đánh giá</phrase>
+</language>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_MOD_GA_TITLE">Manage CMS Gallery</phrase>
+  <phrase data="_MOD_GA_SUB">Here you can configure your gallery module.</phrase>
+  <phrase data="_MOD_GA_TITLE1">Sửa Gallery</phrase>
+  <phrase data="_MOD_GA_NEW">Mới Gallery</phrase>
+  <phrase data="_MOD_GA_PHOTOS">Hình ảnh</phrase>
+  <phrase data="_MOD_GA_DEL_OK">Tên bộ sưu tập đã xóa thành công !</phrase>
+  <phrase data="_MOD_GA_NOGAL">Bạn chưa có bất kỳ bộ sưu tập nào	...</phrase>
+  <phrase data="_MOD_GA_NOPHOTO">Bạn chưa có bất kỳ hình ảnh nào	...</phrase>
+  <phrase data="_MOD_GA_SUB2">Cập nhật Gallery</phrase>
+  <phrase data="_MOD_GA_SUB3">Tạo Gallery</phrase>
+  <phrase data="_MOD_GA_SUB4">Quản lý hình ảnh 	</phrase>
+  <phrase data="_MOD_GA_SUB5">Thêm hình ảnh </phrase>
+  <phrase data="_MOD_GA_SUB6">Chọn Gallery</phrase>
+  <phrase data="_MOD_GA_SUB7">Đính kèm Gallery</phrase>
+  <phrase data="_MOD_GA_UPDATE_OK">Tên bộ sưu tập đã cập nhật thành công .</phrase>
+  <phrase data="_MOD_GA_ADDED_OK">Tên bộ sưu tập đã thêm thành công .</phrase>
+  <phrase data="_MOD_GA_PHOTO_OK">Tên hình ảnh đã cập nhật thành công .</phrase>
+  <phrase data="_MOD_GA_PHOTO_DEL_OK">Tên hình ảnh đã xóa thành công 	.</phrase>
+  <phrase data="_MOD_GA_THUMBW">Độ rộng của một ảnh thu nhỏ </phrase>
+  <phrase data="_MOD_GA_THUMBH">Độ cao của một ảnh thu nhỏ </phrase>
+  <phrase data="_MOD_GA_COLS">Cỡ của cột</phrase>
+  <phrase data="_MOD_GA_WMARK">Cho phép hình mờ 	</phrase>
+  <phrase data="_MOD_GA_LIKE">Cho phép thích</phrase>
+  <phrase data="_MOD_GA_DIR">Thự mục bộ sưu tập không hợp lệ </phrase>
+  <phrase data="_MOD_GA_POSTER">Người đăng hình </phrase>
+  <phrase data="_MOD_GA_RESIZE_TH">Thay đổi kích thước hình ảnh của 1 hình nhỏ </phrase>
+  <phrase data="_MOD_GA_RESIZE_THE">Thay đổi kích thước "Method"</phrase>
+  <phrase data="_MOD_GA_RESIZE_OK">[SỐ] hình ảnh đã thay đổi kích thước thành công.</phrase>
+  <phrase data="_MOD_GA_INFO">Vui lòng kiên nhẫn, hoạt động này có thể mất thời gian .</phrase>
+</language>

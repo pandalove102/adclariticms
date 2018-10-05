@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_MOD_PF_TITLE">Quản lý danh mục CMS của Module 	</phrase>
+  <phrase data="_MOD_PF_SUB">Mục quản lý </phrase>
+  <phrase data="_MOD_PF_SUB1">Khách hàng </phrase>
+  <phrase data="_MOD_PF_ADD">Thêm mục </phrase>
+  <phrase data="_MOD_PF_SUB2">Sửa mục </phrase>
+  <phrase data="_MOD_PF_SUB3">Thự mục Portfilio </phrase>
+  <phrase data="_MOD_PF_SUB4">Sửa thư mục </phrase>
+  <phrase data="_MOD_PF_SUB4">Cấu hình Portfolio</phrase>
+  <phrase data="_MOD_PF_SUB5">Mặt hàng mỗi trang thư mục</phrase>
+  <phrase data="_MOD_PF_SUB6">Mặt hàng mỗi trang chủ</phrase>
+  <phrase data="_MOD_PF_SUB7">Mục bố trí	</phrase>
+  <phrase data="_MOD_PF_SUB8">Đưa thư mục dẫn đường</phrase>
+  <phrase data="_MOD_PF_SUB9">Đưa lựa chọn sắp xếp </phrase>
+  <phrase data="_MOD_PF_SUB10">Chỉ đưa đặc điểm</phrase>
+  <phrase data="_MOD_PF_SUB11">Mục đặc sắc </phrase>
+  <phrase data="_MOD_PF_NOPROJ">Bạn chưa có thư mục nào. Vui lòng thêm vào ...</phrase>
+  <phrase data="_MOD_PF_DEL_OK">Tên mục đã thêm thành công !</phrase>
+  <phrase data="_MOD_PF_CUPDATED">Portfolio đang cài đặt đã cập nhật thành công !</phrase>
+  <phrase data="_MOD_PF_CAT_UPDATE_OK">Tên thư mục đã cập nhật thành công !</phrase>
+  <phrase data="_MOD_PF_CAT_ADDED_OK">Tên thư mục đã thêm thành công !</phrase>
+  <phrase data="_MOD_PF_ITM_UPDATE_OK">Tên mục đã cập nhật thành công!</phrase>
+  <phrase data="_MOD_PF_ITM_ADDED_OK">Tên mục đã thêm thành công !</phrase>
+  <phrase data="_MOD_PF_CAT_DEL_OK">Tên thư mục đã thêm thành công!</phrase>
+  <phrase data="_MOD_PF_UPDATECAT">Cập nhật thư mục 	</phrase>
+  <phrase data="_MOD_PF_UPDATEITM">Cập nhật mục 	</phrase>
+  <phrase data="_MOD_PF_NEWITM">Mục mới </phrase>
+  <phrase data="_MOD_PF_NEWCAT">Thư mục mới </phrase>
+</language>

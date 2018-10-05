@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_PLG_PL_ACTIVE">ポールを有効にする</phrase>
+  <phrase data="_PLG_PL_ADD">ポール追加</phrase>
+  <phrase data="_PLG_PL_ADD_Q">ポールのオプション追加</phrase>
+  <phrase data="_PLG_PL_ADD1">新ポール追加</phrase>
+  <phrase data="_PLG_PL_ADDED">「NAME」のポールの質問が追加された。</phrase>
+  <phrase data="_PLG_PL_DEL_OK">「NAME」のポールが追加された。</phrase>
+  <phrase data="_PLG_PL_SUB1">ここに質問のポールを更新することができます。</phrase>
+  <phrase data="_PLG_PL_SUB2">ここに新ポールを追加することができます。</phrase>
+  <phrase data="_PLG_PL_SUB3">ここにプラグインのポールを設定することができます。</phrase>
+  <phrase data="_PLG_PL_SUB4">新ポール</phrase>
+  <phrase data="_PLG_PL_NOPOLL">まだポールを入力していませんか？ご入力ください。</phrase>
+  <phrase data="_PLG_PL_NOW">今投票する</phrase>
+  <phrase data="_PLG_PL_OPTIONS">ポールのオプション</phrase>
+  <phrase data="_PLG_PL_POLL">ポール</phrase>
+  <phrase data="_PLG_PL_QUESTION">質問ポール</phrase>
+  <phrase data="_PLG_PL_RESULT">結果をビューする。</phrase>
+  <phrase data="_PLG_PL_THANKS">投票頂きまして、ありがとうございました。</phrase>
+  <phrase data="_PLG_PL_TITLE1">質問ポール追加</phrase>
+  <phrase data="_PLG_PL_TITLE2">新ポール追加</phrase>
+  <phrase data="_PLG_PL_TITLE3">CMSポーリングプラグインの管理</phrase>
+  <phrase data="_PLG_PL_TOTAL">投票の合計:</phrase>
+  <phrase data="_PLG_PL_UPDATE">ポール更新</phrase>
+  <phrase data="_PLG_PL_UPDATED">「NAME」のポールの質問が更新された。!</phrase>
+  <phrase data="_PLG_PL_VIEW">ビュー</phrase>
+  <phrase data="_PLG_PL_VOTE">投票する</phrase>
+  <phrase data="_PLG_PL_VOTES">投票</phrase>
+</language>

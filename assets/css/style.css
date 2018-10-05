@@ -1,0 +1,1838 @@
+/*
+Custom css goes here
+*/
+body {
+	background: #fff;
+	overflow-x: hidden;
+}
+
+header {
+	padding: 0px 0 5px;
+}
+
+.header-inner {
+	
+}
+
+.white-bg {
+	background: #fff;
+}
+
+.logo {
+	max-height: 80px;
+}
+
+.header-inner {
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	min-height: 110px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.navbar-header, .navbar-nav {
+	
+}
+
+.navbar-brand {
+	height: auto;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover, .nav>li>a:focus,
+	.nav>li>a:hover {
+	background-color: transparent !important;
+}
+
+.cm-ul {
+	list-style: none;
+	padding: 15px 5px;
+	margin-bottom: 0;
+}
+
+.cm-ul .btn {
+	padding-left: 0px;
+}
+
+.cm-ul .btn-group {
+	margin-bottom: 10px;
+}
+
+.ul-group ul {
+	float: left;
+}
+
+.ul-group {
+	float: right;
+	padding: 15px;
+	padding: 34px 15px 10px;
+}
+
+.ul-group>.cm-ul>li {
+	font-size: 18px;
+}
+
+.open-sens {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.open-sens-c {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.welcome-text h2 {
+	font-size: 39px;
+	font-weight: 300;
+	text-align: center;
+	line-height: 1.3;
+	padding: 0 10px;
+	margin-top: 0;
+}
+
+/*   ********************************************** Mobile header             */
+.mobile-header {
+	padding: 15px 0px;
+}
+
+.mobile-header .m-btn a {
+	font-size: 28px;
+	color: #5c5951;
+}
+
+.mobile-header .m-logo {
+	text-align: center;
+}
+
+.mobile-header .logo {
+	max-height: 45px;
+}
+
+.mobile-header .container {
+	width: 100%;
+	max-width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.m-cross {
+	text-align: right;
+}
+
+.mobile-header {
+	display: none;
+}
+/*    ********************SERCH HEADER *************** */
+#search {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	-webkit-transform: translate(0px, -100%) scale(0, 0);
+	-moz-transform: translate(0px, -100%) scale(0, 0);
+	-o-transform: translate(0px, -100%) scale(0, 0);
+	-ms-transform: translate(0px, -100%) scale(0, 0);
+	transform: translate(0px, -100%) scale(0, 0);
+	opacity: 0;
+}
+
+#search.open {
+	-webkit-transform: translate(0px, 0px) scale(1, 1);
+	-moz-transform: translate(0px, 0px) scale(1, 1);
+	-o-transform: translate(0px, 0px) scale(1, 1);
+	-ms-transform: translate(0px, 0px) scale(1, 1);
+	transform: translate(0px, 0px) scale(1, 1);
+	opacity: 1;
+}
+
+#search input[type="search"] {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	color: rgb(255, 255, 255);
+	background: rgba(0, 0, 0, 0);
+	font-size: 60px;
+	font-weight: 300;
+	text-align: center;
+	border: 0px;
+	margin: 0px auto;
+	margin-top: -51px;
+	padding-left: 30px;
+	padding-right: 30px;
+	outline: none;
+}
+
+#search .btn {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: 61px;
+	margin-left: -45px;
+}
+
+#search .close {
+	position: fixed;
+	top: 15px;
+	right: 15px;
+	color: #fff;
+	background-color: #428bca;
+	border-color: #357ebd;
+	opacity: 1;
+	padding: 10px 17px;
+	font-size: 27px;
+}
+/*   **********************************************8             */
+.wrapper {
+	width: 90%;
+	max-width: 1366px;
+	margin: 20px auto;
+	background-color: #fff;
+}
+
+.home-hero {
+	display: grid;
+	display: -ms-grid;
+	grid-gap: 10px;
+	grid-auto-rows: minmax(150px, auto);
+	grid-column-gap: 10px;
+}
+
+.home-hero>* {
+	padding: 10px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #333;
+	color: #fff;
+}
+
+.home-hero>div {
+	border-radius: 10px;
+	margin: 3px;
+}
+
+.creative {
+	background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/creative.jpg);
+	background-position: center center;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+}
+
+.creative:hover {
+	background-image: linear-gradient(rgba(52, 182, 248, 0.6) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/creative.jpg);
+}
+
+.ppc {
+	background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/2.jpg);
+	background-position: center center;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+}
+
+.ppc:hover {
+	background-image: linear-gradient(rgba(52, 182, 248, 0.6) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/2.jpg);
+}
+
+.tccs {
+	background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/3.jpg);
+	background-position: center center;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+}
+
+.tccs:hover {
+	background-image: linear-gradient(rgba(52, 182, 248, 0.6) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/3.jpg);
+}
+
+.lgm {
+	background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/8.jpg);
+	background-position: center center;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+}
+
+.lgm:hover {
+	background-image: linear-gradient(rgba(52, 182, 248, 0.6) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/8.jpg);
+}
+
+.sss {
+	background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/7.jpg);
+	background-position: center center;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+}
+
+.sss:hover {
+	background-image: linear-gradient(rgba(52, 182, 248, 0.6) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/7.jpg);
+}
+
+.cvp {
+	background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/4.jpg);
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	background-position: center center;
+}
+
+.cvp:hover {
+	background-image: linear-gradient(rgba(52, 182, 248, 0.6) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/4.jpg);
+}
+
+.im {
+	background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/9.jpg);
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	background-position: center center;
+}
+
+.im:hover {
+	background-image: linear-gradient(rgba(52, 182, 248, 0.6) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/9.jpg);
+}
+
+.home-hero h3 {
+	margin-top: auto;
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	line-height: 1.2;
+}
+
+.home-hero h3 a {
+	color: #fff;
+}
+
+.ppa {
+	background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/5.jpg);
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+}
+
+.ppa:hover {
+	background-image: linear-gradient(rgba(52, 182, 248, 0.6) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/5.jpg);
+}
+
+.da {
+	background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/6.jpg);
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+}
+
+.da:hover {
+	background-image: linear-gradient(rgba(52, 182, 248, 0.6) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/6.jpg);
+}
+
+.cta {
+	background-color: rgb(123, 14, 34);
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+}
+
+a.spam-button:link {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	text-decoration: none;
+	background-color: #fff;
+	color: #333;
+	display: block;
+	padding: 5px;
+	margin: auto auto 20px;
+	width: 90%;
+	text-align: center;
+}
+
+.container-cs {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.noo-padding-left {
+	padding-left: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.noo-padding-left2 {
+	padding-left: 0;
+	padding-top: 25px;
+	padding-bottom: 15px;
+	padding-right: 0;
+}
+
+form#contact-form .form-control {
+	height: 45px;
+}
+
+.with-us {
+	font-size: 19px;
+	color: #5c5951;
+}
+
+.noo-padding {
+	padding: 0;
+}
+
+.navbar-nav>li>.dropdown-menu {
+	margin-top: 0;
+	border-radius: 8px;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover, .nav>li>a:focus,
+	.nav>li>a:hover {
+	color: #34b5f7;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+	color: #34b5f7 !important;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.dropdown-menu {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1000;
+	display: none;
+	float: left;
+	min-width: 160px;
+	padding: 5px 0;
+	margin: 2px 0 0;
+	font-size: 14px;
+	text-align: left;
+	list-style: none;
+	background-color: #fff;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0, 0, 0, .15);
+	border-radius: 4px;
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 2px 4px rgba(98, 95, 95, 0.75);
+}
+
+@media 1 ( min-width : 500px) {
+	.home-hero {
+		grid-template-columns: 1fr 1fr;
+		-ms-grid-template-columns: 1fr 1fr;
+	}
+	.creative {
+		grid-column: 1/3;
+		grid-row: 1/3;
+		-ms-grid-column: 1/3;
+		-ms-grid-row: 1/3;
+	}
+	.cvp {
+		grid-column: 1;
+		grid-row: 3/6;
+		-ms-grid-column: 1;
+		-ms-grid-row: 3/6;
+	}
+	.ppa {
+		grid-column: 1;
+		grid-row: 6;
+		-ms-grid-column: 1;
+		-ms-grid-row: 6;
+	}
+	.cta {
+		grid-column: 2;
+		grid-row: 5/7;
+		-ms-grid-column: 2;
+		-ms-grid-row: 5/7;
+	}
+}
+
+@media ( min-width : 800px) {
+	.home-hero {
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: repeat(15, 85px);
+		-ms-grid-columns: 1fr 1fr 1fr;
+		grid-gap: 10px;
+		-ms-grid-gap: 10px;
+		-ms-grid-template-columns: 1fr 1fr 1fr;
+		-ms-grid-rows: 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px
+			80px 80px 80px 80px;
+	}
+	.creative {
+		-ms-grid-row: 1;
+		-ms-grid-column: 1;
+		-ms-grid-row-span: 5;
+		grid-column: 1;
+		grid-row: 1/5;
+	}
+	.ppc {
+		-ms-grid-row: 6;
+		-ms-grid-column: 1;
+		-ms-grid-row-span: 5;
+		grid-column: 1;
+		grid-row: 5/10;
+	}
+	.tccs {
+		-ms-grid-row: 11;
+		-ms-grid-column: 1;
+		-ms-grid-row-span: 5;
+		grid-column: 1;
+		grid-row: 10/15;
+	}
+	.cvp {
+		-ms-grid-row: 1;
+		-ms-grid-column: 2;
+		-ms-grid-row-span: 6;
+		grid-column: 2;
+		grid-row: 1/6;
+	}
+	.ppa {
+		-ms-grid-row: 7;
+		-ms-grid-column: 2;
+		-ms-grid-row-span: 5;
+		grid-column: 2;
+		grid-row: 6/11;
+	}
+	.da {
+		-ms-grid-row: 12;
+		-ms-grid-column: 2;
+		-ms-grid-row-span: 5;
+		grid-column: 2;
+		grid-row: 11/15;
+	}
+	.sss {
+		-ms-grid-row: 1;
+		-ms-grid-column: 3;
+		-ms-grid-row-span: 4;
+		grid-column: 3;
+		grid-row: 1/4;
+	}
+	.lgm {
+		-ms-grid-row: 5;
+		-ms-grid-column: 3;
+		-ms-grid-row-span: 5;
+		grid-column: 3;
+		grid-row: 4/9;
+	}
+	.im {
+		-ms-grid-row: 10;
+		-ms-grid-column: 3;
+		-ms-grid-row-span: 6;
+		grid-column: 3;
+		grid-row: 9/15;
+	}
+}
+
+@media only screen and (max-width:640px) {
+	.home-hero {
+		grid-template-columns: 1fr;
+		grid-template-rows: 85px;
+		-ms-grid-columns: 1fr;
+		grid-gap: 10px;
+		-ms-grid-gap: 10px;
+		-ms-grid-template-columns: 1fr;
+		-ms-grid-rows: 80px;
+	}
+	.home-hero>div {
+		min-height: 300px;
+	}
+	.creative {
+		-ms-grid-row: 1;
+		-ms-grid-column: 1;
+		-ms-grid-row-span: 5;
+		grid-row: 1/3;
+	}
+	.ppc {
+		-ms-grid-row: 6;
+		-ms-grid-column: 1;
+		-ms-grid-row-span: 5;
+	}
+	.tccs {
+		-ms-grid-row: 11;
+		-ms-grid-column: 1;
+		-ms-grid-row-span: 5;
+	}
+	.cvp {
+		-ms-grid-row: 16;
+		-ms-grid-column: 1;
+		-ms-grid-row-span: 6;
+	}
+	.ppa {
+		-ms-grid-row: 22;
+		-ms-grid-column: 1;
+		-ms-grid-row-span: 5;
+	}
+	.da {
+		-ms-grid-row: 27;
+		-ms-grid-column: 1;
+		-ms-grid-row-span: 5;
+	}
+	.sss {
+		-ms-grid-row: 32;
+		-ms-grid-column: 1;
+		-ms-grid-row-span: 4;
+	}
+	.lgm {
+		-ms-grid-row: 36;
+		-ms-grid-column: 1;
+		-ms-grid-row-span: 5;
+	}
+	.im {
+		-ms-grid-row: 41;
+		-ms-grid-column: 1;
+		-ms-grid-row-span: 6;
+	}
+}
+
+@media only screen and (min-width:641px) and (max-width:799px) {
+	.home-hero {
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: repeat(15, 85px);
+		-ms-grid-columns: 1fr 1fr 1fr;
+		grid-gap: 10px;
+		-ms-grid-gap: 10px;
+		-ms-grid-template-columns: 1fr 1fr 1fr;
+		-ms-grid-rows: 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px
+			80px 80px 80px 80px;
+	}
+	.creative {
+		-ms-grid-row: 1;
+		-ms-grid-column: 1;
+		-ms-grid-row-span: 5;
+		grid-column: 1;
+		grid-row: 1/5;
+	}
+	.ppc {
+		-ms-grid-row: 6;
+		-ms-grid-column: 1;
+		-ms-grid-row-span: 5;
+		grid-column: 1;
+		grid-row: 5/10;
+	}
+	.tccs {
+		-ms-grid-row: 11;
+		-ms-grid-column: 1;
+		-ms-grid-row-span: 5;
+		grid-column: 1;
+		grid-row: 10/15;
+	}
+	.cvp {
+		-ms-grid-row: 1;
+		-ms-grid-column: 2;
+		-ms-grid-row-span: 6;
+		grid-column: 2;
+		grid-row: 1/6;
+	}
+	.ppa {
+		-ms-grid-row: 7;
+		-ms-grid-column: 2;
+		-ms-grid-row-span: 5;
+		grid-column: 2;
+		grid-row: 6/11;
+	}
+	.da {
+		-ms-grid-row: 12;
+		-ms-grid-column: 2;
+		-ms-grid-row-span: 5;
+		grid-column: 2;
+		grid-row: 11/15;
+	}
+	.sss {
+		-ms-grid-row: 1;
+		-ms-grid-column: 3;
+		-ms-grid-row-span: 4;
+		grid-column: 3;
+		grid-row: 1/4;
+	}
+	.lgm {
+		-ms-grid-row: 5;
+		-ms-grid-column: 3;
+		-ms-grid-row-span: 5;
+		grid-column: 3;
+		grid-row: 4/9;
+	}
+	.im {
+		-ms-grid-row: 10;
+		-ms-grid-column: 3;
+		-ms-grid-row-span: 6;
+		grid-column: 3;
+		grid-row: 9/15;
+	}
+}
+
+.down-arrow {
+	text-align: center;
+}
+
+.down-arrow img {
+	max-width: 35px;
+}
+
+.space-50 {
+	margin: 50px 0px;
+}
+
+/*  ****** contact form ******* */
+.contact-form {
+	margin-top: 15px;
+}
+
+.contact-form .textarea {
+	min-height: 120px;
+	resize: none;
+}
+
+.form-control {
+	box-shadow: none;
+	border-color: #eee;
+	height: 55px;
+	border-radius: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.form-control:focus {
+	box-shadow: none;
+	border-color: #3ca9e2;
+}
+
+.form-control-feedback {
+	line-height: 50px;
+}
+
+.main-btn {
+	background: #3ca9e2;
+	border-color: #3ca9e2;
+	color: #fff;
+	font-size: 21px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 10px 65px;
+	margin-top: 20px;
+}
+
+.main-btn:hover {
+	background: #3ca9e2;
+	color: #fff;
+}
+
+.form-control-feedback {
+	line-height: 50px;
+	top: 0px;
+}
+
+.form-control {
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.footer p {
+	font-size: 23px;
+	font-weight: 300;
+}
+
+.ftr-social {
+	list-style: none;
+	padding-left: 0;
+}
+
+.ftr-social li {
+	display: inline;
+}
+
+.ftr-social li a i {
+	color: #5c5951;
+	font-size: 26px;
+	margin: 3px;
+}
+
+.ftr-social li span {
+	font-size: 19px;
+	color: #5c5951;
+}
+
+.copy-right {
+	font-size: 19px !important;
+	color: #5c5951;
+	text-align: right;
+}
+
+.main-footer {
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+	padding: 20px 15px 10px;
+	margin-top: 30px;
+}
+
+@media ( min-width : 1200px) {
+	header .container, .container-cs {
+		max-width: 928px;
+		margin: 0 auto;
+	}
+}
+
+/* ******************* login-signup *************** */
+.prelog-sign {
+	display: grid;
+	grid-gap: 0px;
+	grid-auto-rows: minmax(150px, auto);
+	height: 100vh;
+}
+
+.pre-user {
+	background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/login-bg.jpg);
+	display: flex;
+	flex-direction: column;
+	grid-column: 1;
+	background-position: center center;
+	position: relative;
+	background-size: cover !important;
+	height: 100%;
+	width: 50%;
+	float: left;
+}
+
+.pre-client {
+	background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/signup-bg.jpg);
+	display: flex;
+	flex-direction: column;
+	grid-column: 2;
+	background-position: center center;
+	position: relative;
+	background-size: cover !important;
+	height: 100%;
+	width: 50%;
+	float: left;
+}
+
+.accounts header {
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	left: 0;
+	z-index: 2;
+}
+
+.accounts .footer {
+	position: absolute;
+	width: 100%;
+	bottom: -20px;
+	left: 0;
+	z-index: 2;
+}
+
+.pre-ls-wrp {
+	height: 100vh;
+}
+
+.accounts .main-footer {
+	min-height: auto;
+	background: #fff;
+}
+
+.accounts {
+	height: 100vh;
+	overflow: hidden;
+}
+
+.prelog-sign h3 {
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 20%;
+}
+
+.pre-client-register h3, .contact-us-banner h3, .about-us-banner h3,
+	.comn-bnr h3, .pre-user1 h3, .pre-client2 h3 {
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 15%;
+}
+
+.pre-user1 h3, .pre-client2 h3 {
+	bottom: 20%;
+}
+
+.prelog-sign h3 a, .pre-client-register h3 a, .contact-us-banner h3 a,
+	.about-us-banner h3 a, .comn-bnr h3 a, .pre-user1 h3 a, .pre-client2 h3 a
+	{
+	font-size: 3em;
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+.client-register {
+	display: flex;
+	grid-column: 1;
+	vertical-align: middle;
+	text-align: center;
+	justify-content: center;
+	align-self: center;
+}
+
+.comn-bnr {
+	background-position: center center;
+	position: relative;
+	background-size: cover !important;
+	height: 100%;
+}
+
+.pre-client-register {
+	background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/signup-bg.jpg);
+	background-position: center center;
+	position: relative;
+	background-size: cover !important;
+	height: 130vh;
+}
+
+.pre-client-register-signup {
+	background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/signup-bg.jpg);
+	background-position: center center;
+	position: relative;
+	background-size: cover !important;
+	height: 170vh;
+}
+
+.contact-us-banner {
+	background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/contact-bg.jpg);
+	background-position: center center;
+	position: relative;
+	background-size: cover !important;
+	height: 130vh;
+}
+
+.about-us-banner {
+	background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/about-bg.jpg);
+	background-position: center center;
+	position: relative;
+	background-size: cover !important;
+	height: 130vh;
+}
+
+.pre-user1 {
+	background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/login-bg.jpg);
+	background-position: center center;
+	position: relative;
+	background-size: cover !important;
+	height: 100vh;
+	width: 50%;
+	float: left;
+}
+
+.pre-client2 {
+	background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/signup-bg.jpg);
+	background-position: center center;
+	position: relative;
+	background-size: cover !important;
+	height: 100vh;
+	width: 50%;
+	float: left;
+}
+
+.influ-market-banner {
+	background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/influ-market.jpg);
+	display: table-cell;
+	width: 50%;
+	height: -webkit-calc(135vh - 5px);
+	height: -moz-calc(135vh - 5px);
+	height: -ms-calc(135vh - 5px);
+	height: -o-calc(135vh - 5px);
+	height: calc(135vh - 5px);
+}
+
+.influ-market-creative {
+	background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/creative.jpg);
+	display: table-cell;
+	width: 50%;
+	height: -webkit-calc(135vh - 5px);
+	height: -moz-calc(135vh - 5px);
+	height: -ms-calc(135vh - 5px);
+	height: -o-calc(135vh - 5px);
+	height: calc(135vh - 5px);
+}
+
+.influ-market-content-video {
+	background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/4.jpg);
+	display: table-cell;
+	width: 50%;
+	height: -webkit-calc(135vh - 5px);
+	height: -moz-calc(135vh - 5px);
+	height: -ms-calc(135vh - 5px);
+	height: -o-calc(135vh - 5px);
+	height: calc(135vh - 5px);
+}
+
+.influ-market-sem-seo-social {
+	background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/7.jpg);
+	display: table-cell;
+	width: 50%;
+	height: -webkit-calc(135vh - 5px);
+	height: -moz-calc(135vh - 5px);
+	height: -ms-calc(135vh - 5px);
+	height: -o-calc(135vh - 5px);
+	height: calc(135vh - 5px);
+}
+
+.influ-market-ppc {
+	background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/2.jpg);
+	display: table-cell;
+	width: 50%;
+	height: -webkit-calc(135vh - 5px);
+	height: -moz-calc(135vh - 5px);
+	height: -ms-calc(135vh - 5px);
+	height: -o-calc(135vh - 5px);
+	height: calc(135vh - 5px);
+}
+
+.influ-market-ppa {
+	background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/5.jpg);
+	display: table-cell;
+	width: 50%;
+	height: -webkit-calc(135vh - 5px);
+	height: -moz-calc(135vh - 5px);
+	height: -ms-calc(135vh - 5px);
+	height: -o-calc(135vh - 5px);
+	height: calc(135vh - 5px);
+}
+
+.influ-market-Lead-generation-management {
+	background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/8.jpg);
+	display: table-cell;
+	width: 50%;
+	height: -webkit-calc(135vh - 5px);
+	height: -moz-calc(135vh - 5px);
+	height: -ms-calc(135vh - 5px);
+	height: -o-calc(135vh - 5px);
+	height: calc(135vh - 5px);
+}
+
+.influ-market-telesale-call-center-services {
+	background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/3.jpg);
+	display: table-cell;
+	width: 50%;
+	height: -webkit-calc(135vh - 5px);
+	height: -moz-calc(135vh - 5px);
+	height: -ms-calc(135vh - 5px);
+	height: -o-calc(135vh - 5px);
+	height: calc(135vh - 5px);
+}
+
+.influ-market-data-utilization {
+	background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+		rgba(52, 182, 248, 0.8)),
+		url(https://adclariti.com/assets/images/6.jpg);
+	display: table-cell;
+	width: 50%;
+	height: -webkit-calc(135vh - 5px);
+	height: -moz-calc(135vh - 5px);
+	height: -ms-calc(135vh - 5px);
+	height: -o-calc(135vh - 5px);
+	height: calc(135vh - 5px);
+}
+
+.pre-client-register {
+	position: relative;
+	display: table-cell;
+}
+
+.client-register {
+	position: relative;
+	display: table-cell;
+	vertical-align: middle;
+	padding: 144px 50px;
+}
+
+.client-regter-wrap {
+	display: :table;
+	width: 100vh;
+}
+
+.sign-up-form input {
+	
+}
+
+.ul-group>.cm-ul>li img {
+	max-height: 20px;
+}
+
+.selectpicker {
+	background: none !important;
+	box-shadow: none !important;
+	border: 0px !important;
+	padding-top: 0;
+	padding-bottom: 0;
+	font-size: 14px;
+}
+
+.flag-icon {
+	font-size: 22px !important;
+	margin-right: 5px;
+}
+
+.title-type-2 {
+	font-size: 35px;
+	color: #000000;
+	font-weight: 300;
+	line-height: 1.5;
+	padding: 20px;
+}
+
+.accounts.no-fix-height {
+	height: auto;
+	min-height: 100px;
+	overflow: visible;
+}
+
+.create-account-wrp {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.accounts.no-fix-height .footer {
+	position: relative;
+	width: 100%;
+	bottom: 0px;
+	left: 0;
+	z-index: 2;
+	margin-top: -99px;
+}
+
+.main-btn-c {
+	background: #3ca9e2;
+	color: #fff;
+	font-size: 28px;
+	text-transform: uppercase;
+	font-weight: 500;
+	width: 100%;
+	border-radius: 0;
+}
+
+.main-btn-l {
+	background: #eeedf1;
+	width: 100%;
+	border-radius: 0;
+	font-size: 24px;
+	color: #8a8b8e;
+	padding: 13px 0;
+}
+
+.sky-blue {
+	color: #3ca9e2;
+}
+
+.f-text {
+	color: #8a8b8e;
+	font-size: 20px;
+	padding: 12px 0;
+}
+
+#remember {
+	text-align: left;
+}
+
+#forgot-pass {
+	text-align: right;
+}
+
+.font-23 {
+	font-size: 23px;
+	font-weight: 300;
+}
+
+.about-text {
+	font-size: 21px;
+	font-weight: 300;
+	color: #000;
+	text-align: justify;
+}
+
+.about-text .cap {
+	color: #34b5f7;
+	font-weight: 600;
+}
+
+.menu-btn {
+	position: absolute;
+	top: 35px;
+	left: 5%;
+}
+
+.menu-btn a {
+	font-size: 40px;
+	color: #635f5c;
+}
+
+.cm-ul .dropdown-menu {
+	background: none !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+.cm-ul .dropdown-menu>li>a {
+	padding: 3px 0px;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+	color: #262626;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+	.navbar-brand {
+		float: left;
+		height: 50px;
+		padding: 10px 10px;
+	}
+	.header-inner {
+		min-height: 60px;
+	}
+	.logo {
+		max-height: 38px;
+	}
+	.ul-group {
+		float: right;
+		padding: 15px;
+		padding: 0px 0px 10px;
+	}
+	.ul-group>.cm-ul>li img {
+		max-height: 13px;
+	}
+	.flag-icon {
+		font-size: 14px !important;
+		margin-right: 0px;
+	}
+	.bootstrap-select.btn-group .btn .filter-option {
+		width: auto !important;
+	}
+	.cm-ul {
+		margin-bottom: 0px;
+		list-style: none;
+		padding: 18px 4px;
+	}
+	.bootstrap-select>.btn {
+		padding-right: 15px !important;
+	}
+	.bootstrap-select {
+		margin-bottom: 0 !important;
+	}
+	header .container, .container-cs {
+		max-width: 76%;
+		padding: 0;
+		margin: 0 auto;
+	}
+	.menu-btn a {
+		font-size: 20px;
+		color: #635f5c;
+	}
+	.menu-btn {
+		position: absolute;
+		top: 18px;
+		left: 3%;
+	}
+	.welcome-text h2 {
+		font-size: 20px;
+	}
+	.ftr-social {
+		list-style: none;
+		padding-left: 0;
+		text-align: center;
+	}
+	.copy-right {
+		font-size: 14px !important;
+		color: #5c5951;
+		text-align: center;
+	}
+}
+
+.line-influance {
+	height: 2px;
+	background: #34b5f7;
+	width: 100%;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.line-influance2 {
+	height: 2px;
+	background: #34b5f7;
+	width: 100%;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+.line-influance {
+	display: none;
+}
+
+.line-influance2 {
+	display: none;
+}
+
+.up-arowww {
+	margin-bottom: 30px;
+	display: none;
+}
+
+.bootstrap-select.btn-group .dropdown-menu.inner {
+	background: #fff !important;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+	.with-us {
+		font-size: 19px;
+		color: #5c5951;
+		text-align: center;
+	}
+	.client-register {
+		padding: 0;
+	}
+	.create-account-wrp, .client-register {
+		display: block;
+		height: auto;
+	}
+	.about-text {
+		font-size: 16px;
+		font-weight: 300;
+		color: #000;
+		text-align: left;
+		margin-bottom: 10px;
+	}
+	.accounts.no-fix-height .footer {
+		position: initial;
+		width: 100%;
+		bottom: 0px;
+		left: 0;
+		z-index: 2;
+		margin-top: 0;
+	}
+	.main-btn-c {
+		background: #3ca9e2;
+		color: #fff;
+		font-size: 20px;
+		text-transform: uppercase;
+		font-weight: 500;
+		width: 100%;
+		border-radius: 0;
+	}
+	.main-btn-l {
+		background: #eeedf1;
+		width: 100%;
+		border-radius: 0;
+		font-size: 18px;
+		color: #8a8b8e;
+		padding: 13px 8px;
+	}
+	.pre-client-register {
+		display: block;
+	}
+	.prelog-sign h3 a, .pre-client-register h3 a, .contact-us-banner h3 a,
+		.about-us-banner h3 a, .comn-bnr h3 a, .pre-user1 h3 a, .pre-client2 h3 a
+		{
+		font-size: 1.8em;
+		color: #fff;
+		text-decoration: none;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+	}
+	.influ-market-banner {
+		background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+			rgba(52, 182, 248, 0.8)),
+			url(https://adclariti.com/assets/images/influ-market.jpg);
+		display: block;
+		width: 100%;
+	}
+	.influ-market-creative {
+		background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+			rgba(52, 182, 248, 0.8)),
+			url(https://adclariti.com/assets/images/creative.jpg);
+		display: block;
+		width: 100%;
+	}
+	.influ-market-content-video {
+		background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+			rgba(52, 182, 248, 0.8)),
+			url(https://adclariti.com/assets/images/4.jpg);
+		display: block;
+		width: 100%;
+	}
+	.influ-market-sem-seo-social {
+		background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+			rgba(52, 182, 248, 0.8)),
+			url(https://adclariti.com/assets/images/7.jpg);
+		display: block;
+		width: 100%;
+	}
+	
+	.influ-market-ppc {
+		background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+			rgba(52, 182, 248, 0.8)),
+			url(https://adclariti.com/assets/images/2.jpg);
+		display: block;
+		width: 100%;
+	}
+	.influ-market-ppa {
+		background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+			rgba(52, 182, 248, 0.8)),
+			url(https://adclariti.com/assets/images/5.jpg);
+		display: block;
+		width: 100%;
+	}
+	.influ-market-Lead-generation-management {
+		background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+			rgba(52, 182, 248, 0.8)),
+			url(https://adclariti.com/assets/images/8.jpg);
+		display: block;
+		width: 100%;
+	}
+	
+	.influ-market-telesale-call-center-services {
+		background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+			rgba(52, 182, 248, 0.8)),
+			url(https://adclariti.com/assets/images/3.jpg);
+		display: block;
+		width: 100%;
+	}
+	.influ-market-data-utilization {
+		background-image: linear-gradient(rgba(52, 182, 248, 0) 60%,
+			rgba(52, 182, 248, 0.8)),
+			url(https://adclariti.com/assets/images/6.jpg);
+		display: block;
+		width: 100%;
+	}
+	
+	
+	.mb-100 {
+		padding-bottom: 100px;
+	}
+	header {
+		position: relative !important;
+	}
+	.create-account-wrp {
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-top: 10px;
+	}
+	.about-us-banner, .contact-us-banner, .pre-client-register,
+		.pre-client-register, .influ-market-banner {
+		border-radius: 20px;
+		margin: 20px 0;
+	}
+	.line-influance {
+		display: block;
+		float: left;
+		clear: both;
+		margin: 25px 0;
+	}
+	.line-influance2 {
+		display: block;
+	}
+	.up-arowww {
+		margin-bottom: 20px;
+		display: block;
+	}
+	.with-us {
+		font-size: 19px;
+		color: #5c5951;
+		text-align: center;
+	}
+}
+
+@media only screen and (min-width:481px) and (max-width:767px) {
+	.with-us {
+		font-size: 19px;
+		color: #5c5951;
+		text-align: center;
+	}
+	.about-us-banner, .contact-us-banner, .pre-client-register, .pre-user1,
+		.pre-client2 {
+		position: relative;
+		display: table-cell;
+		width: 50%;
+	}
+	.client-register {
+		position: relative;
+		display: table-cell;
+		vertical-align: middle;
+		padding: 96px 20px;
+	}
+	.with-us {
+		font-size: 19px;
+		color: #5c5951;
+		text-align: center;
+	}
+	.up-arowww {
+		margin-bottom: 30px;
+		display: none !important;
+	}
+	.up-arowww {
+		margin-bottom: 30px;
+		display: none !important;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+	header .container, .container-cs {
+		max-width: 79%;
+		padding: 0;
+		margin: 0 auto;
+	}
+	.ftr-social li a i {
+		color: #5c5951;
+		font-size: 23px;
+		margin: 3px;
+	}
+	.with-us {
+		font-size: 17px;
+		color: #5c5951;
+	}
+	.ftr-social li a i {
+		color: #5c5951;
+		font-size: 23px;
+		margin: 3px;
+	}
+	.copy-right {
+		font-size: 17px !important;
+		color: #5c5951;
+		text-align: right;
+	}
+	.navbar-brand {
+		float: left;
+		height: 50px;
+		padding: 10px 10px;
+	}
+	.header-inner {
+		min-height: 60px;
+	}
+	.logo {
+		max-height: 38px;
+	}
+	.ul-group {
+		float: right;
+		padding: 15px;
+		padding: 5px 15px 10px;
+	}
+	.menu-btn a {
+		font-size: 27px;
+		color: #635f5c;
+	}
+	.menu-btn {
+		position: absolute;
+		top: 16px;
+		left: 5%;
+	}
+}
+
+@media only screen and (min-width:1025px) and (max-width:1199px) {
+	header .container, .container-cs {
+		max-width: 80%;
+		padding: 0;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width:480px) {
+	.hidden-m {
+		display: none;
+	}
+	.hidden-d {
+		display: block;
+	}
+	.destop-header {
+		display: none;
+	}
+	.mobile-header {
+		display: block;
+	}
+	.frm-wrp .btn {
+		padding: 6px 55px !important;
+	}
+	header .container, .container-cs {
+		max-width: 100%;
+		padding: 0 15px !important;
+		margin: 0 auto;
+	}
+	.home .mobile-header {
+		padding: 0 0 15px 0px;
+	}
+	.menu-btn-1 {
+		padding-top: 18px;
+	}
+	.menu-btn-1 a {
+		font-size: 22px;
+		color: #5c5951;
+	}
+	.ul-group-home-xs {
+		text-align: center;
+		padding-left: 0;
+	}
+	.ul-group-home-xs ul {
+		text-align: center;
+		padding-left: 0;
+	}
+	.ul-group-home-xs ul li {
+		display: inline;
+	}
+	.ul-group-home-xs ul li a {
+		color: #565656;
+		font-size: 16px;
+		margin: 0 10px;
+	}
+	.mobile-header .flag-icon {
+		font-size: 20px !important;
+		margin-right: -1px;
+	}
+	.home-hero>div {
+		border-radius: 10px;
+		min-height: 250px;
+	}
+	.header-inner {
+		min-height: 60px;
+		float: left;
+		width: 100%;
+	}
+	.pre-client-register h3, .contact-us-banner h3, .about-us-banner h3,
+		.comn-bnr h3, .pre-user1 h3, .pre-client2 h3 {
+		text-align: left;
+		position: absolute;
+		width: 100%;
+		left: 0;
+		bottom: 20px;
+		padding-left: 20px;
+	}
+	.home .navbar-brand>img {
+		display: inline-block;
+	}
+	.home .logo-header {
+		text-align: center;
+	}
+	.home .navbar-brand {
+		float: none;
+	}
+	.home .mobile-header .logo {
+		max-height: 50px;
+		margin-top: 5px;
+	}
+	.pre-user1, .pre-client2 {
+		min-height: 300px;
+		width: 100%;
+		height: auto;
+		margin-bottom: 20px;
+		border-radius: 20px;
+	}
+	.create-account-wrp {
+		float: left;
+	}
+	.accounts .footer {
+		position: static;
+		width: 100%;
+		bottom: 0;
+		left: 0;
+		z-index: 2;
+		float: left;
+		height: 100px;
+	}
+}
+
+@media only screen and (min-width:481px) and (max-width:767px) {
+	.hidden-d {
+		display: none;
+	}
+	.hidden-m {
+		display: table-cell;
+	}
+}
+
+@media only screen and (min-width:768px) {
+	.hidden-d {
+		display: none;
+	}
+	.hidden-m {
+		display: block;
+	}
+}
+
+.frm-wrp .btn {
+	white-space: normal;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+/* **********************Sidenav CSS ***************** */
+.services-left li {
+	
+}
+
+.services-left li a {
+	color: #fff;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	text-decoration: none;
+}
+
+.go-back i {
+	font-size: 30px;
+}
+
+.services-left li::first-letter {
+	font-weight: 900;
+}
+
+.Sidenav {
+	background: #35b6f8;
+	width: 250px;
+	height: 100vh;
+	padding: 50px 10px 50px 25px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	transition: 0.5s;
+	height: 100%;
+}
+
+.open-sidebar {
+	
+}
+
+.Sidenav ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.Sidenav ul.main-menu-left li a {
+	color: #fff;
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+.main {
+	position: relative;
+	left: 0px;
+	flaot: left;
+	overflow-x: hidden;
+	background: #fff;
+	transition: left .5s;
+}
+
+.open-main {
+	left: 250px !important;
+}
+
+.login-area {
+	margin-top: 25px;
+}
+
+.close-btn {
+	display: none;
+}
+
+@media screen and (max-width:480px) {
+	.Sidenav {
+		width: 100vw;
+	}
+	.open-main {
+		left: 0px !important;
+		width: 0;
+		transition: with 0.5s;
+	}
+	.close-btn {
+		text-align: right;
+		margin-right: 20px;
+		display: block;
+	}
+}
+
+/* ******************************* ******************** */
+#search {
+	z-index: 99;
+}
+
+.m-btn a {
+	cursor: pointer;
+}

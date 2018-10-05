@@ -1,0 +1,2960 @@
+/* == Buttons == */
+.wojo.button {
+  cursor: pointer;
+  display: inline-block;
+  min-height: 1em;
+  outline: none;
+  border: none;
+  vertical-align: baseline;
+  background: #E0E1E2 none;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: 'wSansDemi', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  margin: 0em 0.25em 0em 0em;
+  padding: 0.750em 1.5em 0.750em;
+  text-transform: none;
+  text-shadow: none;
+  line-height: 1em;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0.188rem;
+  box-shadow: 0px 0px 0px 1px transparent inset, 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: opacity 0.1s ease, background-color 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
+  transition: opacity 0.1s ease, background-color 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
+  will-change: '';
+  -webkit-tap-highlight-color: transparent;
+}
+/* == States == */
+.wojo.button:hover {
+  background-color: #CACBCD;
+  background-image: none;
+  box-shadow: 0px 0px 0px 1px transparent inset, 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+  color: rgba(0, 0, 0, 0.8);
+}
+.wojo.button:hover .icon {
+  opacity: 0.85;
+}
+.wojo.button:focus {
+  background-color: #CACBCD;
+  color: rgba(0, 0, 0, 0.8);
+  background-image: '' !important;
+  box-shadow: '' !important;
+}
+.wojo.button:focus .icon {
+  opacity: 0.85;
+}
+.wojo.button:active,
+.wojo.active.button:active {
+  background-color: #BABBBC;
+  background-image: '';
+  color: rgba(0, 0, 0, 0.9);
+  box-shadow: 0px 0px 0px 1px transparent inset, none;
+}
+.wojo.active.button {
+  background-color: #C0C1C2;
+  background-image: none;
+  box-shadow: 0px 0px 0px 1px transparent inset;
+  color: rgba(0, 0, 0, 0.95);
+}
+.wojo.active.button:hover {
+  background-color: #C0C1C2;
+  background-image: none;
+  color: rgba(0, 0, 0, 0.95);
+}
+.wojo.active.button:active {
+  background-color: #C0C1C2;
+  background-image: none;
+}
+.wojo.loading.loading.loading.loading.loading.loading.button {
+  position: relative;
+  cursor: default;
+  text-shadow: none !important;
+  color: transparent !important;
+  opacity: 1;
+  pointer-events: auto;
+  -webkit-transition: all 0s linear, opacity 0.1s ease;
+  transition: all 0s linear, opacity 0.1s ease;
+}
+.wojo.loading.button:before {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 50%;
+  margin: -0.64188em 0em 0em -0.64188em;
+  width: 1.188em;
+  height: 1.188em;
+  border-radius: 500rem;
+  border: 0.2em solid rgba(0, 0, 0, 0.15);
+}
+.wojo.loading.button:after {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 50%;
+  margin: -0.64188em 0em 0em -0.64188em;
+  width: 1.188em;
+  height: 1.188em;
+  -webkit-animation: button-spin 0.6s linear;
+  animation: button-spin 0.6s linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  border-radius: 500rem;
+  border-color: #FFFFFF transparent transparent;
+  border-style: solid;
+  border-width: 0.2em;
+  box-shadow: 0px 0px 0px 1px transparent;
+}
+.wojo.labeled.icon.loading.button .icon {
+  background-color: transparent;
+  box-shadow: none;
+}
+@-webkit-keyframes button-spin {
+ from {
+ -webkit-transform: rotate(0deg);
+ transform: rotate(0deg);
+}
+ to {
+ -webkit-transform: rotate(360deg);
+ transform: rotate(360deg);
+}
+}
+@keyframes button-spin {
+ from {
+ -webkit-transform: rotate(0deg);
+ transform: rotate(0deg);
+}
+ to {
+ -webkit-transform: rotate(360deg);
+ transform: rotate(360deg);
+}
+}
+.wojo.basic.loading.button:not(.inverted):before {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+.wojo.basic.loading.button:not(.inverted):after {
+  border-top-color: #767676;
+}
+.wojo.buttons .disabled.button,
+.wojo.disabled.button,
+.wojo.button:disabled,
+.wojo.disabled.button:hover,
+.wojo.disabled.active.button {
+  cursor: default;
+  opacity: 0.45 !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  pointer-events: none !important;
+}
+.wojo.basic.buttons .wojo.disabled.button {
+  border-color: rgba(34, 36, 38, 0.5);
+}
+.wojo.normal.button {
+  cursor: default;
+}
+/* == Types == */
+.wojo.inverted.button {
+  box-shadow: 0px 0px 0px 2px #FFFFFF inset !important;
+  background: transparent none;
+  color: #FFFFFF;
+  text-shadow: none !important;
+}
+.wojo.inverted.buttons .button {
+  margin: 0px 0px 0px -2px;
+}
+.wojo.inverted.buttons .button:first-child {
+  margin-left: 0em;
+}
+.wojo.inverted.vertical.buttons .button {
+  margin: 0px 0px -2px 0px;
+}
+.wojo.inverted.vertical.buttons .button:first-child {
+  margin-top: 0em;
+}
+.wojo.inverted.button:hover {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 0px 2px #FFFFFF inset !important;
+  color: rgba(0, 0, 0, 0.8);
+}
+.wojo.inverted.button:focus,
+.wojo.inverted.button.active {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 0px 2px #FFFFFF inset !important;
+  color: rgba(0, 0, 0, 0.8);
+}
+.wojo.inverted.button.active:focus {
+  background: #DCDDDE;
+  box-shadow: 0px 0px 0px 2px #DCDDDE inset !important;
+  color: rgba(0, 0, 0, 0.8);
+}
+/* == Labeled Button == */
+.wojo.labeled.button:not(.icon) {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  background: none !important;
+  padding: 0px !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.wojo.labeled.button > .button {
+  margin: 0px;
+}
+.wojo.labeled.button > .label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0px 0px 0px -1px !important;
+  font-size: 1em;
+  border-color: rgba(34, 36, 38, 0.15);
+}
+.wojo.labeled.button > .tag.label:before {
+  width: 1.85em;
+  height: 1.85em;
+}
+.wojo.labeled.button:not([class*="left labeled"]) > .button {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.wojo.labeled.button:not([class*="left labeled"]) > .label {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.wojo[class*="left labeled"].button > .button {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.wojo[class*="left labeled"].button > .label {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+/* == Social == */
+.wojo.facebook.button {
+  background-color: #3B5998;
+  color: #FFFFFF;
+  text-shadow: none;
+  background-image: none;
+  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+}
+.wojo.facebook.button:hover {
+  background-color: #304d8a;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.facebook.button:active {
+  background-color: #2d4373;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+/* Twitter */
+.wojo.twitter.button {
+  background-color: #55ACEE;
+  color: #FFFFFF;
+  text-shadow: none;
+  background-image: none;
+  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+}
+.wojo.twitter.button:hover {
+  background-color: #35a2f4;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.twitter.button:active {
+  background-color: #2795e9;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+/* Google Plus */
+.wojo.google.plus.button {
+  background-color: #DD4B39;
+  color: #FFFFFF;
+  text-shadow: none;
+  background-image: none;
+  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+}
+.wojo.google.plus.button:hover {
+  background-color: #e0321c;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.google.plus.button:active {
+  background-color: #c23321;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+/* Linked In */
+.wojo.linkedin.button {
+  background-color: #1F88BE;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.linkedin.button:hover {
+  background-color: #147baf;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.linkedin.button:active {
+  background-color: #186992;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+/* YouTube */
+.wojo.youtube.button {
+  background-color: #CC181E;
+  color: #FFFFFF;
+  text-shadow: none;
+  background-image: none;
+  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+}
+.wojo.youtube.button:hover {
+  background-color: #bd0d13;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.youtube.button:active {
+  background-color: #9e1317;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+/* Instagram */
+.wojo.instagram.button {
+  background-color: #49769C;
+  color: #FFFFFF;
+  text-shadow: none;
+  background-image: none;
+  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+}
+.wojo.instagram.button:hover {
+  background-color: #3d698e;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.instagram.button:active {
+  background-color: #395c79;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+/* Pinterest */
+.wojo.pinterest.button {
+  background-color: #BD081C;
+  color: #FFFFFF;
+  text-shadow: none;
+  background-image: none;
+  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+}
+.wojo.pinterest.button:hover {
+  background-color: #ac0013;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.pinterest.button:active {
+  background-color: #8c0615;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+/* VK */
+.wojo.vk.button {
+  background-color: #4D7198;
+  color: #FFFFFF;
+  background-image: none;
+  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+}
+.wojo.vk.button:hover {
+  background-color: #41648a;
+  color: #FFFFFF;
+}
+.wojo.vk.button:active {
+  background-color: #3c5876;
+  color: #FFFFFF;
+}
+/* == Icon == */
+.wojo.button > .icon:not(.button) {
+  opacity: 0.8;
+  margin: 0em 0.41883em 0em -0.21428571em;
+  -webkit-transition: opacity 0.1s ease;
+  transition: opacity 0.1s ease;
+  vertical-align: middle;
+}
+.wojo.button:not(.icon) > .icon:not(.button):not(.dropdown) {
+  margin: 0em 0.41883em 0em -0.21428571em;
+}
+.wojo.button:not(.icon) > .right.icon:not(.button):not(.dropdown) {
+  margin: 0em -0.21428571em 0em 0.41883em;
+}
+/* == Variations == */
+.wojo[class*="left floated"].buttons,
+.wojo[class*="left floated"].button {
+  float: left;
+  margin-left: 0em;
+  margin-right: 0.25em;
+}
+.wojo[class*="right floated"].buttons,
+.wojo[class*="right floated"].button {
+  float: right;
+  margin-right: 0em;
+  margin-left: 0.25em;
+}
+.wojo.icon.buttons .button > .icon,
+.wojo.icon.button > .icon {
+  opacity: 0.9;
+  margin: 0em;
+  vertical-align: top;
+}
+/* == Basic == */
+.wojo.basic.buttons .button,
+.wojo.basic.button {
+  background: transparent none !important;
+  color: rgba(0, 0, 0, 0.6) !important;
+  font-weight: normal;
+  border-radius: 0.188rem;
+  text-transform: none;
+  text-shadow: none !important;
+  box-shadow: 0px 0px 0px 1px rgba(34, 36, 38, 0.15) inset;
+}
+.wojo.basic.buttons {
+  box-shadow: none;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  border-radius: 0.188rem;
+}
+.wojo.basic.buttons .button {
+  border-radius: 0em;
+}
+.wojo.basic.buttons .button:hover,
+.wojo.basic.button:hover {
+  background: #FFFFFF !important;
+  color: rgba(0, 0, 0, 0.8) !important;
+  box-shadow: 0px 0px 0px 1px rgba(34, 36, 38, 0.35) inset, 0px 0px 0px 0px rgba(34, 36, 38, 0.15) inset;
+}
+.wojo.basic.buttons .button:focus,
+.wojo.basic.button:focus {
+  background: #FFFFFF !important;
+  color: rgba(0, 0, 0, 0.8) !important;
+  box-shadow: 0px 0px 0px 1px rgba(34, 36, 38, 0.35) inset, 0px 0px 0px 0px rgba(34, 36, 38, 0.15) inset;
+}
+.wojo.basic.buttons .button:active,
+.wojo.basic.button:active {
+  background: #F8F8F8 !important;
+  color: rgba(0, 0, 0, 0.9) !important;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.15) inset, 0px 1px 4px 0px rgba(34, 36, 38, 0.15) inset;
+}
+.wojo.basic.buttons .active.button,
+.wojo.basic.active.button {
+  color: rgba(0, 0, 0, 0.95);
+  box-shadow: rgba(34, 36, 38, 0.35);
+}
+.wojo.basic.buttons .active.button:hover,
+.wojo.basic.active.button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+/* Vertical */
+.wojo.basic.buttons .button:hover {
+  box-shadow: 0px 0px 0px 1px rgba(34, 36, 38, 0.35) inset, 0px 0px 0px 0px rgba(34, 36, 38, 0.15) inset inset;
+}
+.wojo.basic.buttons .button:active {
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.15) inset, 0px 1px 4px 0px rgba(34, 36, 38, 0.15) inset inset;
+}
+.wojo.basic.buttons .active.button {
+  box-shadow: rgba(34, 36, 38, 0.35) inset;
+}
+/* Standard Basic Inverted */
+.wojo.basic.inverted.buttons .button,
+.wojo.basic.inverted.button {
+  background-color: transparent !important;
+  color: #F9FAFB !important;
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
+}
+.wojo.basic.inverted.buttons .button:hover,
+.wojo.basic.inverted.button:hover {
+  color: #FFFFFF !important;
+  box-shadow: 0px 0px 0px 2px #ffffff inset !important;
+}
+.wojo.basic.inverted.buttons .button:focus,
+.wojo.basic.inverted.button:focus {
+  color: #FFFFFF !important;
+  box-shadow: 0px 0px 0px 2px #ffffff inset !important;
+}
+.wojo.basic.inverted.buttons .button:active,
+.wojo.basic.inverted.button:active {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  color: #FFFFFF !important;
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.9) inset !important;
+}
+.wojo.basic.inverted.buttons .active.button,
+.wojo.basic.inverted.active.button {
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #FFFFFF;
+  text-shadow: none;
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.7) inset;
+}
+.wojo.basic.inverted.buttons .active.button:hover,
+.wojo.basic.inverted.active.button:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0px 0px 0px 2px #ffffff inset !important;
+}
+/* Basic Group */
+.wojo.basic.buttons .button {
+  border-left: 1px solid rgba(34, 36, 38, 0.15);
+  box-shadow: none;
+}
+.wojo.basic.vertical.buttons .button {
+  border-left: none;
+}
+.wojo.basic.vertical.buttons .button {
+  border-left-width: 0px;
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
+}
+.wojo.basic.vertical.buttons .button:first-child {
+  border-top-width: 0px;
+}
+/* == Labeled Icon == */
+.wojo.labeled.icon.buttons .button,
+.wojo.labeled.icon.button {
+  position: relative;
+  padding-left: 4.07142857em !important;
+  padding-right: 1.5em !important;
+}
+/* Left Labeled */
+.wojo.labeled.icon.buttons > .button > .icon,
+.wojo.labeled.icon.button > .icon {
+  position: absolute;
+  height: 100%;
+  line-height: 1;
+  border-radius: 0px;
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+  text-align: center;
+  margin: 0em;
+  width: 2.50em;
+  background-color: rgba(0, 0, 0, 0.05);
+  color: '';
+  box-shadow: -1px 0px 0px 0px transparent inset;
+}
+/* Left Labeled */
+.wojo.labeled.icon.buttons > .button > .icon,
+.wojo.labeled.icon.button > .icon {
+  top: 0em;
+  left: 0em;
+}
+/* Right Labeled */
+.wojo[class*="right labeled"].icon.button {
+  padding-right: 4.07142857em !important;
+  padding-left: 1.5em !important;
+}
+.wojo[class*="right labeled"].icon.button > .icon {
+  left: auto;
+  right: 0em;
+  border-radius: 0px;
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
+  box-shadow: 1px 0px 0px 0px transparent inset;
+}
+.wojo.labeled.icon.buttons > .button > .icon:before,
+.wojo.labeled.icon.button > .icon:before,
+.wojo.labeled.icon.buttons > .button > .icon:after,
+.wojo.labeled.icon.button > .icon:after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.wojo.labeled.icon.buttons .button > .icon {
+  border-radius: 0em;
+}
+.wojo.labeled.icon.buttons .button:first-child > .icon {
+  border-top-left-radius: 0.188rem;
+  border-bottom-left-radius: 0.188rem;
+}
+.wojo.labeled.icon.buttons .button:last-child > .icon {
+  border-top-right-radius: 0.188rem;
+  border-bottom-right-radius: 0.188rem;
+}
+.wojo.vertical.labeled.icon.buttons .button:first-child > .icon {
+  border-radius: 0em;
+  border-top-left-radius: 0.188rem;
+}
+.wojo.vertical.labeled.icon.buttons .button:last-child > .icon {
+  border-radius: 0em;
+  border-bottom-left-radius: 0.188rem;
+}
+/* Fluid Labeled */
+.wojo.fluid[class*="left labeled"].icon.button,
+.wojo.fluid[class*="right labeled"].icon.button {
+  padding-left: 1.5em !important;
+  padding-right: 1.5em !important;
+}
+/* == Circular == */
+.wojo.circular.button {
+  border-radius: 10em;
+}
+.wojo.circular.button > .icon {
+  width: 1em;
+  vertical-align: baseline;
+}
+/* == OR == */
+.wojo.buttons .or {
+  position: relative;
+  width: 0.3em;
+  height: 2.57142857em;
+  z-index: 3;
+}
+.wojo.buttons .or:before {
+  position: absolute;
+  text-align: center;
+  border-radius: 500rem;
+  content: 'or';
+  top: 50%;
+  left: 50%;
+  background-color: #FFFFFF;
+  text-shadow: none;
+  margin-top: -0.89188em;
+  margin-left: -0.89188em;
+  width: 1.750em;
+  height: 1.750em;
+  line-height: 1.750em;
+  color: rgba(0, 0, 0, 0.4);
+  font-style: normal;
+  box-shadow: 0px 0px 0px 1px transparent inset;
+}
+.wojo.buttons .or[data-text]:before {
+  content: attr(data-text);
+}
+/* Fluid Or */
+.wojo.fluid.buttons .or {
+  width: 0em !important;
+}
+.wojo.fluid.buttons .or:after {
+  display: none;
+}
+/* == Fluid == */
+.wojo.fluid.buttons,
+.wojo.fluid.button {
+  width: 100%;
+}
+.wojo.fluid.button {
+  display: block;
+}
+.wojo.two.buttons {
+  width: 100%;
+}
+.wojo.two.buttons > .button {
+  width: 50%;
+}
+.wojo.three.buttons {
+  width: 100%;
+}
+.wojo.three.buttons > .button {
+  width: 33.333%;
+}
+.wojo.four.buttons {
+  width: 100%;
+}
+.wojo.four.buttons > .button {
+  width: 25%;
+}
+.wojo.five.buttons {
+  width: 100%;
+}
+.wojo.five.buttons > .button {
+  width: 20%;
+}
+.wojo.six.buttons {
+  width: 100%;
+}
+.wojo.six.buttons > .button {
+  width: 16.666%;
+}
+.wojo.seven.buttons {
+  width: 100%;
+}
+.wojo.seven.buttons > .button {
+  width: 14.285%;
+}
+.wojo.eight.buttons {
+  width: 100%;
+}
+.wojo.eight.buttons > .button {
+  width: 12.500%;
+}
+.wojo.nine.buttons {
+  width: 100%;
+}
+.wojo.nine.buttons > .button {
+  width: 11.11%;
+}
+.wojo.ten.buttons {
+  width: 100%;
+}
+.wojo.ten.buttons > .button {
+  width: 10%;
+}
+.wojo.eleven.buttons {
+  width: 100%;
+}
+.wojo.eleven.buttons > .button {
+  width: 9.09%;
+}
+.wojo.twelve.buttons {
+  width: 100%;
+}
+.wojo.twelve.buttons > .button {
+  width: 8.3333%;
+}
+/* Fluid Vertical Buttons */
+.wojo.fluid.vertical.buttons,
+.wojo.fluid.vertical.buttons > .button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+}
+.wojo.two.vertical.buttons > .button {
+  height: 50%;
+}
+.wojo.three.vertical.buttons > .button {
+  height: 33.333%;
+}
+.wojo.four.vertical.buttons > .button {
+  height: 25%;
+}
+.wojo.five.vertical.buttons > .button {
+  height: 20%;
+}
+.wojo.six.vertical.buttons > .button {
+  height: 16.666%;
+}
+.wojo.seven.vertical.buttons > .button {
+  height: 14.285%;
+}
+.wojo.eight.vertical.buttons > .button {
+  height: 12.500%;
+}
+.wojo.nine.vertical.buttons > .button {
+  height: 11.11%;
+}
+.wojo.ten.vertical.buttons > .button {
+  height: 10%;
+}
+.wojo.eleven.vertical.buttons > .button {
+  height: 9.09%;
+}
+.wojo.twelve.vertical.buttons > .button {
+  height: 8.3333%;
+}
+/* == Colors == */
+/*--- Black ---*/
+.wojo.black.buttons .button,
+.wojo.black.button {
+  background-color: #1B1C1D;
+  color: #FFFFFF;
+  text-shadow: none;
+  background-image: none;
+}
+.wojo.black.button {
+  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+}
+.wojo.black.buttons .button:hover,
+.wojo.black.button:hover {
+  background-color: #27292a;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.black.buttons .button:focus,
+.wojo.black.button:focus {
+  background-color: #2f3032;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.black.buttons .button:active,
+.wojo.black.button:active {
+  background-color: #343637;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.black.buttons .active.button,
+.wojo.black.buttons .active.button:active,
+.wojo.black.active.button,
+.wojo.black.button .active.button:active {
+  background-color: #0f0f10;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+/* Basic */
+.wojo.basic.black.buttons .button,
+.wojo.basic.black.button {
+  box-shadow: 0px 0px 0px 1px #1B1C1D inset !important;
+  color: #1B1C1D !important;
+}
+.wojo.basic.black.buttons .button:hover,
+.wojo.basic.black.button:hover {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #27292a inset !important;
+  color: #27292a !important;
+}
+.wojo.basic.black.buttons .button:focus,
+.wojo.basic.black.button:focus {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #2f3032 inset !important;
+  color: #27292a !important;
+}
+.wojo.basic.black.buttons .active.button,
+.wojo.basic.black.active.button {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #0f0f10 inset !important;
+  color: #343637 !important;
+}
+.wojo.basic.black.buttons .button:active,
+.wojo.basic.black.button:active {
+  box-shadow: 0px 0px 0px 1px #343637 inset !important;
+  color: #343637 !important;
+}
+.wojo.buttons:not(.vertical) > .basic.black.button:not(:first-child) {
+  margin-left: -1px;
+}
+/* Inverted */
+.wojo.inverted.black.buttons .button,
+.wojo.inverted.black.button {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 2px #D4D4D5 inset !important;
+  color: #FFFFFF;
+}
+.wojo.inverted.black.buttons .button:hover,
+.wojo.inverted.black.button:hover,
+.wojo.inverted.black.buttons .button:focus,
+.wojo.inverted.black.button:focus,
+.wojo.inverted.black.buttons .button.active,
+.wojo.inverted.black.button.active,
+.wojo.inverted.black.buttons .button:active,
+.wojo.inverted.black.button:active {
+  box-shadow: none !important;
+  color: #FFFFFF;
+}
+.wojo.inverted.black.buttons .button:hover,
+.wojo.inverted.black.button:hover {
+  background-color: #000000;
+}
+.wojo.inverted.black.buttons .button:focus,
+.wojo.inverted.black.button:focus {
+  background-color: #000000;
+}
+.wojo.inverted.black.buttons .active.button,
+.wojo.inverted.black.active.button {
+  background-color: #000000;
+}
+.wojo.inverted.black.buttons .button:active,
+.wojo.inverted.black.button:active {
+  background-color: #000000;
+}
+/* Inverted Basic */
+.wojo.inverted.black.basic.buttons .button,
+.wojo.inverted.black.buttons .basic.button,
+.wojo.inverted.black.basic.button {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
+  color: #FFFFFF !important;
+}
+.wojo.inverted.black.basic.buttons .button:hover,
+.wojo.inverted.black.buttons .basic.button:hover,
+.wojo.inverted.black.basic.button:hover {
+  box-shadow: 0px 0px 0px 2px #000000 inset !important;
+  color: #FFFFFF !important;
+}
+.wojo.inverted.black.basic.buttons .button:focus,
+.wojo.inverted.black.basic.buttons .button:focus,
+.wojo.inverted.black.basic.button:focus {
+  box-shadow: 0px 0px 0px 2px #000000 inset !important;
+  color: #545454 !important;
+}
+.wojo.inverted.black.basic.buttons .active.button,
+.wojo.inverted.black.buttons .basic.active.button,
+.wojo.inverted.black.basic.active.button {
+  box-shadow: 0px 0px 0px 2px #000000 inset !important;
+  color: #FFFFFF !important;
+}
+.wojo.inverted.black.basic.buttons .button:active,
+.wojo.inverted.black.buttons .basic.button:active,
+.wojo.inverted.black.basic.button:active {
+  box-shadow: 0px 0px 0px 2px #000000 inset !important;
+  color: #FFFFFF !important;
+}
+/*--- Grey ---*/
+.wojo.grey.buttons .button,
+.wojo.grey.button {
+  background-color: #767676;
+  color: #FFFFFF;
+  text-shadow: none;
+  background-image: none;
+}
+.wojo.grey.button {
+  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+}
+.wojo.grey.buttons .button:hover,
+.wojo.grey.button:hover {
+  background-color: #838383;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.grey.buttons .button:focus,
+.wojo.grey.button:focus {
+  background-color: #8a8a8a;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.grey.buttons .button:active,
+.wojo.grey.button:active {
+  background-color: #909090;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.grey.buttons .active.button,
+.wojo.grey.buttons .active.button:active,
+.wojo.grey.active.button,
+.wojo.grey.button .active.button:active {
+  background-color: #696969;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+/* Basic */
+.wojo.basic.grey.buttons .button,
+.wojo.basic.grey.button {
+  box-shadow: 0px 0px 0px 1px #767676 inset !important;
+  color: #767676 !important;
+}
+.wojo.basic.grey.buttons .button:hover,
+.wojo.basic.grey.button:hover {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #838383 inset !important;
+  color: #838383 !important;
+}
+.wojo.basic.grey.buttons .button:focus,
+.wojo.basic.grey.button:focus {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #8a8a8a inset !important;
+  color: #838383 !important;
+}
+.wojo.basic.grey.buttons .active.button,
+.wojo.basic.grey.active.button {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #696969 inset !important;
+  color: #909090 !important;
+}
+.wojo.basic.grey.buttons .button:active,
+.wojo.basic.grey.button:active {
+  box-shadow: 0px 0px 0px 1px #909090 inset !important;
+  color: #909090 !important;
+}
+.wojo.buttons:not(.vertical) > .basic.grey.button:not(:first-child) {
+  margin-left: -1px;
+}
+/* Inverted */
+.wojo.inverted.grey.buttons .button,
+.wojo.inverted.grey.button {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 2px #D4D4D5 inset !important;
+  color: #FFFFFF;
+}
+.wojo.inverted.grey.buttons .button:hover,
+.wojo.inverted.grey.button:hover,
+.wojo.inverted.grey.buttons .button:focus,
+.wojo.inverted.grey.button:focus,
+.wojo.inverted.grey.buttons .button.active,
+.wojo.inverted.grey.button.active,
+.wojo.inverted.grey.buttons .button:active,
+.wojo.inverted.grey.button:active {
+  box-shadow: none !important;
+  color: rgba(0, 0, 0, 0.6);
+}
+.wojo.inverted.grey.buttons .button:hover,
+.wojo.inverted.grey.button:hover {
+  background-color: #cfd0d2;
+}
+.wojo.inverted.grey.buttons .button:focus,
+.wojo.inverted.grey.button:focus {
+  background-color: #c7c9cb;
+}
+.wojo.inverted.grey.buttons .active.button,
+.wojo.inverted.grey.active.button {
+  background-color: #cfd0d2;
+}
+.wojo.inverted.grey.buttons .button:active,
+.wojo.inverted.grey.button:active {
+  background-color: #c2c4c5;
+}
+/* Inverted Basic */
+.wojo.inverted.grey.basic.buttons .button,
+.wojo.inverted.grey.buttons .basic.button,
+.wojo.inverted.grey.basic.button {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
+  color: #FFFFFF !important;
+}
+.wojo.inverted.grey.basic.buttons .button:hover,
+.wojo.inverted.grey.buttons .basic.button:hover,
+.wojo.inverted.grey.basic.button:hover {
+  box-shadow: 0px 0px 0px 2px #cfd0d2 inset !important;
+  color: #FFFFFF !important;
+}
+.wojo.inverted.grey.basic.buttons .button:focus,
+.wojo.inverted.grey.basic.buttons .button:focus,
+.wojo.inverted.grey.basic.button:focus {
+  box-shadow: 0px 0px 0px 2px #c7c9cb inset !important;
+  color: #DCDDDE !important;
+}
+.wojo.inverted.grey.basic.buttons .active.button,
+.wojo.inverted.grey.buttons .basic.active.button,
+.wojo.inverted.grey.basic.active.button {
+  box-shadow: 0px 0px 0px 2px #cfd0d2 inset !important;
+  color: #FFFFFF !important;
+}
+.wojo.inverted.grey.basic.buttons .button:active,
+.wojo.inverted.grey.buttons .basic.button:active,
+.wojo.inverted.grey.basic.button:active {
+  box-shadow: 0px 0px 0px 2px #c2c4c5 inset !important;
+  color: #FFFFFF !important;
+}
+/*--- Brown ---*/
+.wojo.brown.buttons .button,
+.wojo.brown.button {
+  background-color: #A5673F;
+  color: #FFFFFF;
+  text-shadow: none;
+  background-image: none;
+}
+.wojo.brown.button {
+  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+}
+.wojo.brown.buttons .button:hover,
+.wojo.brown.button:hover {
+  background-color: #975b33;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.brown.buttons .button:focus,
+.wojo.brown.button:focus {
+  background-color: #90532b;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.brown.buttons .button:active,
+.wojo.brown.button:active {
+  background-color: #805031;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.brown.buttons .active.button,
+.wojo.brown.buttons .active.button:active,
+.wojo.brown.active.button,
+.wojo.brown.button .active.button:active {
+  background-color: #995a31;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+/* Basic */
+.wojo.basic.brown.buttons .button,
+.wojo.basic.brown.button {
+  box-shadow: 0px 0px 0px 1px #A5673F inset !important;
+  color: #A5673F !important;
+}
+.wojo.basic.brown.buttons .button:hover,
+.wojo.basic.brown.button:hover {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #975b33 inset !important;
+  color: #975b33 !important;
+}
+.wojo.basic.brown.buttons .button:focus,
+.wojo.basic.brown.button:focus {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #90532b inset !important;
+  color: #975b33 !important;
+}
+.wojo.basic.brown.buttons .active.button,
+.wojo.basic.brown.active.button {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #995a31 inset !important;
+  color: #805031 !important;
+}
+.wojo.basic.brown.buttons .button:active,
+.wojo.basic.brown.button:active {
+  box-shadow: 0px 0px 0px 1px #805031 inset !important;
+  color: #805031 !important;
+}
+.wojo.buttons:not(.vertical) > .basic.brown.button:not(:first-child) {
+  margin-left: -1px;
+}
+/* Inverted */
+.wojo.inverted.brown.buttons .button,
+.wojo.inverted.brown.button {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 2px #D67C1C inset !important;
+  color: #D67C1C;
+}
+.wojo.inverted.brown.buttons .button:hover,
+.wojo.inverted.brown.button:hover,
+.wojo.inverted.brown.buttons .button:focus,
+.wojo.inverted.brown.button:focus,
+.wojo.inverted.brown.buttons .button.active,
+.wojo.inverted.brown.button.active,
+.wojo.inverted.brown.buttons .button:active,
+.wojo.inverted.brown.button:active {
+  box-shadow: none !important;
+  color: #FFFFFF;
+}
+.wojo.inverted.brown.buttons .button:hover,
+.wojo.inverted.brown.button:hover {
+  background-color: #c86f11;
+}
+.wojo.inverted.brown.buttons .button:focus,
+.wojo.inverted.brown.button:focus {
+  background-color: #c16808;
+}
+.wojo.inverted.brown.buttons .active.button,
+.wojo.inverted.brown.active.button {
+  background-color: #cc6f0d;
+}
+.wojo.inverted.brown.buttons .button:active,
+.wojo.inverted.brown.button:active {
+  background-color: #a96216;
+}
+/* Inverted Basic */
+.wojo.inverted.brown.basic.buttons .button,
+.wojo.inverted.brown.buttons .basic.button,
+.wojo.inverted.brown.basic.button {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
+  color: #FFFFFF !important;
+}
+.wojo.inverted.brown.basic.buttons .button:hover,
+.wojo.inverted.brown.buttons .basic.button:hover,
+.wojo.inverted.brown.basic.button:hover {
+  box-shadow: 0px 0px 0px 2px #c86f11 inset !important;
+  color: #D67C1C !important;
+}
+.wojo.inverted.brown.basic.buttons .button:focus,
+.wojo.inverted.brown.basic.buttons .button:focus,
+.wojo.inverted.brown.basic.button:focus {
+  box-shadow: 0px 0px 0px 2px #c16808 inset !important;
+  color: #D67C1C !important;
+}
+.wojo.inverted.brown.basic.buttons .active.button,
+.wojo.inverted.brown.buttons .basic.active.button,
+.wojo.inverted.brown.basic.active.button {
+  box-shadow: 0px 0px 0px 2px #cc6f0d inset !important;
+  color: #D67C1C !important;
+}
+.wojo.inverted.brown.basic.buttons .button:active,
+.wojo.inverted.brown.buttons .basic.button:active,
+.wojo.inverted.brown.basic.button:active {
+  box-shadow: 0px 0px 0px 2px #a96216 inset !important;
+  color: #D67C1C !important;
+}
+/*--- Blue ---*/
+.wojo.blue.buttons .button,
+.wojo.blue.button {
+  background-color: #2185D0;
+  color: #FFFFFF;
+  text-shadow: none;
+  background-image: none;
+}
+.wojo.blue.button {
+  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+}
+.wojo.blue.buttons .button:hover,
+.wojo.blue.button:hover {
+  background-color: #1678c2;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.blue.buttons .button:focus,
+.wojo.blue.button:focus {
+  background-color: #0d71bb;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.blue.buttons .button:active,
+.wojo.blue.button:active {
+  background-color: #1a69a4;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.blue.buttons .active.button,
+.wojo.blue.buttons .active.button:active,
+.wojo.blue.active.button,
+.wojo.blue.button .active.button:active {
+  background-color: #1279c6;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+/* Basic */
+.wojo.basic.blue.buttons .button,
+.wojo.basic.blue.button {
+  box-shadow: 0px 0px 0px 1px #2185D0 inset !important;
+  color: #2185D0 !important;
+}
+.wojo.basic.blue.buttons .button:hover,
+.wojo.basic.blue.button:hover {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #1678c2 inset !important;
+  color: #1678c2 !important;
+}
+.wojo.basic.blue.buttons .button:focus,
+.wojo.basic.blue.button:focus {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #0d71bb inset !important;
+  color: #1678c2 !important;
+}
+.wojo.basic.blue.buttons .active.button,
+.wojo.basic.blue.active.button {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #1279c6 inset !important;
+  color: #1a69a4 !important;
+}
+.wojo.basic.blue.buttons .button:active,
+.wojo.basic.blue.button:active {
+  box-shadow: 0px 0px 0px 1px #1a69a4 inset !important;
+  color: #1a69a4 !important;
+}
+.wojo.buttons:not(.vertical) > .basic.blue.button:not(:first-child) {
+  margin-left: -1px;
+}
+/* Inverted */
+.wojo.inverted.blue.buttons .button,
+.wojo.inverted.blue.button {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 2px #54C8FF inset !important;
+  color: #54C8FF;
+}
+.wojo.inverted.blue.buttons .button:hover,
+.wojo.inverted.blue.button:hover,
+.wojo.inverted.blue.buttons .button:focus,
+.wojo.inverted.blue.button:focus,
+.wojo.inverted.blue.buttons .button.active,
+.wojo.inverted.blue.button.active,
+.wojo.inverted.blue.buttons .button:active,
+.wojo.inverted.blue.button:active {
+  box-shadow: none !important;
+  color: #FFFFFF;
+}
+.wojo.inverted.blue.buttons .button:hover,
+.wojo.inverted.blue.button:hover {
+  background-color: #3ac0ff;
+}
+.wojo.inverted.blue.buttons .button:focus,
+.wojo.inverted.blue.button:focus {
+  background-color: #2bbbff;
+}
+.wojo.inverted.blue.buttons .active.button,
+.wojo.inverted.blue.active.button {
+  background-color: #3ac0ff;
+}
+.wojo.inverted.blue.buttons .button:active,
+.wojo.inverted.blue.button:active {
+  background-color: #21b8ff;
+}
+/* Inverted Basic */
+.wojo.inverted.blue.basic.buttons .button,
+.wojo.inverted.blue.buttons .basic.button,
+.wojo.inverted.blue.basic.button {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
+  color: #FFFFFF !important;
+}
+.wojo.inverted.blue.basic.buttons .button:hover,
+.wojo.inverted.blue.buttons .basic.button:hover,
+.wojo.inverted.blue.basic.button:hover {
+  box-shadow: 0px 0px 0px 2px #3ac0ff inset !important;
+  color: #54C8FF !important;
+}
+.wojo.inverted.blue.basic.buttons .button:focus,
+.wojo.inverted.blue.basic.buttons .button:focus,
+.wojo.inverted.blue.basic.button:focus {
+  box-shadow: 0px 0px 0px 2px #2bbbff inset !important;
+  color: #54C8FF !important;
+}
+.wojo.inverted.blue.basic.buttons .active.button,
+.wojo.inverted.blue.buttons .basic.active.button,
+.wojo.inverted.blue.basic.active.button {
+  box-shadow: 0px 0px 0px 2px #3ac0ff inset !important;
+  color: #54C8FF !important;
+}
+.wojo.inverted.blue.basic.buttons .button:active,
+.wojo.inverted.blue.buttons .basic.button:active,
+.wojo.inverted.blue.basic.button:active {
+  box-shadow: 0px 0px 0px 2px #21b8ff inset !important;
+  color: #54C8FF !important;
+}
+/*--- Green ---*/
+.wojo.green.buttons .button,
+.wojo.green.button {
+  background-color: #21BA45;
+  color: #FFFFFF;
+  text-shadow: none;
+  background-image: none;
+}
+.wojo.green.button {
+  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+}
+.wojo.green.buttons .button:hover,
+.wojo.green.button:hover {
+  background-color: #16ab39;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.green.buttons .button:focus,
+.wojo.green.button:focus {
+  background-color: #0ea432;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.green.buttons .button:active,
+.wojo.green.button:active {
+  background-color: #198f35;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.green.buttons .active.button,
+.wojo.green.buttons .active.button:active,
+.wojo.green.active.button,
+.wojo.green.button .active.button:active {
+  background-color: #13ae38;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+/* Basic */
+.wojo.basic.green.buttons .button,
+.wojo.basic.green.button {
+  box-shadow: 0px 0px 0px 1px #21BA45 inset !important;
+  color: #21BA45 !important;
+}
+.wojo.basic.green.buttons .button:hover,
+.wojo.basic.green.button:hover {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #16ab39 inset !important;
+  color: #16ab39 !important;
+}
+.wojo.basic.green.buttons .button:focus,
+.wojo.basic.green.button:focus {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #0ea432 inset !important;
+  color: #16ab39 !important;
+}
+.wojo.basic.green.buttons .active.button,
+.wojo.basic.green.active.button {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #13ae38 inset !important;
+  color: #198f35 !important;
+}
+.wojo.basic.green.buttons .button:active,
+.wojo.basic.green.button:active {
+  box-shadow: 0px 0px 0px 1px #198f35 inset !important;
+  color: #198f35 !important;
+}
+.wojo.buttons:not(.vertical) > .basic.green.button:not(:first-child) {
+  margin-left: -1px;
+}
+/* Inverted */
+.wojo.inverted.green.buttons .button,
+.wojo.inverted.green.button {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 2px #2ECC40 inset !important;
+  color: #2ECC40;
+}
+.wojo.inverted.green.buttons .button:hover,
+.wojo.inverted.green.button:hover,
+.wojo.inverted.green.buttons .button:focus,
+.wojo.inverted.green.button:focus,
+.wojo.inverted.green.buttons .button.active,
+.wojo.inverted.green.button.active,
+.wojo.inverted.green.buttons .button:active,
+.wojo.inverted.green.button:active {
+  box-shadow: none !important;
+  color: #FFFFFF;
+}
+.wojo.inverted.green.buttons .button:hover,
+.wojo.inverted.green.button:hover {
+  background-color: #22be34;
+}
+.wojo.inverted.green.buttons .button:focus,
+.wojo.inverted.green.button:focus {
+  background-color: #19b82b;
+}
+.wojo.inverted.green.buttons .active.button,
+.wojo.inverted.green.active.button {
+  background-color: #1fc231;
+}
+.wojo.inverted.green.buttons .button:active,
+.wojo.inverted.green.button:active {
+  background-color: #25a233;
+}
+/* Inverted Basic */
+.wojo.inverted.green.basic.buttons .button,
+.wojo.inverted.green.buttons .basic.button,
+.wojo.inverted.green.basic.button {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
+  color: #FFFFFF !important;
+}
+.wojo.inverted.green.basic.buttons .button:hover,
+.wojo.inverted.green.buttons .basic.button:hover,
+.wojo.inverted.green.basic.button:hover {
+  box-shadow: 0px 0px 0px 2px #22be34 inset !important;
+  color: #2ECC40 !important;
+}
+.wojo.inverted.green.basic.buttons .button:focus,
+.wojo.inverted.green.basic.buttons .button:focus,
+.wojo.inverted.green.basic.button:focus {
+  box-shadow: 0px 0px 0px 2px #19b82b inset !important;
+  color: #2ECC40 !important;
+}
+.wojo.inverted.green.basic.buttons .active.button,
+.wojo.inverted.green.buttons .basic.active.button,
+.wojo.inverted.green.basic.active.button {
+  box-shadow: 0px 0px 0px 2px #1fc231 inset !important;
+  color: #2ECC40 !important;
+}
+.wojo.inverted.green.basic.buttons .button:active,
+.wojo.inverted.green.buttons .basic.button:active,
+.wojo.inverted.green.basic.button:active {
+  box-shadow: 0px 0px 0px 2px #25a233 inset !important;
+  color: #2ECC40 !important;
+}
+/*--- Orange ---*/
+.wojo.orange.buttons .button,
+.wojo.orange.button {
+  background-color: #F2711C;
+  color: #FFFFFF;
+  text-shadow: none;
+  background-image: none;
+}
+.wojo.orange.button {
+  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+}
+.wojo.orange.buttons .button:hover,
+.wojo.orange.button:hover {
+  background-color: #f26202;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.orange.buttons .button:focus,
+.wojo.orange.button:focus {
+  background-color: #e55b00;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.orange.buttons .button:active,
+.wojo.orange.button:active {
+  background-color: #cf590c;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.orange.buttons .active.button,
+.wojo.orange.buttons .active.button:active,
+.wojo.orange.active.button,
+.wojo.orange.button .active.button:active {
+  background-color: #f56100;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+/* Basic */
+.wojo.basic.orange.buttons .button,
+.wojo.basic.orange.button {
+  box-shadow: 0px 0px 0px 1px #F2711C inset !important;
+  color: #F2711C !important;
+}
+.wojo.basic.orange.buttons .button:hover,
+.wojo.basic.orange.button:hover {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #f26202 inset !important;
+  color: #f26202 !important;
+}
+.wojo.basic.orange.buttons .button:focus,
+.wojo.basic.orange.button:focus {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #e55b00 inset !important;
+  color: #f26202 !important;
+}
+.wojo.basic.orange.buttons .active.button,
+.wojo.basic.orange.active.button {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #f56100 inset !important;
+  color: #cf590c !important;
+}
+.wojo.basic.orange.buttons .button:active,
+.wojo.basic.orange.button:active {
+  box-shadow: 0px 0px 0px 1px #cf590c inset !important;
+  color: #cf590c !important;
+}
+.wojo.buttons:not(.vertical) > .basic.orange.button:not(:first-child) {
+  margin-left: -1px;
+}
+/* Inverted */
+.wojo.inverted.orange.buttons .button,
+.wojo.inverted.orange.button {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 2px #FF851B inset !important;
+  color: #FF851B;
+}
+.wojo.inverted.orange.buttons .button:hover,
+.wojo.inverted.orange.button:hover,
+.wojo.inverted.orange.buttons .button:focus,
+.wojo.inverted.orange.button:focus,
+.wojo.inverted.orange.buttons .button.active,
+.wojo.inverted.orange.button.active,
+.wojo.inverted.orange.buttons .button:active,
+.wojo.inverted.orange.button:active {
+  box-shadow: none !important;
+  color: #FFFFFF;
+}
+.wojo.inverted.orange.buttons .button:hover,
+.wojo.inverted.orange.button:hover {
+  background-color: #ff7701;
+}
+.wojo.inverted.orange.buttons .button:focus,
+.wojo.inverted.orange.button:focus {
+  background-color: #f17000;
+}
+.wojo.inverted.orange.buttons .active.button,
+.wojo.inverted.orange.active.button {
+  background-color: #ff7701;
+}
+.wojo.inverted.orange.buttons .button:active,
+.wojo.inverted.orange.button:active {
+  background-color: #e76b00;
+}
+/* Inverted Basic */
+.wojo.inverted.orange.basic.buttons .button,
+.wojo.inverted.orange.buttons .basic.button,
+.wojo.inverted.orange.basic.button {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
+  color: #FFFFFF !important;
+}
+.wojo.inverted.orange.basic.buttons .button:hover,
+.wojo.inverted.orange.buttons .basic.button:hover,
+.wojo.inverted.orange.basic.button:hover {
+  box-shadow: 0px 0px 0px 2px #ff7701 inset !important;
+  color: #FF851B !important;
+}
+.wojo.inverted.orange.basic.buttons .button:focus,
+.wojo.inverted.orange.basic.buttons .button:focus,
+.wojo.inverted.orange.basic.button:focus {
+  box-shadow: 0px 0px 0px 2px #f17000 inset !important;
+  color: #FF851B !important;
+}
+.wojo.inverted.orange.basic.buttons .active.button,
+.wojo.inverted.orange.buttons .basic.active.button,
+.wojo.inverted.orange.basic.active.button {
+  box-shadow: 0px 0px 0px 2px #ff7701 inset !important;
+  color: #FF851B !important;
+}
+.wojo.inverted.orange.basic.buttons .button:active,
+.wojo.inverted.orange.buttons .basic.button:active,
+.wojo.inverted.orange.basic.button:active {
+  box-shadow: 0px 0px 0px 2px #e76b00 inset !important;
+  color: #FF851B !important;
+}
+/*--- Pink ---*/
+.wojo.pink.buttons .button,
+.wojo.pink.button {
+  background-color: #E03997;
+  color: #FFFFFF;
+  text-shadow: none;
+  background-image: none;
+}
+.wojo.pink.button {
+  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+}
+.wojo.pink.buttons .button:hover,
+.wojo.pink.button:hover {
+  background-color: #e61a8d;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.pink.buttons .button:focus,
+.wojo.pink.button:focus {
+  background-color: #e10f85;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.pink.buttons .button:active,
+.wojo.pink.button:active {
+  background-color: #c71f7e;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.pink.buttons .active.button,
+.wojo.pink.buttons .active.button:active,
+.wojo.pink.active.button,
+.wojo.pink.button .active.button:active {
+  background-color: #ea158d;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+/* Basic */
+.wojo.basic.pink.buttons .button,
+.wojo.basic.pink.button {
+  box-shadow: 0px 0px 0px 1px #E03997 inset !important;
+  color: #E03997 !important;
+}
+.wojo.basic.pink.buttons .button:hover,
+.wojo.basic.pink.button:hover {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #e61a8d inset !important;
+  color: #e61a8d !important;
+}
+.wojo.basic.pink.buttons .button:focus,
+.wojo.basic.pink.button:focus {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #e10f85 inset !important;
+  color: #e61a8d !important;
+}
+.wojo.basic.pink.buttons .active.button,
+.wojo.basic.pink.active.button {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #ea158d inset !important;
+  color: #c71f7e !important;
+}
+.wojo.basic.pink.buttons .button:active,
+.wojo.basic.pink.button:active {
+  box-shadow: 0px 0px 0px 1px #c71f7e inset !important;
+  color: #c71f7e !important;
+}
+.wojo.buttons:not(.vertical) > .basic.pink.button:not(:first-child) {
+  margin-left: -1px;
+}
+/* Inverted */
+.wojo.inverted.pink.buttons .button,
+.wojo.inverted.pink.button {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 2px #FF8EDF inset !important;
+  color: #FF8EDF;
+}
+.wojo.inverted.pink.buttons .button:hover,
+.wojo.inverted.pink.button:hover,
+.wojo.inverted.pink.buttons .button:focus,
+.wojo.inverted.pink.button:focus,
+.wojo.inverted.pink.buttons .button.active,
+.wojo.inverted.pink.button.active,
+.wojo.inverted.pink.buttons .button:active,
+.wojo.inverted.pink.button:active {
+  box-shadow: none !important;
+  color: #FFFFFF;
+}
+.wojo.inverted.pink.buttons .button:hover,
+.wojo.inverted.pink.button:hover {
+  background-color: #ff74d8;
+}
+.wojo.inverted.pink.buttons .button:focus,
+.wojo.inverted.pink.button:focus {
+  background-color: #ff65d3;
+}
+.wojo.inverted.pink.buttons .active.button,
+.wojo.inverted.pink.active.button {
+  background-color: #ff74d8;
+}
+.wojo.inverted.pink.buttons .button:active,
+.wojo.inverted.pink.button:active {
+  background-color: #ff5bd1;
+}
+/* Inverted Basic */
+.wojo.inverted.pink.basic.buttons .button,
+.wojo.inverted.pink.buttons .basic.button,
+.wojo.inverted.pink.basic.button {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
+  color: #FFFFFF !important;
+}
+.wojo.inverted.pink.basic.buttons .button:hover,
+.wojo.inverted.pink.buttons .basic.button:hover,
+.wojo.inverted.pink.basic.button:hover {
+  box-shadow: 0px 0px 0px 2px #ff74d8 inset !important;
+  color: #FF8EDF !important;
+}
+.wojo.inverted.pink.basic.buttons .button:focus,
+.wojo.inverted.pink.basic.buttons .button:focus,
+.wojo.inverted.pink.basic.button:focus {
+  box-shadow: 0px 0px 0px 2px #ff65d3 inset !important;
+  color: #FF8EDF !important;
+}
+.wojo.inverted.pink.basic.buttons .active.button,
+.wojo.inverted.pink.buttons .basic.active.button,
+.wojo.inverted.pink.basic.active.button {
+  box-shadow: 0px 0px 0px 2px #ff74d8 inset !important;
+  color: #FF8EDF !important;
+}
+.wojo.inverted.pink.basic.buttons .button:active,
+.wojo.inverted.pink.buttons .basic.button:active,
+.wojo.inverted.pink.basic.button:active {
+  box-shadow: 0px 0px 0px 2px #ff5bd1 inset !important;
+  color: #FF8EDF !important;
+}
+/*--- Violet ---*/
+.wojo.violet.buttons .button,
+.wojo.violet.button {
+  background-color: #6435C9;
+  color: #FFFFFF;
+  text-shadow: none;
+  background-image: none;
+}
+.wojo.violet.button {
+  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+}
+.wojo.violet.buttons .button:hover,
+.wojo.violet.button:hover {
+  background-color: #5829bb;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.violet.buttons .button:focus,
+.wojo.violet.button:focus {
+  background-color: #4f20b5;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.violet.buttons .button:active,
+.wojo.violet.button:active {
+  background-color: #502aa1;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.violet.buttons .active.button,
+.wojo.violet.buttons .active.button:active,
+.wojo.violet.active.button,
+.wojo.violet.button .active.button:active {
+  background-color: #5626bf;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+/* Basic */
+.wojo.basic.violet.buttons .button,
+.wojo.basic.violet.button {
+  box-shadow: 0px 0px 0px 1px #6435C9 inset !important;
+  color: #6435C9 !important;
+}
+.wojo.basic.violet.buttons .button:hover,
+.wojo.basic.violet.button:hover {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #5829bb inset !important;
+  color: #5829bb !important;
+}
+.wojo.basic.violet.buttons .button:focus,
+.wojo.basic.violet.button:focus {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #4f20b5 inset !important;
+  color: #5829bb !important;
+}
+.wojo.basic.violet.buttons .active.button,
+.wojo.basic.violet.active.button {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #5626bf inset !important;
+  color: #502aa1 !important;
+}
+.wojo.basic.violet.buttons .button:active,
+.wojo.basic.violet.button:active {
+  box-shadow: 0px 0px 0px 1px #502aa1 inset !important;
+  color: #502aa1 !important;
+}
+.wojo.buttons:not(.vertical) > .basic.violet.button:not(:first-child) {
+  margin-left: -1px;
+}
+/* Inverted */
+.wojo.inverted.violet.buttons .button,
+.wojo.inverted.violet.button {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 2px #A291FB inset !important;
+  color: #A291FB;
+}
+.wojo.inverted.violet.buttons .button:hover,
+.wojo.inverted.violet.button:hover,
+.wojo.inverted.violet.buttons .button:focus,
+.wojo.inverted.violet.button:focus,
+.wojo.inverted.violet.buttons .button.active,
+.wojo.inverted.violet.button.active,
+.wojo.inverted.violet.buttons .button:active,
+.wojo.inverted.violet.button:active {
+  box-shadow: none !important;
+  color: #FFFFFF;
+}
+.wojo.inverted.violet.buttons .button:hover,
+.wojo.inverted.violet.button:hover {
+  background-color: #8a73ff;
+}
+.wojo.inverted.violet.buttons .button:focus,
+.wojo.inverted.violet.button:focus {
+  background-color: #7d64ff;
+}
+.wojo.inverted.violet.buttons .active.button,
+.wojo.inverted.violet.active.button {
+  background-color: #8a73ff;
+}
+.wojo.inverted.violet.buttons .button:active,
+.wojo.inverted.violet.button:active {
+  background-color: #7860f9;
+}
+/* Inverted Basic */
+.wojo.inverted.violet.basic.buttons .button,
+.wojo.inverted.violet.buttons .basic.button,
+.wojo.inverted.violet.basic.button {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
+  color: #FFFFFF !important;
+}
+.wojo.inverted.violet.basic.buttons .button:hover,
+.wojo.inverted.violet.buttons .basic.button:hover,
+.wojo.inverted.violet.basic.button:hover {
+  box-shadow: 0px 0px 0px 2px #8a73ff inset !important;
+  color: #A291FB !important;
+}
+.wojo.inverted.violet.basic.buttons .button:focus,
+.wojo.inverted.violet.basic.buttons .button:focus,
+.wojo.inverted.violet.basic.button:focus {
+  box-shadow: 0px 0px 0px 2px #7d64ff inset !important;
+  color: #A291FB !important;
+}
+.wojo.inverted.violet.basic.buttons .active.button,
+.wojo.inverted.violet.buttons .basic.active.button,
+.wojo.inverted.violet.basic.active.button {
+  box-shadow: 0px 0px 0px 2px #8a73ff inset !important;
+  color: #A291FB !important;
+}
+.wojo.inverted.violet.basic.buttons .button:active,
+.wojo.inverted.violet.buttons .basic.button:active,
+.wojo.inverted.violet.basic.button:active {
+  box-shadow: 0px 0px 0px 2px #7860f9 inset !important;
+  color: #A291FB !important;
+}
+/*--- Purple ---*/
+.wojo.purple.buttons .button,
+.wojo.purple.button {
+  background-color: #A333C8;
+  color: #FFFFFF;
+  text-shadow: none;
+  background-image: none;
+}
+.wojo.purple.button {
+  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+}
+.wojo.purple.buttons .button:hover,
+.wojo.purple.button:hover {
+  background-color: #9627ba;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.purple.buttons .button:focus,
+.wojo.purple.button:focus {
+  background-color: #8f1eb4;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.purple.buttons .button:active,
+.wojo.purple.button:active {
+  background-color: #82299f;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.purple.buttons .active.button,
+.wojo.purple.buttons .active.button:active,
+.wojo.purple.active.button,
+.wojo.purple.button .active.button:active {
+  background-color: #9724be;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+/* Basic */
+.wojo.basic.purple.buttons .button,
+.wojo.basic.purple.button {
+  box-shadow: 0px 0px 0px 1px #A333C8 inset !important;
+  color: #A333C8 !important;
+}
+.wojo.basic.purple.buttons .button:hover,
+.wojo.basic.purple.button:hover {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #9627ba inset !important;
+  color: #9627ba !important;
+}
+.wojo.basic.purple.buttons .button:focus,
+.wojo.basic.purple.button:focus {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #8f1eb4 inset !important;
+  color: #9627ba !important;
+}
+.wojo.basic.purple.buttons .active.button,
+.wojo.basic.purple.active.button {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #9724be inset !important;
+  color: #82299f !important;
+}
+.wojo.basic.purple.buttons .button:active,
+.wojo.basic.purple.button:active {
+  box-shadow: 0px 0px 0px 1px #82299f inset !important;
+  color: #82299f !important;
+}
+.wojo.buttons:not(.vertical) > .basic.purple.button:not(:first-child) {
+  margin-left: -1px;
+}
+/* Inverted */
+.wojo.inverted.purple.buttons .button,
+.wojo.inverted.purple.button {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 2px #DC73FF inset !important;
+  color: #DC73FF;
+}
+.wojo.inverted.purple.buttons .button:hover,
+.wojo.inverted.purple.button:hover,
+.wojo.inverted.purple.buttons .button:focus,
+.wojo.inverted.purple.button:focus,
+.wojo.inverted.purple.buttons .button.active,
+.wojo.inverted.purple.button.active,
+.wojo.inverted.purple.buttons .button:active,
+.wojo.inverted.purple.button:active {
+  box-shadow: none !important;
+  color: #FFFFFF;
+}
+.wojo.inverted.purple.buttons .button:hover,
+.wojo.inverted.purple.button:hover {
+  background-color: #d65aff;
+}
+.wojo.inverted.purple.buttons .button:focus,
+.wojo.inverted.purple.button:focus {
+  background-color: #d24aff;
+}
+.wojo.inverted.purple.buttons .active.button,
+.wojo.inverted.purple.active.button {
+  background-color: #d65aff;
+}
+.wojo.inverted.purple.buttons .button:active,
+.wojo.inverted.purple.button:active {
+  background-color: #cf40ff;
+}
+/* Inverted Basic */
+.wojo.inverted.purple.basic.buttons .button,
+.wojo.inverted.purple.buttons .basic.button,
+.wojo.inverted.purple.basic.button {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
+  color: #FFFFFF !important;
+}
+.wojo.inverted.purple.basic.buttons .button:hover,
+.wojo.inverted.purple.buttons .basic.button:hover,
+.wojo.inverted.purple.basic.button:hover {
+  box-shadow: 0px 0px 0px 2px #d65aff inset !important;
+  color: #DC73FF !important;
+}
+.wojo.inverted.purple.basic.buttons .button:focus,
+.wojo.inverted.purple.basic.buttons .button:focus,
+.wojo.inverted.purple.basic.button:focus {
+  box-shadow: 0px 0px 0px 2px #d24aff inset !important;
+  color: #DC73FF !important;
+}
+.wojo.inverted.purple.basic.buttons .active.button,
+.wojo.inverted.purple.buttons .basic.active.button,
+.wojo.inverted.purple.basic.active.button {
+  box-shadow: 0px 0px 0px 2px #d65aff inset !important;
+  color: #DC73FF !important;
+}
+.wojo.inverted.purple.basic.buttons .button:active,
+.wojo.inverted.purple.buttons .basic.button:active,
+.wojo.inverted.purple.basic.button:active {
+  box-shadow: 0px 0px 0px 2px #cf40ff inset !important;
+  color: #DC73FF !important;
+}
+/*--- Red ---*/
+.wojo.red.buttons .button,
+.wojo.red.button {
+  background-color: #DB2828;
+  color: #FFFFFF;
+  text-shadow: none;
+  background-image: none;
+}
+.wojo.red.button {
+  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+}
+.wojo.red.buttons .button:hover,
+.wojo.red.button:hover {
+  background-color: #d01919;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.red.buttons .button:focus,
+.wojo.red.button:focus {
+  background-color: #ca1010;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.red.buttons .button:active,
+.wojo.red.button:active {
+  background-color: #b21e1e;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.red.buttons .active.button,
+.wojo.red.buttons .active.button:active,
+.wojo.red.active.button,
+.wojo.red.button .active.button:active {
+  background-color: #d41515;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+/* Basic */
+.wojo.basic.red.buttons .button,
+.wojo.basic.red.button {
+  box-shadow: 0px 0px 0px 1px #DB2828 inset !important;
+  color: #DB2828 !important;
+}
+.wojo.basic.red.buttons .button:hover,
+.wojo.basic.red.button:hover {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #d01919 inset !important;
+  color: #d01919 !important;
+}
+.wojo.basic.red.buttons .button:focus,
+.wojo.basic.red.button:focus {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #ca1010 inset !important;
+  color: #d01919 !important;
+}
+.wojo.basic.red.buttons .active.button,
+.wojo.basic.red.active.button {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #d41515 inset !important;
+  color: #b21e1e !important;
+}
+.wojo.basic.red.buttons .button:active,
+.wojo.basic.red.button:active {
+  box-shadow: 0px 0px 0px 1px #b21e1e inset !important;
+  color: #b21e1e !important;
+}
+.wojo.buttons:not(.vertical) > .basic.red.button:not(:first-child) {
+  margin-left: -1px;
+}
+/* Inverted */
+.wojo.inverted.red.buttons .button,
+.wojo.inverted.red.button {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 2px #FF695E inset !important;
+  color: #FF695E;
+}
+.wojo.inverted.red.buttons .button:hover,
+.wojo.inverted.red.button:hover,
+.wojo.inverted.red.buttons .button:focus,
+.wojo.inverted.red.button:focus,
+.wojo.inverted.red.buttons .button.active,
+.wojo.inverted.red.button.active,
+.wojo.inverted.red.buttons .button:active,
+.wojo.inverted.red.button:active {
+  box-shadow: none !important;
+  color: #FFFFFF;
+}
+.wojo.inverted.red.buttons .button:hover,
+.wojo.inverted.red.button:hover {
+  background-color: #ff5144;
+}
+.wojo.inverted.red.buttons .button:focus,
+.wojo.inverted.red.button:focus {
+  background-color: #ff4335;
+}
+.wojo.inverted.red.buttons .active.button,
+.wojo.inverted.red.active.button {
+  background-color: #ff5144;
+}
+.wojo.inverted.red.buttons .button:active,
+.wojo.inverted.red.button:active {
+  background-color: #ff392b;
+}
+/* Inverted Basic */
+.wojo.inverted.red.basic.buttons .button,
+.wojo.inverted.red.buttons .basic.button,
+.wojo.inverted.red.basic.button {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
+  color: #FFFFFF !important;
+}
+.wojo.inverted.red.basic.buttons .button:hover,
+.wojo.inverted.red.buttons .basic.button:hover,
+.wojo.inverted.red.basic.button:hover {
+  box-shadow: 0px 0px 0px 2px #ff5144 inset !important;
+  color: #FF695E !important;
+}
+.wojo.inverted.red.basic.buttons .button:focus,
+.wojo.inverted.red.basic.buttons .button:focus,
+.wojo.inverted.red.basic.button:focus {
+  box-shadow: 0px 0px 0px 2px #ff4335 inset !important;
+  color: #FF695E !important;
+}
+.wojo.inverted.red.basic.buttons .active.button,
+.wojo.inverted.red.buttons .basic.active.button,
+.wojo.inverted.red.basic.active.button {
+  box-shadow: 0px 0px 0px 2px #ff5144 inset !important;
+  color: #FF695E !important;
+}
+.wojo.inverted.red.basic.buttons .button:active,
+.wojo.inverted.red.buttons .basic.button:active,
+.wojo.inverted.red.basic.button:active {
+  box-shadow: 0px 0px 0px 2px #ff392b inset !important;
+  color: #FF695E !important;
+}
+/*--- Teal ---*/
+.wojo.teal.buttons .button,
+.wojo.teal.button {
+  background-color: #00B5AD;
+  color: #FFFFFF;
+  text-shadow: none;
+  background-image: none;
+}
+.wojo.teal.button {
+  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+}
+.wojo.teal.buttons .button:hover,
+.wojo.teal.button:hover {
+  background-color: #009c95;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.teal.buttons .button:focus,
+.wojo.teal.button:focus {
+  background-color: #008c86;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.teal.buttons .button:active,
+.wojo.teal.button:active {
+  background-color: #00827c;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.teal.buttons .active.button,
+.wojo.teal.buttons .active.button:active,
+.wojo.teal.active.button,
+.wojo.teal.button .active.button:active {
+  background-color: #009c95;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+/* Basic */
+.wojo.basic.teal.buttons .button,
+.wojo.basic.teal.button {
+  box-shadow: 0px 0px 0px 1px #00B5AD inset !important;
+  color: #00B5AD !important;
+}
+.wojo.basic.teal.buttons .button:hover,
+.wojo.basic.teal.button:hover {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #009c95 inset !important;
+  color: #009c95 !important;
+}
+.wojo.basic.teal.buttons .button:focus,
+.wojo.basic.teal.button:focus {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #008c86 inset !important;
+  color: #009c95 !important;
+}
+.wojo.basic.teal.buttons .active.button,
+.wojo.basic.teal.active.button {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #009c95 inset !important;
+  color: #00827c !important;
+}
+.wojo.basic.teal.buttons .button:active,
+.wojo.basic.teal.button:active {
+  box-shadow: 0px 0px 0px 1px #00827c inset !important;
+  color: #00827c !important;
+}
+.wojo.buttons:not(.vertical) > .basic.teal.button:not(:first-child) {
+  margin-left: -1px;
+}
+/* Inverted */
+.wojo.inverted.teal.buttons .button,
+.wojo.inverted.teal.button {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 2px #6DFFFF inset !important;
+  color: #6DFFFF;
+}
+.wojo.inverted.teal.buttons .button:hover,
+.wojo.inverted.teal.button:hover,
+.wojo.inverted.teal.buttons .button:focus,
+.wojo.inverted.teal.button:focus,
+.wojo.inverted.teal.buttons .button.active,
+.wojo.inverted.teal.button.active,
+.wojo.inverted.teal.buttons .button:active,
+.wojo.inverted.teal.button:active {
+  box-shadow: none !important;
+  color: rgba(0, 0, 0, 0.6);
+}
+.wojo.inverted.teal.buttons .button:hover,
+.wojo.inverted.teal.button:hover {
+  background-color: #54ffff;
+}
+.wojo.inverted.teal.buttons .button:focus,
+.wojo.inverted.teal.button:focus {
+  background-color: #44ffff;
+}
+.wojo.inverted.teal.buttons .active.button,
+.wojo.inverted.teal.active.button {
+  background-color: #54ffff;
+}
+.wojo.inverted.teal.buttons .button:active,
+.wojo.inverted.teal.button:active {
+  background-color: #3affff;
+}
+/* Inverted Basic */
+.wojo.inverted.teal.basic.buttons .button,
+.wojo.inverted.teal.buttons .basic.button,
+.wojo.inverted.teal.basic.button {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
+  color: #FFFFFF !important;
+}
+.wojo.inverted.teal.basic.buttons .button:hover,
+.wojo.inverted.teal.buttons .basic.button:hover,
+.wojo.inverted.teal.basic.button:hover {
+  box-shadow: 0px 0px 0px 2px #54ffff inset !important;
+  color: #6DFFFF !important;
+}
+.wojo.inverted.teal.basic.buttons .button:focus,
+.wojo.inverted.teal.basic.buttons .button:focus,
+.wojo.inverted.teal.basic.button:focus {
+  box-shadow: 0px 0px 0px 2px #44ffff inset !important;
+  color: #6DFFFF !important;
+}
+.wojo.inverted.teal.basic.buttons .active.button,
+.wojo.inverted.teal.buttons .basic.active.button,
+.wojo.inverted.teal.basic.active.button {
+  box-shadow: 0px 0px 0px 2px #54ffff inset !important;
+  color: #6DFFFF !important;
+}
+.wojo.inverted.teal.basic.buttons .button:active,
+.wojo.inverted.teal.buttons .basic.button:active,
+.wojo.inverted.teal.basic.button:active {
+  box-shadow: 0px 0px 0px 2px #3affff inset !important;
+  color: #6DFFFF !important;
+}
+/*--- Olive ---*/
+.wojo.olive.buttons .button,
+.wojo.olive.button {
+  background-color: #B5CC18;
+  color: #FFFFFF;
+  text-shadow: none;
+  background-image: none;
+}
+.wojo.olive.button {
+  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+}
+.wojo.olive.buttons .button:hover,
+.wojo.olive.button:hover {
+  background-color: #a7bd0d;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.olive.buttons .button:focus,
+.wojo.olive.button:focus {
+  background-color: #a0b605;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.olive.buttons .button:active,
+.wojo.olive.button:active {
+  background-color: #8d9e13;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.olive.buttons .active.button,
+.wojo.olive.buttons .active.button:active,
+.wojo.olive.active.button,
+.wojo.olive.button .active.button:active {
+  background-color: #aac109;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+/* Basic */
+.wojo.basic.olive.buttons .button,
+.wojo.basic.olive.button {
+  box-shadow: 0px 0px 0px 1px #B5CC18 inset !important;
+  color: #B5CC18 !important;
+}
+.wojo.basic.olive.buttons .button:hover,
+.wojo.basic.olive.button:hover {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #a7bd0d inset !important;
+  color: #a7bd0d !important;
+}
+.wojo.basic.olive.buttons .button:focus,
+.wojo.basic.olive.button:focus {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #a0b605 inset !important;
+  color: #a7bd0d !important;
+}
+.wojo.basic.olive.buttons .active.button,
+.wojo.basic.olive.active.button {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #aac109 inset !important;
+  color: #8d9e13 !important;
+}
+.wojo.basic.olive.buttons .button:active,
+.wojo.basic.olive.button:active {
+  box-shadow: 0px 0px 0px 1px #8d9e13 inset !important;
+  color: #8d9e13 !important;
+}
+.wojo.buttons:not(.vertical) > .basic.olive.button:not(:first-child) {
+  margin-left: -1px;
+}
+/* Inverted */
+.wojo.inverted.olive.buttons .button,
+.wojo.inverted.olive.button {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 2px #D9E778 inset !important;
+  color: #D9E778;
+}
+.wojo.inverted.olive.buttons .button:hover,
+.wojo.inverted.olive.button:hover,
+.wojo.inverted.olive.buttons .button:focus,
+.wojo.inverted.olive.button:focus,
+.wojo.inverted.olive.buttons .button.active,
+.wojo.inverted.olive.button.active,
+.wojo.inverted.olive.buttons .button:active,
+.wojo.inverted.olive.button:active {
+  box-shadow: none !important;
+  color: rgba(0, 0, 0, 0.6);
+}
+.wojo.inverted.olive.buttons .button:hover,
+.wojo.inverted.olive.button:hover {
+  background-color: #d8ea5c;
+}
+.wojo.inverted.olive.buttons .button:focus,
+.wojo.inverted.olive.button:focus {
+  background-color: #daef47;
+}
+.wojo.inverted.olive.buttons .active.button,
+.wojo.inverted.olive.active.button {
+  background-color: #daed59;
+}
+.wojo.inverted.olive.buttons .button:active,
+.wojo.inverted.olive.button:active {
+  background-color: #cddf4d;
+}
+/* Inverted Basic */
+.wojo.inverted.olive.basic.buttons .button,
+.wojo.inverted.olive.buttons .basic.button,
+.wojo.inverted.olive.basic.button {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
+  color: #FFFFFF !important;
+}
+.wojo.inverted.olive.basic.buttons .button:hover,
+.wojo.inverted.olive.buttons .basic.button:hover,
+.wojo.inverted.olive.basic.button:hover {
+  box-shadow: 0px 0px 0px 2px #d8ea5c inset !important;
+  color: #D9E778 !important;
+}
+.wojo.inverted.olive.basic.buttons .button:focus,
+.wojo.inverted.olive.basic.buttons .button:focus,
+.wojo.inverted.olive.basic.button:focus {
+  box-shadow: 0px 0px 0px 2px #daef47 inset !important;
+  color: #D9E778 !important;
+}
+.wojo.inverted.olive.basic.buttons .active.button,
+.wojo.inverted.olive.buttons .basic.active.button,
+.wojo.inverted.olive.basic.active.button {
+  box-shadow: 0px 0px 0px 2px #daed59 inset !important;
+  color: #D9E778 !important;
+}
+.wojo.inverted.olive.basic.buttons .button:active,
+.wojo.inverted.olive.buttons .basic.button:active,
+.wojo.inverted.olive.basic.button:active {
+  box-shadow: 0px 0px 0px 2px #cddf4d inset !important;
+  color: #D9E778 !important;
+}
+/*--- Yellow ---*/
+.wojo.yellow.buttons .button,
+.wojo.yellow.button {
+  background-color: #FBBD08;
+  color: #FFFFFF;
+  text-shadow: none;
+  background-image: none;
+}
+.wojo.yellow.button {
+  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+}
+.wojo.yellow.buttons .button:hover,
+.wojo.yellow.button:hover {
+  background-color: #eaae00;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.yellow.buttons .button:focus,
+.wojo.yellow.button:focus {
+  background-color: #daa300;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.yellow.buttons .button:active,
+.wojo.yellow.button:active {
+  background-color: #cd9903;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.yellow.buttons .active.button,
+.wojo.yellow.buttons .active.button:active,
+.wojo.yellow.active.button,
+.wojo.yellow.button .active.button:active {
+  background-color: #eaae00;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+/* Basic */
+.wojo.basic.yellow.buttons .button,
+.wojo.basic.yellow.button {
+  box-shadow: 0px 0px 0px 1px #FBBD08 inset !important;
+  color: #FBBD08 !important;
+}
+.wojo.basic.yellow.buttons .button:hover,
+.wojo.basic.yellow.button:hover {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #eaae00 inset !important;
+  color: #eaae00 !important;
+}
+.wojo.basic.yellow.buttons .button:focus,
+.wojo.basic.yellow.button:focus {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #daa300 inset !important;
+  color: #eaae00 !important;
+}
+.wojo.basic.yellow.buttons .active.button,
+.wojo.basic.yellow.active.button {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #eaae00 inset !important;
+  color: #cd9903 !important;
+}
+.wojo.basic.yellow.buttons .button:active,
+.wojo.basic.yellow.button:active {
+  box-shadow: 0px 0px 0px 1px #cd9903 inset !important;
+  color: #cd9903 !important;
+}
+.wojo.buttons:not(.vertical) > .basic.yellow.button:not(:first-child) {
+  margin-left: -1px;
+}
+/* Inverted */
+.wojo.inverted.yellow.buttons .button,
+.wojo.inverted.yellow.button {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 2px #FFE21F inset !important;
+  color: #FFE21F;
+}
+.wojo.inverted.yellow.buttons .button:hover,
+.wojo.inverted.yellow.button:hover,
+.wojo.inverted.yellow.buttons .button:focus,
+.wojo.inverted.yellow.button:focus,
+.wojo.inverted.yellow.buttons .button.active,
+.wojo.inverted.yellow.button.active,
+.wojo.inverted.yellow.buttons .button:active,
+.wojo.inverted.yellow.button:active {
+  box-shadow: none !important;
+  color: rgba(0, 0, 0, 0.6);
+}
+.wojo.inverted.yellow.buttons .button:hover,
+.wojo.inverted.yellow.button:hover {
+  background-color: #ffdf05;
+}
+.wojo.inverted.yellow.buttons .button:focus,
+.wojo.inverted.yellow.button:focus {
+  background-color: #f5d500;
+}
+.wojo.inverted.yellow.buttons .active.button,
+.wojo.inverted.yellow.active.button {
+  background-color: #ffdf05;
+}
+.wojo.inverted.yellow.buttons .button:active,
+.wojo.inverted.yellow.button:active {
+  background-color: #ebcd00;
+}
+/* Inverted Basic */
+.wojo.inverted.yellow.basic.buttons .button,
+.wojo.inverted.yellow.buttons .basic.button,
+.wojo.inverted.yellow.basic.button {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
+  color: #FFFFFF !important;
+}
+.wojo.inverted.yellow.basic.buttons .button:hover,
+.wojo.inverted.yellow.buttons .basic.button:hover,
+.wojo.inverted.yellow.basic.button:hover {
+  box-shadow: 0px 0px 0px 2px #ffdf05 inset !important;
+  color: #FFE21F !important;
+}
+.wojo.inverted.yellow.basic.buttons .button:focus,
+.wojo.inverted.yellow.basic.buttons .button:focus,
+.wojo.inverted.yellow.basic.button:focus {
+  box-shadow: 0px 0px 0px 2px #f5d500 inset !important;
+  color: #FFE21F !important;
+}
+.wojo.inverted.yellow.basic.buttons .active.button,
+.wojo.inverted.yellow.buttons .basic.active.button,
+.wojo.inverted.yellow.basic.active.button {
+  box-shadow: 0px 0px 0px 2px #ffdf05 inset !important;
+  color: #FFE21F !important;
+}
+.wojo.inverted.yellow.basic.buttons .button:active,
+.wojo.inverted.yellow.buttons .basic.button:active,
+.wojo.inverted.yellow.basic.button:active {
+  box-shadow: 0px 0px 0px 2px #ebcd00 inset !important;
+  color: #FFE21F !important;
+}
+/* == Primary == */
+.wojo.primary.buttons .button,
+.wojo.primary.button {
+  background-color: #C0392B;
+  color: #FFFFFF;
+  text-shadow: none;
+  background-image: none;
+}
+.wojo.primary.button {
+  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+}
+.wojo.primary.buttons .button:hover,
+.wojo.primary.button:hover {
+  background-color: #ab3327;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.primary.buttons .button:focus,
+.wojo.primary.button:focus {
+  background-color: #80271e;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.primary.buttons .button:active,
+.wojo.primary.button:active {
+  background-color: #561b15;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.primary.buttons .active.button,
+.wojo.primary.buttons .active.button:active,
+.wojo.primary.active.button,
+.wojo.primary.button .active.button:active {
+  background-color: #561b15;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+/* Basic */
+.wojo.basic.primary.buttons .button,
+.wojo.basic.primary.button {
+  box-shadow: 0px 0px 0px 1px #C0392B inset !important;
+  color: #C0392B !important;
+}
+.wojo.basic.primary.buttons .button:hover,
+.wojo.basic.primary.button:hover {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #ab3327 inset !important;
+  color: #ab3327 !important;
+}
+.wojo.basic.primary.buttons .button:focus,
+.wojo.basic.primary.button:focus {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #80271e inset !important;
+  color: #ab3327 !important;
+}
+.wojo.basic.primary.buttons .active.button,
+.wojo.basic.primary.active.button {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #80271e inset !important;
+  color: #561b15 !important;
+}
+.wojo.basic.primary.buttons .button:active,
+.wojo.basic.primary.button:active {
+  box-shadow: 0px 0px 0px 1px #561b15 inset !important;
+  color: #561b15 !important;
+}
+.wojo.buttons:not(.vertical) > .basic.primary.button:not(:first-child) {
+  margin-left: -1px;
+}
+/* == Secondary == */
+.wojo.secondary.buttons .button,
+.wojo.secondary.button {
+  background-color: #1B1C1D;
+  color: #FFFFFF;
+  text-shadow: none;
+  background-image: none;
+}
+.wojo.secondary.button {
+  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+}
+.wojo.secondary.buttons .button:hover,
+.wojo.secondary.button:hover {
+  background-color: #27292a;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.secondary.buttons .button:focus,
+.wojo.secondary.button:focus {
+  background-color: #2e3032;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.secondary.buttons .button:active,
+.wojo.secondary.button:active {
+  background-color: #343637;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.secondary.buttons .active.button,
+.wojo.secondary.buttons .active.button:active,
+.wojo.secondary.active.button,
+.wojo.secondary.button .active.button:active {
+  background-color: #27292a;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+/* Basic */
+.wojo.basic.secondary.buttons .button,
+.wojo.basic.secondary.button {
+  box-shadow: 0px 0px 0px 1px #1B1C1D inset !important;
+  color: #1B1C1D !important;
+}
+.wojo.basic.secondary.buttons .button:hover,
+.wojo.basic.secondary.button:hover {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #27292a inset !important;
+  color: #27292a !important;
+}
+.wojo.basic.secondary.buttons .button:focus,
+.wojo.basic.secondary.button:focus {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #2e3032 inset !important;
+  color: #27292a !important;
+}
+.wojo.basic.secondary.buttons .active.button,
+.wojo.basic.secondary.active.button {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #27292a inset !important;
+  color: #343637 !important;
+}
+.wojo.basic.secondary.buttons .button:active,
+.wojo.basic.secondary.button:active {
+  box-shadow: 0px 0px 0px 1px #343637 inset !important;
+  color: #343637 !important;
+}
+.wojo.buttons:not(.vertical) > .basic.primary.button:not(:first-child) {
+  margin-left: -1px;
+}
+/* == Positive == */
+.wojo.positive.buttons .button,
+.wojo.positive.button {
+  background-color: #21BA45;
+  color: #FFFFFF;
+  text-shadow: none;
+  background-image: none;
+}
+.wojo.positive.button {
+  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+}
+.wojo.positive.buttons .button:hover,
+.wojo.positive.button:hover {
+  background-color: #16ab39;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.positive.buttons .button:focus,
+.wojo.positive.button:focus {
+  background-color: #0ea432;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.positive.buttons .button:active,
+.wojo.positive.button:active {
+  background-color: #198f35;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.positive.buttons .active.button,
+.wojo.positive.buttons .active.button:active,
+.wojo.positive.active.button,
+.wojo.positive.button .active.button:active {
+  background-color: #13ae38;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+/* Basic */
+.wojo.basic.positive.buttons .button,
+.wojo.basic.positive.button {
+  box-shadow: 0px 0px 0px 1px #21BA45 inset !important;
+  color: #21BA45 !important;
+}
+.wojo.basic.positive.buttons .button:hover,
+.wojo.basic.positive.button:hover {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #16ab39 inset !important;
+  color: #16ab39 !important;
+}
+.wojo.basic.positive.buttons .button:focus,
+.wojo.basic.positive.button:focus {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #0ea432 inset !important;
+  color: #16ab39 !important;
+}
+.wojo.basic.positive.buttons .active.button,
+.wojo.basic.positive.active.button {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #13ae38 inset !important;
+  color: #198f35 !important;
+}
+.wojo.basic.positive.buttons .button:active,
+.wojo.basic.positive.button:active {
+  box-shadow: 0px 0px 0px 1px #198f35 inset !important;
+  color: #198f35 !important;
+}
+.wojo.buttons:not(.vertical) > .basic.primary.button:not(:first-child) {
+  margin-left: -1px;
+}
+/* == Negative == */
+.wojo.negative.buttons .button,
+.wojo.negative.button {
+  background-color: #DB2828;
+  color: #FFFFFF;
+  text-shadow: none;
+  background-image: none;
+}
+.wojo.negative.button {
+  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+}
+.wojo.negative.buttons .button:hover,
+.wojo.negative.button:hover {
+  background-color: #d01919;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.negative.buttons .button:focus,
+.wojo.negative.button:focus {
+  background-color: #ca1010;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.negative.buttons .button:active,
+.wojo.negative.button:active {
+  background-color: #b21e1e;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.wojo.negative.buttons .active.button,
+.wojo.negative.buttons .active.button:active,
+.wojo.negative.active.button,
+.wojo.negative.button .active.button:active {
+  background-color: #d41515;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+/* Basic */
+.wojo.basic.negative.buttons .button,
+.wojo.basic.negative.button {
+  box-shadow: 0px 0px 0px 1px #DB2828 inset !important;
+  color: #DB2828 !important;
+}
+.wojo.basic.negative.buttons .button:hover,
+.wojo.basic.negative.button:hover {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #d01919 inset !important;
+  color: #d01919 !important;
+}
+.wojo.basic.negative.buttons .button:focus,
+.wojo.basic.negative.button:focus {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #ca1010 inset !important;
+  color: #d01919 !important;
+}
+.wojo.basic.negative.buttons .active.button,
+.wojo.basic.negative.active.button {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #d41515 inset !important;
+  color: #b21e1e !important;
+}
+.wojo.basic.negative.buttons .button:active,
+.wojo.basic.negative.button:active {
+  box-shadow: 0px 0px 0px 1px #b21e1e inset !important;
+  color: #b21e1e !important;
+}
+.wojo.buttons:not(.vertical) > .basic.primary.button:not(:first-child) {
+  margin-left: -1px;
+}
+/* == Groups == */
+.wojo.buttons {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  font-size: 0em;
+  vertical-align: baseline;
+  margin: 0em 0.25em 0em 0em;
+}
+.wojo.buttons:not(.basic):not(.inverted) {
+  box-shadow: none;
+}
+/* Clearfix */
+.wojo.buttons:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/* Standard Group */
+.wojo.buttons .button {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  border-radius: 0em;
+  margin: 0px 0px 0px 0px;
+}
+.wojo.buttons > .wojo.button:not(.basic):not(.inverted),
+.wojo.buttons:not(.basic):not(.inverted) > .button {
+  box-shadow: 0px 0px 0px 1px transparent inset, 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+}
+.wojo.buttons .button:first-child {
+  border-left: none;
+  margin-left: 0em;
+  border-top-left-radius: 0.188rem;
+  border-bottom-left-radius: 0.188rem;
+}
+.wojo.buttons .button:last-child {
+  border-top-right-radius: 0.188rem;
+  border-bottom-right-radius: 0.188rem;
+}
+/* Vertical  Style */
+.wojo.vertical.buttons {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.wojo.vertical.buttons .button {
+  display: block;
+  float: none;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  box-shadow: none;
+  border-radius: 0em;
+}
+.wojo.vertical.buttons .button:first-child {
+  border-top-left-radius: 0.188rem;
+  border-top-right-radius: 0.188rem;
+}
+.wojo.vertical.buttons .button:last-child {
+  margin-bottom: 0px;
+  border-bottom-left-radius: 0.188rem;
+  border-bottom-right-radius: 0.188rem;
+}
+.wojo.vertical.buttons .button:only-child {
+  border-radius: 0.188rem;
+}
+/* == Attached == */
+.ui.attached.button {
+  position: relative;
+  display: block;
+  margin: 0em;
+  border-radius: 0em;
+  box-shadow: 0px 0px 0px 1px rgba(34, 36, 38, 0.15) !important;
+}
+.wojo.attached.top.button {
+  border-radius: 0.188rem 0.188rem 0em 0em;
+}
+.wojo.attached.bottom.button {
+  border-radius: 0em 0em 0.188rem 0.188rem;
+}
+.wojo.left.attached.button {
+  display: inline-block;
+  border-left: none;
+  text-align: right;
+  padding-right: 0.75em;
+  border-radius: 0.188rem 0em 0em 0.188rem;
+}
+.wojo.right.attached.button {
+  display: inline-block;
+  text-align: left;
+  padding-left: 0.75em;
+  border-radius: 0em 0.188rem 0.188rem 0em;
+}
+/* == Size == */
+.wojo.rounded.button{
+  border-radius:2em;
+}
+.wojo.compact.buttons .button,
+.wojo.compact.button {
+  padding: 0.58928571em 1.125em 0.58928571em;
+}
+.wojo.compact.icon.buttons .button,
+.wojo.compact.icon.button {
+  padding: 0.58928571em 0.58928571em 0.58928571em;
+}
+.wojo.compact.labeled.icon.buttons .button,
+.wojo.compact.labeled.icon.button {
+  padding: 0.58928571em 3.69642857em 0.58928571em;
+}
+.wojo.mini.buttons .button,
+.wojo.mini.buttons .or,
+.wojo.mini.button {
+  font-size: 0.750rem;
+}
+.wojo.tiny.buttons .button,
+.wojo.tiny.buttons .or,
+.wojo.tiny.button {
+  font-size: 0.875rem;
+}
+.wojo.small.buttons .button,
+.wojo.small.buttons .or,
+.wojo.small.button {
+  font-size: 0.913rem;
+}
+.wojo.buttons .button,
+.wojo.buttons .or,
+.wojo.button {
+  font-size: 1rem;
+}
+.wojo.large.buttons .button,
+.wojo.large.buttons .or,
+.wojo.large.button {
+  font-size: 1.125rem;
+}
+.wojo.big.buttons .button,
+.wojo.big.buttons .or,
+.wojo.big.button {
+  font-size: 1.188rem;
+}
+.wojo.huge.buttons .button,
+.wojo.huge.buttons .or,
+.wojo.huge.button {
+  font-size: 1.5rem;
+}
+.wojo.massive.buttons .button,
+.wojo.massive.buttons .or,
+.wojo.massive.button {
+  font-size: 1.75rem;
+}
+.wojo.icon.buttons .button,
+.wojo.icon.button {
+  padding: 0.750em 0.750em 0.750em;
+}

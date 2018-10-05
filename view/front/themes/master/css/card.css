@@ -1,0 +1,468 @@
+/* == Card == */
+.wojo.cards > .card,
+.wojo.card {
+  max-width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 290px;
+  min-height: 0px;
+  background: #FFFFFF;
+  padding: 0em;
+  border: none;
+  box-shadow: 0 0 0 1px #D4D4D5 inset;
+  -webkit-transition: box-shadow 0.1s ease, -webkit-transform 0.1s ease;
+  transition: box-shadow 0.1s ease, -webkit-transform 0.1s ease;
+  transition: box-shadow 0.1s ease, transform 0.1s ease;
+  transition: box-shadow 0.1s ease, transform 0.1s ease, -webkit-transform 0.1s ease;
+  z-index: '';
+}
+.wojo.card {
+  margin: 1em 0em;
+}
+.wojo.cards > .card a,
+.wojo.card a {
+  cursor: pointer;
+}
+.wojo.card:first-child {
+  margin-top: 0em;
+}
+.wojo.card:last-child {
+  margin-bottom: 0em;
+}
+/* == Cards == */
+.wojo.cards {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: -0.875em -0.5em;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.wojo.cards > .card {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0.875em 0.5em;
+  float: none;
+}
+.wojo.cards:after,
+.wojo.card:after {
+  display: block;
+  content: ' ';
+  height: 0px;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+.wojo.cards ~ .wojo.cards {
+  margin-top: 0.875em;
+}
+/* == Rounded == */
+.wojo.rounded.cards > .card > :first-child,
+.wojo.rounded.card > :first-child {
+  border-radius: 0.280rem 0.280rem 0em 0em !important;
+  border-top: none !important;
+}
+.wojo.rounded.cards > .card > :last-child,
+.wojo.rounded.card > :last-child {
+  border-radius: 0em 0em 0.280rem 0.280rem !important;
+}
+.wojo.rounded.cards > .card > :only-child,
+.wojo.rounded.card > :only-child {
+  border-radius: 0.280rem !important;
+}
+/* == Images == */
+.wojo.cards > .card > .image,
+.wojo.card > .image {
+  position: relative;
+  display: block;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding: 0em;
+  background: rgba(0, 0, 0, 0.05);
+}
+.wojo.cards > .card > .image > img,
+.wojo.card > .image > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: inherit;
+}
+.wojo.cards > .card > .image:not(.wojo) > img,
+.wojo.card > .image:not(.wojo) > img {
+  border: none;
+}
+/* == Content == */
+.wojo.cards > .card > .content,
+.wojo.card > .content {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  border: none;
+  border-top: 1px solid rgba(34, 36, 38, 0.1);
+  background: none;
+  margin: 0em;
+  padding: 1em 1em;
+  box-shadow: none;
+  font-size: 1em;
+  border-radius: 0em;
+}
+.wojo.cards > .card > .content:after,
+.wojo.card > .content:after {
+  display: block;
+  content: ' ';
+  height: 0px;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+.wojo.cards > .card > .content > .header,
+.wojo.card > .content > .header {
+  display: block;
+  margin: '';
+  font-family: 'wSansDemi', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 0.85);
+}
+/* Default Header Size */
+.wojo.cards > .card > .content > .header:not(.wojo),
+.wojo.card > .content > .header:not(.wojo) {
+  font-family: 'wSansDemi';
+  font-size: 1.250em;
+  margin-top: -0.21425em;
+  line-height: 1.2857em;
+}
+.wojo.cards > .card > .content > .meta + .description,
+.wojo.cards > .card > .content > .header + .description,
+.wojo.card > .content > .meta + .description,
+.wojo.card > .content > .header + .description {
+  margin-top: 0.5em;
+}
+.wojo.cards > .card [class*="left floated"],
+.wojo.card [class*="left floated"] {
+  float: left;
+}
+.wojo.cards > .card [class*="right floated"],
+.wojo.card [class*="right floated"] {
+  float: right;
+}
+.wojo.cards > .card [class*="left aligned"],
+.wojo.card [class*="left aligned"] {
+  text-align: left;
+}
+.wojo.cards > .card [class*="center aligned"],
+.wojo.card [class*="center aligned"] {
+  text-align: center;
+}
+.wojo.cards > .card [class*="right aligned"],
+.wojo.card [class*="right aligned"] {
+  text-align: right;
+}
+.wojo.cards > .card .content img,
+.wojo.card .content img {
+  display: inline-block;
+  vertical-align: middle;
+  width: '';
+}
+.wojo.cards > .card img.avatar,
+.wojo.cards > .card .avatar img,
+.wojo.card img.avatar,
+.wojo.card .avatar img {
+  width: 2em;
+  height: 2em;
+  border-radius: 500rem;
+}
+.wojo.cards > .card > .content > .description,
+.wojo.card > .content > .description {
+  clear: both;
+  color: rgba(0, 0, 0, 0.68);
+}
+.wojo.cards > .card > .content p,
+.wojo.card > .content p {
+  margin: 0em 0em 0.5em;
+}
+.wojo.cards > .card > .content p:last-child,
+.wojo.card > .content p:last-child {
+  margin-bottom: 0em;
+}
+.wojo.cards > .card .meta,
+.wojo.card .meta {
+  font-size: 1em;
+  color: rgba(0, 0, 0, 0.4);
+}
+.wojo.cards > .card .meta *,
+.wojo.card .meta * {
+  margin-right: 0.3em;
+}
+.wojo.cards > .card .meta :last-child,
+.wojo.card .meta :last-child {
+  margin-right: 0em;
+}
+.wojo.cards > .card .meta [class*="right floated"],
+.wojo.card .meta [class*="right floated"] {
+  margin-right: 0em;
+  margin-left: 0.3em;
+}
+/* == Links == */
+.wojo.cards > .card > .content a:not(.wojo),
+.wojo.card > .content a:not(.wojo) {
+  color: '';
+  -webkit-transition: color 0.1s ease;
+  transition: color 0.1s ease;
+}
+.wojo.cards > .card > .content a:not(.wojo):hover,
+.wojo.card > .content a:not(.wojo):hover {
+  color: '';
+}
+.wojo.cards > .card > .content > a.header,
+.wojo.card > .content > a.header {
+  color: rgba(0, 0, 0, 0.85);
+}
+.wojo.cards > .card > .content > a.header:hover,
+.wojo.card > .content > a.header:hover {
+  color: #C0392B;
+}
+.wojo.cards > .card .meta > a:not(.wojo),
+.wojo.card .meta > a:not(.wojo) {
+  color: rgba(0, 0, 0, 0.4);
+}
+.wojo.cards > .card .meta > a:not(.wojo):hover,
+.wojo.card .meta > a:not(.wojo):hover {
+  color: rgba(0, 0, 0, 0.87);
+}
+/* == Buttons == */
+.wojo.cards > .card > .buttons,
+.wojo.card > .buttons,
+.wojo.cards > .card > .button,
+.wojo.card > .button {
+  margin: 0px 0px;
+  width: calc(100% + 0px );
+}
+.wojo.cards > .card .dimmer,
+.wojo.card .dimmer {
+  background-color: '';
+  z-index: 10;
+}
+/* == Icon == */
+.wojo.cards > .card > .content .star.icon,
+.wojo.card > .content .star.icon {
+  cursor: pointer;
+  opacity: 0.75;
+  -webkit-transition: color 0.1s ease;
+  transition: color 0.1s ease;
+}
+.wojo.cards > .card > .content .star.icon:hover,
+.wojo.card > .content .star.icon:hover {
+  opacity: 1;
+  color: #FFB70A;
+}
+.wojo.cards > .card > .content .active.star.icon,
+.wojo.card > .content .active.star.icon {
+  color: #FFE623;
+}
+.wojo.cards > .card > .content .like.icon,
+.wojo.card > .content .like.icon {
+  cursor: pointer;
+  opacity: 0.75;
+  -webkit-transition: color 0.1s ease;
+  transition: color 0.1s ease;
+}
+.wojo.cards > .card > .content .like.icon:hover,
+.wojo.card > .content .like.icon:hover {
+  opacity: 1;
+  color: #FF2733;
+}
+.wojo.cards > .card > .content .active.like.icon,
+.wojo.card > .content .active.like.icon {
+  color: #FF2733;
+}
+.wojo.cards > .card > .extra,
+.wojo.card > .extra {
+  max-width: 100%;
+  min-height: 0em !important;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.05) !important;
+  position: static;
+  background: none;
+  width: auto;
+  margin: 0em 0em;
+  padding: 0.75em 1em;
+  top: 0em;
+  left: 0em;
+  color: rgba(0, 0, 0, 0.4);
+  box-shadow: none;
+  -webkit-transition: color 0.1s ease;
+  transition: color 0.1s ease;
+}
+.wojo.cards > .card > .extra a:not(.wojo),
+.wojo.card > .extra a:not(.wojo) {
+  color: rgba(0, 0, 0, 0.4);
+}
+.wojo.cards > .card > .extra a:not(.wojo):hover,
+.wojo.card > .extra a:not(.wojo):hover {
+  color: #C0392B;
+}
+/* == Variations == */
+.wojo.raised.cards > .card,
+.wojo.raised.card {
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 4px 0px rgba(34, 36, 38, 0.12), 0px 2px 10px 0px rgba(34, 36, 38, 0.15);
+}
+.wojo.raised.cards a.card:hover,
+.wojo.link.cards .raised.card:hover,
+a.wojo.raised.card:hover,
+.wojo.link.raised.card:hover {
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 4px 0px rgba(34, 36, 38, 0.15), 0px 2px 10px 0px rgba(34, 36, 38, 0.25);
+}
+.wojo.raised.cards > .card,
+.wojo.raised.card {
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 4px 0px rgba(34, 36, 38, 0.12), 0px 2px 10px 0px rgba(34, 36, 38, 0.15);
+}
+.wojo.centered.cards {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.wojo.centered.card {
+  margin-left: auto;
+  margin-right: auto;
+}
+.wojo.fluid.card {
+  width: 100%;
+  max-width: 9999px;
+}
+.wojo.rounded.card {
+  border-radius: .250em
+}
+.wojo.basic.cards > .card > .content,
+.wojo.basic.card,
+.wojo.basic.cards > .card,
+.wojo.basic.card > .content {
+  border:none;
+  box-shadow:none;
+}
+.wojo.relaxed.cards > .card > .content,
+.wojo.relaxed.card > .content {
+  padding: 2em 2em;
+}
+.wojo.cards a.card,
+.wojo.link.cards .card,
+a.wojo.card,
+.wojo.link.card {
+  -webkit-transform: none;
+  transform: none;
+}
+.wojo.cards a.card:hover,
+.wojo.link.cards .card:hover,
+a.wojo.card:hover,
+.wojo.link.card:hover {
+  cursor: pointer;
+  z-index: 5;
+  background: #FFFFFF;
+  border: none;
+  box-shadow: 0px 1px 3px 0px #BCBDBD, 0px 0px 0px 1px #D4D4D5;
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+/* == Colors == */
+.wojo.red.cards > .card:hover,
+.wojo.cards > .red.card:hover,
+.wojo.red.card:hover {
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #d01919, 0px 1px 3px 0px #BCBDBD;
+}
+/* Orange */
+.wojo.orange.cards > .card:hover,
+.wojo.cards > .orange.card:hover,
+.wojo.orange.card:hover {
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #f26202, 0px 1px 3px 0px #BCBDBD;
+}
+/* Yellow */
+.wojo.yellow.cards > .card:hover,
+.wojo.cards > .yellow.card:hover,
+.wojo.yellow.card:hover {
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #eaae00, 0px 1px 3px 0px #BCBDBD;
+}
+/* Olive */
+.wojo.olive.cards > .card:hover,
+.wojo.cards > .olive.card:hover,
+.wojo.olive.card:hover {
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #a7bd0d, 0px 1px 3px 0px #BCBDBD;
+}
+/* Green */
+.wojo.green.cards > .card:hover,
+.wojo.cards > .green.card:hover,
+.wojo.green.card:hover {
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #16ab39, 0px 1px 3px 0px #BCBDBD;
+}
+/* Teal */
+.wojo.teal.cards > .card:hover,
+.wojo.cards > .teal.card:hover,
+.wojo.teal.card:hover {
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #009c95, 0px 1px 3px 0px #BCBDBD;
+}
+/* Blue */
+.wojo.blue.cards > .card:hover,
+.wojo.cards > .blue.card:hover,
+.wojo.blue.card:hover {
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #1678c2, 0px 1px 3px 0px #BCBDBD;
+}
+/* Violet */
+.wojo.violet.cards > .card:hover,
+.wojo.cards > .violet.card:hover,
+.wojo.violet.card:hover {
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #5829bb, 0px 1px 3px 0px #BCBDBD;
+}
+/* Purple */
+.wojo.purple.cards > .card:hover,
+.wojo.cards > .purple.card:hover,
+.wojo.purple.card:hover {
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #9627ba, 0px 1px 3px 0px #BCBDBD;
+}
+/* Pink */
+.wojo.pink.cards > .card:hover,
+.wojo.cards > .pink.card:hover,
+.wojo.pink.card:hover {
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #e61a8d, 0px 1px 3px 0px #BCBDBD;
+}
+/* Brown */
+.wojo.brown.cards > .card:hover,
+.wojo.cards > .brown.card:hover,
+.wojo.brown.card:hover {
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #975b33, 0px 1px 3px 0px #BCBDBD;
+}
+/* Grey */
+.wojo.grey.cards > .card:hover,
+.wojo.cards > .grey.card:hover,
+.wojo.grey.card:hover {
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #838383, 0px 1px 3px 0px #BCBDBD;
+}
+/* Black */
+.wojo.black.cards > .card:hover,
+.wojo.cards > .black.card:hover,
+.wojo.black.card:hover {
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #27292a, 0px 1px 3px 0px #BCBDBD;
+}
+/* == Size == */
+.wojo.cards > .card {
+  font-size: 1em;
+}

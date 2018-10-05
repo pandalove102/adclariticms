@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_MOD_AB_TITLE">Quản lý chặn quảng cáo </phrase>
+  <phrase data="_MOD_AB_INFO">Xóa chiến dịch quảng cáo với tất cả các hình ảnh và plugin đi cùng adblock..</phrase>
+  <phrase data="_MOD_AB_NEW">Chiến dịch mới </phrase>
+  <phrase data="_MOD_AB_ADD">Thêm Chiến dịch mới </phrase>
+  <phrase data="_MOD_AB_NO_CMP">Bạn không có câu hỏi nào. Vui lòng làm tiếp ...</phrase>
+  <phrase data="_MOD_AB_OFFLINE">Offline</phrase>
+  <phrase data="_MOD_AB_ONLINE">Online</phrase>
+  <phrase data="_MOD_AB_EDIT">Sửa chiến dịch </phrase>
+  <phrase data="_MOD_AB_UPDATE">Cập nhật chiến dịch </phrase>
+  <phrase data="_MOD_AB_ADDED_OK">Tên chiến dịch đã thêm thành công!</phrase>
+  <phrase data="_MOD_AB_UPDATE_OK">Tên chiến dịch đã cập nhật thành công!</phrase>
+  <phrase data="_MOD_AB_DEL_OK">Tên chiến dịch đã xóa thành công!</phrase>
+  <phrase data="_MOD_AB_SUB">Ngày bắt đầu/ ngày kết thúc </phrase>
+  <phrase data="_MOD_AB_SUB1">Tổng lượt xem cho phép</phrase>
+  <phrase data="_MOD_AB_SUB2">Tổng lượt nhấp chuột cho phép</phrase>
+  <phrase data="_MOD_AB_SUB3">CTR tối thiểu </phrase>
+  <phrase data="_MOD_AB_SUB4">Hình trên banner</phrase>
+  <phrase data="_MOD_AB_SUB5">Đường dẫn banner</phrase>
+  <phrase data="_MOD_AB_SUB6">Banner ALT </phrase>
+  <phrase data="_MOD_AB_SUB7">Mã code HTML banner</phrase>
+  <phrase data="_MOD_AB_SUB8">Nhấp chuột</phrase>
+  <phrase data="_MOD_AB_SUB9">Lượt xem </phrase>
+  <phrase data="_MOD_AB_SUB10">Ngày bắt đầu</phrase>
+  <phrase data="_MOD_AB_SUB11">Ngày kết thúc</phrase>
+  <phrase data="_MOD_AB_SUB12">Quảng cáo truyền thông </phrase>
+</language>
